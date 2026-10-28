@@ -1,5 +1,5 @@
 // `npm run dev`: starts the agent service, the API, and the dashboard together, each line prefixed with its name.
-// Settings come from the shell and from `.env` in the repository root when it exists (gitignored; see .env.example).
+// Settings come from the shell and from `.env` in the repository root when it exists (gitignored).
 // The model key goes only to the agent service; the API and the dashboard never receive it.
 import { spawn, spawnSync } from 'node:child_process';
 import { existsSync } from 'node:fs';

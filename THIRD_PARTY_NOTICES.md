@@ -11,6 +11,8 @@ Standfolk is released under the MIT License (`LICENSE`, Copyright (c) 2026 Young
 - **Generated Portraits and Club Crests (`data/catalog/media/people/*.webp`, `data/catalog/media/crests/*.webp`):**
   All 60 fictional person portraits and 20 fictional club crests were generated for this project using Google Gemini image generation, explicitly excluding real likenesses and third-party heraldry.
 
+- **Project cover (`docs/media/standfolk-cover.jpeg`):** Generated for Standfolk using Google Gemini image generation. The stadium and match are fictional; no real club badge or player likeness is used.
+
 ---
 
 ## 2. Third-Party Open-Source Software
