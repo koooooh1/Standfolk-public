@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Standfolk \u2014 Proposed Azure scale-out",
+    "output": "docs/architecture/future.html",
+    "quality_profile": "showcase"
+  },
+  "components": [
+    {
+      "id": "feed",
+      "type": "external",
+      "label": "Event feed",
+      "sublabel": "Synthetic / licensed",
+      "pos": [
+        40,
+        80
+      ],
+      "size": [
+        150,
+        64
+      ]
+    },
+    {
+      "id": "adapter",
+      "type": "backend",
+      "label": "Event adapter",
+      "sublabel": "Validate and normalize",
+      "pos": [
+        300,
+        80
+      ],
+      "size": [
+        150,
+        64
+      ]
+    },
+    {
+      "id": "hub",
+      "type": "messagebus",
+      "label": "Event Hubs",
+      "sublabel": "Partition by match",
+      "pos": [
+        560,
+        80
+      ],
+      "size": [
+        150,
+        64
+      ]
+    },
+    {
+      "id": "processor",
+      "type": "backend",
+      "label": "State processor",
+      "sublabel": "Corrections and replay",
+      "pos": [
+        820,
+        80
+      ],
+      "size": [
+        150,
+        64
+      ]
+    },
+    {
+      "id": "lake",
+      "type": "database",
+      "label": "Data Lake Gen2",
+      "sublabel": "Raw and curated history",
+      "pos": [
+        560,
+        280
+      ],
+      "size": [
+        150,
+        64
+      ]
+    },
+    {
+      "id": "db",
+      "type": "database",
+      "label": "PostgreSQL",
+      "sublabel": "State and approvals",
+      "pos": [
+        820,
+        280
+      ],
+      "size": [
+        150,
+        64
+      ]
+    },
+    {
+      "id": "analytics",
+      "type": "backend",
+      "label": "Analytics",
+      "sublabel": "Batch / optional ADX",
+      "pos": [
+        560,
+        480
+      ],
+      "size": [
+        150,
+        64
+      ]
+    },
+    {
+      "id": "api",
+      "type": "backend",
+      "label": "API and Studio",
+      "sublabel": "Claim gate / approval",
+      "pos": [
+        820,
+        480
+      ],
+      "size": [
+        150,
+        64
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "backend",
+      "label": "Agent workflow",
+      "sublabel": "Researcher / Writer / Reviewer",
+      "pos": [
+        820,
+        680
+      ],
+      "size": [
+        150,
+        64
+      ]
+    },
+    {
+      "id": "users",
+      "type": "frontend",
+      "label": "Fan and producer",
+      "sublabel": "Watch / overlays",
+      "pos": [
+        300,
+        480
+      ],
+      "size": [
+        150,
+        64
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "feed-adapter",
+      "from": "feed",
+      "to": "adapter",
+      "label": "events"
+    },
+    {
+      "id": "adapter-hub",
+      "from": "adapter",
+      "to": "hub",
+      "label": "publish"
+    },
+    {
+      "id": "hub-processor",
+      "from": "hub",
+      "to": "processor",
+      "label": "consume"
+    },
+    {
+      "id": "hub-lake",
+      "from": "hub",
+      "to": "lake",
+      "label": "capture"
+    },
+    {
+      "id": "processor-db",
+      "from": "processor",
+      "to": "db",
+      "label": "update"
+    },
+    {
+      "id": "lake-analytics",
+      "from": "lake",
+      "to": "analytics",
+      "label": "curate"
+    },
+    {
+      "id": "analytics-db",
+      "from": "analytics",
+      "to": "db",
+      "label": "validated insights"
+    },
+    {
+      "id": "db-api",
+      "from": "db",
+      "to": "api",
+      "label": "read state"
+    },
+    {
+      "id": "api-agents",
+      "from": "api",
+      "to": "agents",
+      "label": "evidence"
+    },
+    {
+      "id": "api-users",
+      "from": "api",
+      "to": "users",
+      "label": "publish"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "amber",
+      "title": "Proposed, not deployed",
+      "items": [
+        "PostgreSQL holds transactional state; the lake stores large-scale history.",
+        "Use idempotency, event revisions, provenance and retraction handling.",
+        "Add identity, shared budgets, observability, recovery and load testing before production."
+      ]
+    }
+  ]
+}

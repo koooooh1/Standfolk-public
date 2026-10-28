@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Standfolk \u2014 Current demo",
+    "output": "docs/architecture/current.html",
+    "quality_profile": "showcase",
+    "repository": {
+      "url": "https://github.com/koooooh1/Standfolk-public.git",
+      "revision": "7c687ef3800a5814c5e9d70f99f6432f50e3d04b"
+    }
+  },
+  "components": [
+    {
+      "id": "browser",
+      "type": "frontend",
+      "label": "Fan and producer",
+      "sublabel": "Watch / Studio",
+      "pos": [
+        40,
+        80
+      ],
+      "size": [
+        150,
+        64
+      ],
+      "sources": [
+        {
+          "path": "apps/web/src/App.tsx",
+          "line": 1
+        }
+      ]
+    },
+    {
+      "id": "api",
+      "type": "backend",
+      "label": "Web and API",
+      "sublabel": "Azure Container Apps",
+      "pos": [
+        310,
+        80
+      ],
+      "size": [
+        150,
+        64
+      ],
+      "sources": [
+        {
+          "path": "infra/main.bicep",
+          "line": 80
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "backend",
+      "label": "Agent workflow",
+      "sublabel": "Researcher / Writer / Reviewer",
+      "pos": [
+        580,
+        80
+      ],
+      "size": [
+        150,
+        64
+      ],
+      "sources": [
+        {
+          "path": "services/agents/src/standfolk_agents/workflow.py",
+          "line": 130
+        }
+      ]
+    },
+    {
+      "id": "model",
+      "type": "external",
+      "label": "Gemini",
+      "sublabel": "Google AI Studio",
+      "pos": [
+        850,
+        80
+      ],
+      "size": [
+        150,
+        64
+      ],
+      "sources": [
+        {
+          "path": "services/agents/src/standfolk_agents/provider.py",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "id": "catalog",
+      "type": "database",
+      "label": "World pack",
+      "sublabel": "Bundled JSON",
+      "pos": [
+        310,
+        280
+      ],
+      "size": [
+        150,
+        64
+      ],
+      "sources": [
+        {
+          "path": "apps/api/src/catalog.ts",
+          "line": 31
+        }
+      ]
+    },
+    {
+      "id": "fts",
+      "type": "database",
+      "label": "SQLite FTS5",
+      "sublabel": "In-memory retrieval",
+      "pos": [
+        580,
+        280
+      ],
+      "size": [
+        150,
+        64
+      ],
+      "sources": [
+        {
+          "path": "apps/api/src/retrieval.ts",
+          "line": 128
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "browser-api",
+      "from": "browser",
+      "to": "api",
+      "label": "HTTPS"
+    },
+    {
+      "id": "api-agents",
+      "from": "api",
+      "to": "agents",
+      "label": "evidence"
+    },
+    {
+      "id": "agents-model",
+      "from": "agents",
+      "to": "model",
+      "label": "model calls"
+    },
+    {
+      "id": "api-catalog",
+      "from": "api",
+      "to": "catalog",
+      "label": "reads"
+    },
+    {
+      "id": "api-fts",
+      "from": "api",
+      "to": "fts",
+      "label": "search"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "amber",
+      "title": "Demo boundaries",
+      "items": [
+        "Approvals, on-air state and budgets are process-local.",
+        "Model failures fall back to verified templates.",
+        "The API checks claims and requires approval before air."
+      ]
+    }
+  ]
+}
