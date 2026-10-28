@@ -1,7 +1,7 @@
 # Standfolk
 
 <p align="center">
-  <img src="docs/media/standfolk-cover.jpeg" alt="Standfolk cover: a fictional harbour-side football ground with match analysis and a Researcher, Writer, Reviewer workflow" width="100%">
+  <img src="docs/media/standfolk-cover.jpeg" alt="Standfolk cover: Vellmouth Rovers celebrate a 12th-minute goal beside a graphic showing the three-pass, 65-metre build-up." width="100%">
 </p>
 
 <p align="center"><strong>Evidence-backed match stories for fans and broadcast teams.</strong></p>
