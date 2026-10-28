@@ -1,0 +1,1876 @@
+{
+  "meta": {
+    "label": "fictional",
+    "data_date": "2026-10-01",
+    "seed": 20261023,
+    "note": "Authored fictional world for the Standfolk demo. Every club, person, ground, and honour is invented. Statistics are generated from this file by scripts/world/generate.mjs and are fictional.",
+    "national_team_note": "National-team caps, goals, and careers abroad are fictional records about fictional people. Countries are real; no real league, club, or player is named."
+  },
+  "staff": [
+    {
+      "id": "s-holt",
+      "club": "vr",
+      "role": "Manager",
+      "name": "Maren Holt",
+      "pronunciation": "MAH-ren HOLT",
+      "born": "1979-05-02",
+      "nationality": "Norway",
+      "since": "2022-06-01",
+      "previous": "Assistant manager, Greywater City",
+      "appearance": "woman, short ash-blonde hair, light skin, calm expression",
+      "age": {
+        "years": 47,
+        "approximate": false
+      },
+      "image": "media/people/s-holt.webp"
+    },
+    {
+      "id": "s-aire",
+      "club": "vr",
+      "role": "Assistant manager",
+      "name": "Duncan Aire",
+      "born": "1974",
+      "nationality": "Scotland",
+      "since": "2022-06-01",
+      "previous": "Coach, Greywater City",
+      "appearance": "man, greying beard, light skin, receding hair",
+      "age": {
+        "years": 51,
+        "approximate": true
+      },
+      "image": "media/people/s-aire.webp"
+    },
+    {
+      "id": "s-lancing",
+      "club": "vr",
+      "role": "First-team coach",
+      "name": "Priya Lancing",
+      "born": "1986-11-19",
+      "nationality": "England",
+      "since": "2023-07-01",
+      "previous": "Under-21 coach, Vellmouth Rovers",
+      "appearance": "woman, long dark hair tied back, brown skin",
+      "age": {
+        "years": 39,
+        "approximate": false
+      },
+      "image": "media/people/s-lancing.webp"
+    },
+    {
+      "id": "s-ferrow",
+      "club": "vr",
+      "role": "Goalkeeping coach",
+      "name": "Gus Ferrow",
+      "born": "1977-02-08",
+      "nationality": "Wales",
+      "since": "2015-07-01",
+      "previous": "Goalkeeper, Vellmouth Rovers",
+      "appearance": "man, shaved head, light skin, broad face",
+      "age": {
+        "years": 49,
+        "approximate": false
+      },
+      "image": "media/people/s-ferrow.webp"
+    },
+    {
+      "id": "s-saari",
+      "club": "vr",
+      "role": "Fitness coach",
+      "name": "Lena Saari",
+      "born": "1988-08-23",
+      "nationality": "Finland",
+      "since": "2022-07-01",
+      "previous": "Sports scientist, Fenwold",
+      "appearance": "woman, red hair in a bun, light skin, freckles",
+      "pronunciation": "LEH-nah SAH-ree",
+      "age": {
+        "years": 38,
+        "approximate": false
+      },
+      "image": "media/people/s-saari.webp"
+    },
+    {
+      "id": "s-brook",
+      "club": "ka",
+      "role": "Manager",
+      "name": "Ada Brook",
+      "pronunciation": "AY-da BROOK",
+      "born": "1981-01-30",
+      "nationality": "England",
+      "since": "2024-05-20",
+      "previous": "Manager, Thistleby United",
+      "appearance": "woman, curly black hair, dark skin, focused expression",
+      "age": {
+        "years": 45,
+        "approximate": false
+      },
+      "image": "media/people/s-brook.webp"
+    },
+    {
+      "id": "s-wela",
+      "club": "ka",
+      "role": "Assistant manager",
+      "name": "Tomasz Wela",
+      "pronunciation": "TOH-mash VEH-la",
+      "born": "1976-09-12",
+      "nationality": "Poland",
+      "since": "2024-05-20",
+      "previous": "Assistant manager, Thistleby United",
+      "appearance": "man, short dark hair, light skin, stubble",
+      "age": {
+        "years": 50,
+        "approximate": false
+      },
+      "image": "media/people/s-wela.webp"
+    },
+    {
+      "id": "s-molloy",
+      "club": "ka",
+      "role": "First-team coach",
+      "name": "Kieran Molloy",
+      "born": "1983",
+      "nationality": "Ireland",
+      "since": "2019-07-01",
+      "previous": "Coach, Kestrin Athletic academy",
+      "appearance": "man, ginger hair, light skin, glasses",
+      "age": {
+        "years": 42,
+        "approximate": true
+      },
+      "image": "media/people/s-molloy.webp"
+    },
+    {
+      "id": "s-dunstan",
+      "club": "ka",
+      "role": "Goalkeeping coach",
+      "name": "Hal Dunstan",
+      "born": "1972-04-17",
+      "nationality": "England",
+      "since": "2017-07-01",
+      "previous": "Goalkeeping coach, Ambry Town",
+      "appearance": "man, white hair, light skin, weathered face",
+      "age": {
+        "years": 54,
+        "approximate": false
+      },
+      "image": "media/people/s-dunstan.webp"
+    },
+    {
+      "id": "s-okafor",
+      "club": "ka",
+      "role": "Fitness coach",
+      "name": "Bea Okafor",
+      "pronunciation": "BEE oh-KAH-for",
+      "born": "1990-03-03",
+      "nationality": "Nigeria",
+      "since": "2021-07-01",
+      "previous": "Fitness coach, Merrow Heath",
+      "appearance": "woman, braided hair, dark skin, smiling",
+      "age": {
+        "years": 36,
+        "approximate": false
+      },
+      "image": "media/people/s-okafor.webp"
+    }
+  ],
+  "players": [
+    {
+      "id": "p-strand",
+      "club": "vr",
+      "name": "Ollie Strand",
+      "number": 1,
+      "pos": "GK",
+      "detail": "Goalkeeper",
+      "born": "1995-04-11",
+      "nationality": "England",
+      "foot": "R",
+      "height_cm": 191,
+      "joined": "2019-20",
+      "from": "fen",
+      "role": "starter",
+      "appearance": "short brown hair, light skin, clean-shaven",
+      "national_team": null,
+      "age": {
+        "years": 31,
+        "approximate": false
+      },
+      "market_value_eur_m": 10.5,
+      "image": "media/people/p-strand.webp"
+    },
+    {
+      "id": "p-halvik",
+      "club": "vr",
+      "name": "Petr Halvik",
+      "pronunciation": "PET-er HAL-vik",
+      "number": 13,
+      "pos": "GK",
+      "detail": "Goalkeeper",
+      "born": "1989-12-02",
+      "nationality": "Czechia",
+      "foot": "R",
+      "height_cm": 193,
+      "joined": "2016-17",
+      "from": "abroad",
+      "role": "rotation",
+      "appearance": "close-cropped greying hair, light skin, short beard",
+      "home_career": [
+        {
+          "where": "Czechia's top division",
+          "years": "2008–2016",
+          "apps": 188,
+          "goals": 0
+        }
+      ],
+      "national_team": {
+        "team": "Czechia",
+        "level": "senior",
+        "caps": 12,
+        "goals": 0,
+        "debut": 2014,
+        "status": "former"
+      },
+      "age": {
+        "years": 36,
+        "approximate": false
+      },
+      "market_value_eur_m": 2,
+      "image": "media/people/p-halvik.webp"
+    },
+    {
+      "id": "p-archerlowe",
+      "club": "vr",
+      "name": "Finn Archer-Lowe",
+      "number": 31,
+      "pos": "GK",
+      "detail": "Goalkeeper",
+      "born": "2007-06-20",
+      "nationality": "England",
+      "foot": "L",
+      "height_cm": 188,
+      "academy_since": 2017,
+      "joined": "2025-26",
+      "from": "academy",
+      "role": "youth",
+      "appearance": "messy fair hair, light skin, teenage face",
+      "national_team": {
+        "team": "England",
+        "level": "under-19",
+        "caps": 4,
+        "goals": 0,
+        "debut": 2025,
+        "status": "current"
+      },
+      "age": {
+        "years": 19,
+        "approximate": false
+      },
+      "market_value_eur_m": 1.5,
+      "image": "media/people/p-archerlowe.webp"
+    },
+    {
+      "id": "p-rosk",
+      "club": "vr",
+      "name": "Ilan Rosk",
+      "number": 4,
+      "pos": "DF",
+      "detail": "Centre-back",
+      "born": "1994-02-27",
+      "nationality": "Israel",
+      "foot": "R",
+      "height_cm": 189,
+      "joined": "2018-19",
+      "from": "ost",
+      "role": "starter",
+      "captain_since": "2023-24",
+      "fan_nickname": "The Anchor",
+      "appearance": "dark curly hair, olive skin, trimmed beard",
+      "pronunciation": "ee-LAHN ROSK",
+      "native_name": "אילן רוסק",
+      "national_team": {
+        "team": "Israel",
+        "level": "senior",
+        "caps": 41,
+        "goals": 3,
+        "debut": 2015,
+        "status": "current"
+      },
+      "vice_captain_since": "2025-26",
+      "notes": "Captain from 2023-24 to 2024-25; vice-captain since 2025-26.",
+      "age": {
+        "years": 32,
+        "approximate": false
+      },
+      "market_value_eur_m": 8.5,
+      "image": "media/people/p-rosk.webp"
+    },
+    {
+      "id": "p-wren",
+      "club": "vr",
+      "name": "Tobias Wren",
+      "number": 5,
+      "pos": "DF",
+      "detail": "Centre-back",
+      "born": "1998-07-15",
+      "nationality": "England",
+      "foot": "L",
+      "height_cm": 187,
+      "joined": "2021-22",
+      "from": "eld",
+      "role": "starter",
+      "appearance": "short blond hair, light skin, clean-shaven",
+      "national_team": null,
+      "age": {
+        "years": 28,
+        "approximate": false
+      },
+      "market_value_eur_m": 15,
+      "image": "media/people/p-wren.webp"
+    },
+    {
+      "id": "p-fenner",
+      "club": "vr",
+      "name": "Callum Fenner",
+      "number": 2,
+      "pos": "DF",
+      "detail": "Right-back",
+      "born": "1999-10-04",
+      "nationality": "Scotland",
+      "foot": "R",
+      "height_cm": 178,
+      "joined": "2020-21",
+      "from": "academy",
+      "academy_since": 2011,
+      "role": "starter",
+      "appearance": "short ginger hair, light skin, freckles",
+      "national_team": {
+        "team": "Scotland",
+        "level": "senior",
+        "caps": 6,
+        "goals": 0,
+        "debut": 2023,
+        "status": "current"
+      },
+      "age": {
+        "years": 26,
+        "approximate": false
+      },
+      "market_value_eur_m": 18.5,
+      "image": "media/people/p-fenner.webp"
+    },
+    {
+      "id": "p-barrault",
+      "club": "vr",
+      "name": "Noé Barrault",
+      "pronunciation": "no-AY bar-ROH",
+      "number": 3,
+      "pos": "DF",
+      "detail": "Left-back",
+      "born": "1997-03-21",
+      "nationality": "France",
+      "foot": "L",
+      "height_cm": 180,
+      "joined": "2022-23",
+      "from": "abroad",
+      "role": "starter",
+      "appearance": "black hair in short twists, dark skin",
+      "home_career": [
+        {
+          "where": "France's second division",
+          "years": "2015–2019",
+          "apps": 96,
+          "goals": 3
+        },
+        {
+          "where": "France's top division",
+          "years": "2019–2022",
+          "apps": 71,
+          "goals": 2
+        }
+      ],
+      "national_team": {
+        "team": "France",
+        "level": "under-21",
+        "caps": 8,
+        "goals": 0,
+        "debut": 2017,
+        "status": "former"
+      },
+      "age": {
+        "years": 29,
+        "approximate": false
+      },
+      "market_value_eur_m": 17,
+      "image": "media/people/p-barrault.webp"
+    },
+    {
+      "id": "p-haddou",
+      "club": "vr",
+      "name": "Samir Haddou",
+      "pronunciation": "sa-MEER ha-DOO",
+      "number": 6,
+      "pos": "DF",
+      "detail": "Centre-back",
+      "born": "2000-01-09",
+      "nationality": "Morocco",
+      "foot": "R",
+      "height_cm": 186,
+      "joined": "2023-24",
+      "from": "abroad",
+      "role": "rotation",
+      "appearance": "short black hair, tan skin, light stubble",
+      "native_name": "سمير حدّو",
+      "home_career": [
+        {
+          "where": "Morocco's top division",
+          "years": "2018–2023",
+          "apps": 112,
+          "goals": 9
+        }
+      ],
+      "national_team": {
+        "team": "Morocco",
+        "level": "senior",
+        "caps": 18,
+        "goals": 1,
+        "debut": 2021,
+        "status": "current"
+      },
+      "age": {
+        "years": 26,
+        "approximate": false
+      },
+      "market_value_eur_m": 6.5,
+      "image": "media/people/p-haddou.webp"
+    },
+    {
+      "id": "p-calloway",
+      "club": "vr",
+      "name": "Rhys Calloway",
+      "number": 22,
+      "pos": "DF",
+      "detail": "Right-back",
+      "born": "2001-05-30",
+      "nationality": "Wales",
+      "foot": "R",
+      "height_cm": 176,
+      "joined": "2024-25",
+      "from": "stn",
+      "role": "rotation",
+      "appearance": "brown fade haircut, light skin",
+      "national_team": {
+        "team": "Wales",
+        "level": "senior",
+        "caps": 3,
+        "goals": 0,
+        "debut": 2025,
+        "status": "current"
+      },
+      "age": {
+        "years": 25,
+        "approximate": false
+      },
+      "market_value_eur_m": 9,
+      "image": "media/people/p-calloway.webp"
+    },
+    {
+      "id": "p-mabry",
+      "club": "vr",
+      "name": "Kit Mabry",
+      "number": 15,
+      "pos": "DF",
+      "detail": "Left-back",
+      "born": "2002-08-12",
+      "nationality": "England",
+      "foot": "L",
+      "height_cm": 177,
+      "joined": "2023-24",
+      "from": "academy",
+      "academy_since": 2013,
+      "role": "squad",
+      "appearance": "dark brown hair, light brown skin",
+      "national_team": null,
+      "age": {
+        "years": 24,
+        "approximate": false
+      },
+      "market_value_eur_m": 4.5,
+      "image": "media/people/p-mabry.webp"
+    },
+    {
+      "id": "p-pell",
+      "club": "vr",
+      "name": "Dario Pell",
+      "number": 26,
+      "pos": "DF",
+      "detail": "Centre-back",
+      "born": "2007-02-14",
+      "nationality": "England",
+      "foot": "R",
+      "height_cm": 185,
+      "joined": "2026-27",
+      "from": "academy",
+      "academy_since": 2018,
+      "role": "youth",
+      "appearance": "black buzz cut, brown skin, teenage face",
+      "national_team": {
+        "team": "England",
+        "level": "under-18",
+        "caps": 3,
+        "goals": 0,
+        "debut": 2025,
+        "status": "current"
+      },
+      "age": {
+        "years": 19,
+        "approximate": false
+      },
+      "market_value_eur_m": 1,
+      "image": "media/people/p-pell.webp"
+    },
+    {
+      "id": "p-penn-ade",
+      "club": "vr",
+      "name": "Ade Penn",
+      "number": 8,
+      "pos": "MF",
+      "detail": "Central midfielder",
+      "born": "1996-09-18",
+      "nationality": "England",
+      "foot": "R",
+      "height_cm": 181,
+      "joined": "2022-23",
+      "from": "pen",
+      "role": "starter",
+      "appearance": "short black hair, dark skin, neat beard",
+      "national_team": {
+        "team": "England",
+        "level": "senior",
+        "caps": 2,
+        "goals": 0,
+        "debut": 2023,
+        "status": "current"
+      },
+      "age": {
+        "years": 30,
+        "approximate": false
+      },
+      "market_value_eur_m": 17,
+      "image": "media/people/p-penn-ade.webp"
+    },
+    {
+      "id": "p-ebbe",
+      "club": "vr",
+      "name": "Jonah Ebbe",
+      "pronunciation": "JOH-nuh EB-ee",
+      "number": 18,
+      "pos": "MF",
+      "detail": "Attacking midfielder",
+      "born": "2003-03-14",
+      "nationality": "England",
+      "foot": "R",
+      "height_cm": 175,
+      "academy_since": 2016,
+      "joined": "2021-22",
+      "from": "academy",
+      "loans": [
+        {
+          "club": "mby",
+          "season": "2024-25",
+          "from": "2024-08-01",
+          "to": "2025-05-31"
+        }
+      ],
+      "role": "rotation",
+      "featured": true,
+      "appearance": "short dark curls, light brown skin, boyish face",
+      "national_team": {
+        "team": "England",
+        "level": "under-21",
+        "caps": 9,
+        "goals": 2,
+        "debut": 2023,
+        "status": "current"
+      },
+      "age": {
+        "years": 23,
+        "approximate": false
+      },
+      "market_value_eur_m": 8,
+      "image": "media/people/p-ebbe.webp"
+    },
+    {
+      "id": "p-hale",
+      "club": "vr",
+      "name": "Callum Hale",
+      "number": 10,
+      "pos": "MF",
+      "detail": "Attacking midfielder",
+      "born": "1993-11-07",
+      "nationality": "England",
+      "foot": "L",
+      "height_cm": 177,
+      "joined": "2020-21",
+      "from": "rdg",
+      "role": "starter",
+      "fan_nickname": "Hale Storm",
+      "appearance": "swept-back brown hair, light skin, stubble",
+      "national_team": null,
+      "age": {
+        "years": 32,
+        "approximate": false
+      },
+      "market_value_eur_m": 11.5,
+      "image": "media/people/p-hale.webp"
+    },
+    {
+      "id": "p-nakase",
+      "club": "vr",
+      "name": "Yuto Nakase",
+      "pronunciation": "YOO-toh na-KAH-seh",
+      "number": 14,
+      "pos": "MF",
+      "detail": "Central midfielder",
+      "born": "1998-04-25",
+      "nationality": "Japan",
+      "foot": "R",
+      "height_cm": 172,
+      "joined": "2023-24",
+      "from": "abroad",
+      "role": "starter",
+      "appearance": "straight black hair, East Asian features, clean-shaven",
+      "native_name": "中瀬 悠斗",
+      "name_note": "In Japan he is Nakase Yūto, family name first.",
+      "home_career": [
+        {
+          "where": "Japanese university football",
+          "years": "2016–2019",
+          "apps": 54,
+          "goals": 11
+        },
+        {
+          "where": "Japan's top division",
+          "years": "2020–2023",
+          "apps": 118,
+          "goals": 14
+        }
+      ],
+      "national_team": {
+        "team": "Japan",
+        "level": "senior",
+        "caps": 27,
+        "goals": 4,
+        "debut": 2020,
+        "status": "current"
+      },
+      "age": {
+        "years": 28,
+        "approximate": false
+      },
+      "market_value_eur_m": 20,
+      "image": "media/people/p-nakase.webp"
+    },
+    {
+      "id": "p-rial",
+      "club": "vr",
+      "name": "Esteban Rial",
+      "pronunciation": "es-TEH-ban ree-AL",
+      "number": 16,
+      "pos": "MF",
+      "detail": "Defensive midfielder",
+      "born": "1995-06-03",
+      "nationality": "Uruguay",
+      "foot": "R",
+      "height_cm": 183,
+      "joined": "2019-20",
+      "from": "abroad",
+      "role": "rotation",
+      "appearance": "long dark hair tied back, olive skin, beard",
+      "home_career": [
+        {
+          "where": "Uruguay's top division",
+          "years": "2013–2019",
+          "apps": 160,
+          "goals": 7
+        }
+      ],
+      "national_team": {
+        "team": "Uruguay",
+        "level": "senior",
+        "caps": 15,
+        "goals": 0,
+        "debut": 2018,
+        "status": "current"
+      },
+      "age": {
+        "years": 31,
+        "approximate": false
+      },
+      "market_value_eur_m": 5,
+      "image": "media/people/p-rial.webp"
+    },
+    {
+      "id": "p-dovin",
+      "club": "vr",
+      "name": "Marek Dovin",
+      "number": 20,
+      "pos": "MF",
+      "detail": "Central midfielder",
+      "born": "2001-12-19",
+      "nationality": "Slovakia",
+      "foot": "L",
+      "height_cm": 180,
+      "joined": "2025-26",
+      "from": "thi",
+      "role": "rotation",
+      "appearance": "short light-brown hair, light skin",
+      "pronunciation": "MAH-rek DOH-vin",
+      "national_team": {
+        "team": "Slovakia",
+        "level": "senior",
+        "caps": 11,
+        "goals": 1,
+        "debut": 2023,
+        "status": "current"
+      },
+      "age": {
+        "years": 24,
+        "approximate": false
+      },
+      "market_value_eur_m": 9,
+      "image": "media/people/p-dovin.webp"
+    },
+    {
+      "id": "p-asare",
+      "club": "vr",
+      "name": "Lewin Asare",
+      "pronunciation": "LEW-in ah-SAH-ray",
+      "number": 23,
+      "pos": "MF",
+      "detail": "Winger",
+      "born": "2002-10-27",
+      "nationality": "Ghana",
+      "foot": "L",
+      "height_cm": 174,
+      "joined": "2024-25",
+      "from": "abroad",
+      "role": "rotation",
+      "appearance": "short black hair with a part line, dark skin",
+      "home_career": [
+        {
+          "where": "Ghana's top division",
+          "years": "2019–2024",
+          "apps": 98,
+          "goals": 21
+        }
+      ],
+      "national_team": {
+        "team": "Ghana",
+        "level": "senior",
+        "caps": 9,
+        "goals": 2,
+        "debut": 2024,
+        "status": "current"
+      },
+      "age": {
+        "years": 23,
+        "approximate": false
+      },
+      "market_value_eur_m": 10,
+      "image": "media/people/p-asare.webp"
+    },
+    {
+      "id": "p-tolland",
+      "club": "vr",
+      "name": "Rafe Tolland",
+      "number": 28,
+      "pos": "MF",
+      "detail": "Central midfielder",
+      "born": "2008-01-22",
+      "nationality": "England",
+      "foot": "R",
+      "height_cm": 176,
+      "joined": "2026-27",
+      "from": "academy",
+      "academy_since": 2016,
+      "role": "youth",
+      "appearance": "wavy brown hair, light skin, teenage face",
+      "national_team": {
+        "team": "England",
+        "level": "under-17",
+        "caps": 5,
+        "goals": 1,
+        "debut": 2024,
+        "status": "former"
+      },
+      "age": {
+        "years": 18,
+        "approximate": false
+      },
+      "market_value_eur_m": 1,
+      "image": "media/people/p-tolland.webp"
+    },
+    {
+      "id": "p-marlow",
+      "club": "vr",
+      "name": "Theo Marlow",
+      "number": 9,
+      "pos": "FW",
+      "detail": "Striker",
+      "born": "1997-08-30",
+      "nationality": "England",
+      "foot": "R",
+      "height_cm": 185,
+      "joined": "2019",
+      "joined_season": "2019-20",
+      "from": "mby",
+      "role": "starter",
+      "featured": true,
+      "fan_nickname": "Captain Tide",
+      "appearance": "short dark-blond hair, light skin, square jaw",
+      "national_team": {
+        "team": "England",
+        "level": "senior",
+        "caps": 7,
+        "goals": 2,
+        "debut": 2022,
+        "status": "current"
+      },
+      "age": {
+        "years": 29,
+        "approximate": false
+      },
+      "market_value_eur_m": 23.5,
+      "image": "media/people/p-marlow.webp"
+    },
+    {
+      "id": "p-go",
+      "club": "vr",
+      "name": "Youngho Go",
+      "pronunciation": "YUNG-hoh GOH",
+      "native_name": "고영호",
+      "name_note": "In Korea he is Go Youngho (고영호), family name first.",
+      "number": 27,
+      "pos": "FW",
+      "detail": "Wide forward",
+      "born": "1998-04-02",
+      "nationality": "Korea Republic",
+      "foot": "Both",
+      "height_cm": 179,
+      "joined": "2020-21",
+      "from": "abroad",
+      "role": "starter",
+      "featured": true,
+      "captain_since": "2025-26",
+      "fan_nickname": "The Lighthouse",
+      "home_career": [
+        {
+          "where": "Korean high-school football",
+          "years": "2013–2016",
+          "apps": 61,
+          "goals": 38
+        },
+        {
+          "where": "Korea's top division",
+          "years": "2017–2020",
+          "apps": 104,
+          "goals": 31
+        }
+      ],
+      "national_team": {
+        "team": "Korea Republic",
+        "level": "senior",
+        "caps": 48,
+        "goals": 15,
+        "debut": 2019,
+        "status": "current"
+      },
+      "appearance": "jaw-length wavy black hair, East Asian features, light beard, narrow face",
+      "age": {
+        "years": 28,
+        "approximate": false
+      },
+      "market_value_eur_m": 21.5,
+      "image": "media/people/p-go.webp"
+    },
+    {
+      "id": "p-velde",
+      "club": "vr",
+      "name": "Bram Velde",
+      "pronunciation": "BRAHM VEL-duh",
+      "number": 11,
+      "pos": "FW",
+      "detail": "Winger",
+      "born": "1998-02-16",
+      "nationality": "Netherlands",
+      "foot": "L",
+      "height_cm": 179,
+      "joined": "2021-22",
+      "from": "abroad",
+      "role": "starter",
+      "appearance": "tall blond quiff, light skin",
+      "home_career": [
+        {
+          "where": "The Netherlands' top division",
+          "years": "2016–2021",
+          "apps": 131,
+          "goals": 29
+        }
+      ],
+      "national_team": {
+        "team": "Netherlands",
+        "level": "senior",
+        "caps": 4,
+        "goals": 0,
+        "debut": 2022,
+        "status": "current"
+      },
+      "age": {
+        "years": 28,
+        "approximate": false
+      },
+      "market_value_eur_m": 21,
+      "image": "media/people/p-velde.webp"
+    },
+    {
+      "id": "p-navarre",
+      "club": "vr",
+      "name": "Sol Navarro",
+      "number": 19,
+      "pos": "FW",
+      "detail": "Striker",
+      "born": "1996-03-05",
+      "nationality": "Spain",
+      "foot": "R",
+      "height_cm": 183,
+      "joined": "2023-24",
+      "from": "cor",
+      "role": "rotation",
+      "appearance": "dark slicked hair, olive skin, stubble",
+      "pronunciation": "SOL na-VAR-oh",
+      "national_team": {
+        "team": "Spain",
+        "level": "under-21",
+        "caps": 6,
+        "goals": 2,
+        "debut": 2016,
+        "status": "former"
+      },
+      "age": {
+        "years": 30,
+        "approximate": false
+      },
+      "market_value_eur_m": 8.5,
+      "image": "media/people/p-navarre.webp"
+    },
+    {
+      "id": "p-quill",
+      "club": "vr",
+      "name": "Ezra Quill",
+      "number": 17,
+      "pos": "FW",
+      "detail": "Winger",
+      "born": "2004-09-11",
+      "nationality": "England",
+      "foot": "R",
+      "height_cm": 173,
+      "joined": "2025-26",
+      "from": "academy",
+      "academy_since": 2014,
+      "role": "squad",
+      "appearance": "short afro, dark skin, youthful face",
+      "national_team": null,
+      "age": {
+        "years": 22,
+        "approximate": false
+      },
+      "market_value_eur_m": 4,
+      "image": "media/people/p-quill.webp"
+    },
+    {
+      "id": "p-shaw",
+      "club": "vr",
+      "name": "Milo Shaw",
+      "number": 33,
+      "pos": "FW",
+      "detail": "Striker",
+      "born": "2006-11-01",
+      "nationality": "England",
+      "foot": "L",
+      "height_cm": 182,
+      "joined": "2026-27",
+      "from": "academy",
+      "academy_since": 2015,
+      "loans": [
+        {
+          "club": "fen",
+          "season": "2025-26",
+          "from": "2025-08-01",
+          "to": "2026-01-15"
+        },
+        {
+          "club": "eld",
+          "season": "2025-26",
+          "from": "2026-01-10",
+          "to": "2026-05-31"
+        }
+      ],
+      "role": "youth",
+      "appearance": "straight brown hair with fringe, light skin",
+      "national_team": {
+        "team": "England",
+        "level": "under-19",
+        "caps": 6,
+        "goals": 3,
+        "debut": 2025,
+        "status": "current"
+      },
+      "age": {
+        "years": 19,
+        "approximate": false
+      },
+      "market_value_eur_m": 1.5,
+      "image": "media/people/p-shaw.webp"
+    },
+    {
+      "id": "p-lykke",
+      "club": "ka",
+      "name": "Anders Lykke",
+      "pronunciation": "AN-ders LUE-keh",
+      "number": 1,
+      "pos": "GK",
+      "detail": "Goalkeeper",
+      "born": "1994-01-28",
+      "nationality": "Denmark",
+      "foot": "R",
+      "height_cm": 194,
+      "joined": "2019-20",
+      "from": "abroad",
+      "role": "starter",
+      "appearance": "fair hair in a short ponytail, light skin, beard",
+      "home_career": [
+        {
+          "where": "Denmark's top division",
+          "years": "2013–2019",
+          "apps": 151,
+          "goals": 0
+        }
+      ],
+      "national_team": {
+        "team": "Denmark",
+        "level": "senior",
+        "caps": 9,
+        "goals": 0,
+        "debut": 2019,
+        "status": "current"
+      },
+      "age": {
+        "years": 32,
+        "approximate": false
+      },
+      "market_value_eur_m": 11,
+      "image": "media/people/p-lykke.webp"
+    },
+    {
+      "id": "p-reyna",
+      "club": "ka",
+      "name": "Tomás Reyna",
+      "pronunciation": "toh-MAHS RAY-na",
+      "number": 12,
+      "pos": "GK",
+      "detail": "Goalkeeper",
+      "born": "1998-07-07",
+      "nationality": "Argentina",
+      "foot": "R",
+      "height_cm": 189,
+      "joined": "2023-24",
+      "from": "abroad",
+      "role": "rotation",
+      "appearance": "dark wavy hair, olive skin, moustache",
+      "home_career": [
+        {
+          "where": "Argentina's top division",
+          "years": "2017–2023",
+          "apps": 87,
+          "goals": 0
+        }
+      ],
+      "national_team": {
+        "team": "Argentina",
+        "level": "under-23",
+        "caps": 5,
+        "goals": 0,
+        "debut": 2020,
+        "status": "former"
+      },
+      "age": {
+        "years": 28,
+        "approximate": false
+      },
+      "market_value_eur_m": 8.5,
+      "image": "media/people/p-reyna.webp"
+    },
+    {
+      "id": "p-birtle",
+      "club": "ka",
+      "name": "Joe Birtle",
+      "number": 30,
+      "pos": "GK",
+      "detail": "Goalkeeper",
+      "born": "2007-03-19",
+      "nationality": "England",
+      "foot": "R",
+      "height_cm": 187,
+      "joined": "2026-27",
+      "from": "academy",
+      "academy_since": 2017,
+      "role": "youth",
+      "appearance": "short mousy hair, light skin, teenage face",
+      "national_team": null,
+      "age": {
+        "years": 19,
+        "approximate": false
+      },
+      "market_value_eur_m": 1.5,
+      "image": "media/people/p-birtle.webp"
+    },
+    {
+      "id": "p-okoye",
+      "club": "ka",
+      "name": "Ruben Okoye",
+      "number": 5,
+      "pos": "DF",
+      "detail": "Centre-back",
+      "born": "1996-05-14",
+      "nationality": "Nigeria",
+      "foot": "R",
+      "height_cm": 190,
+      "joined": "2019-20",
+      "from": "abroad",
+      "role": "starter",
+      "captain_since": "2022-23",
+      "fan_nickname": "The Wall of Millbank",
+      "appearance": "shaved head, dark skin, short beard",
+      "pronunciation": "ROO-ben oh-KOH-yeh",
+      "home_career": [
+        {
+          "where": "Nigeria's top division",
+          "years": "2014–2016",
+          "apps": 48,
+          "goals": 3
+        },
+        {
+          "where": "Belgium's second division",
+          "years": "2016–2019",
+          "apps": 84,
+          "goals": 6
+        }
+      ],
+      "national_team": {
+        "team": "Nigeria",
+        "level": "senior",
+        "caps": 33,
+        "goals": 2,
+        "debut": 2017,
+        "status": "current"
+      },
+      "age": {
+        "years": 30,
+        "approximate": false
+      },
+      "market_value_eur_m": 11,
+      "image": "media/people/p-okoye.webp"
+    },
+    {
+      "id": "p-kjeldsen",
+      "club": "ka",
+      "name": "Mads Kjeldsen",
+      "pronunciation": "MASS KYEL-sen",
+      "number": 4,
+      "pos": "DF",
+      "detail": "Centre-back",
+      "born": "1997-10-30",
+      "nationality": "Denmark",
+      "foot": "L",
+      "height_cm": 188,
+      "joined": "2021-22",
+      "from": "abroad",
+      "role": "starter",
+      "appearance": "short fair hair, light skin, clean-shaven",
+      "home_career": [
+        {
+          "where": "Denmark's top division",
+          "years": "2016–2021",
+          "apps": 122,
+          "goals": 5
+        }
+      ],
+      "national_team": {
+        "team": "Denmark",
+        "level": "senior",
+        "caps": 5,
+        "goals": 0,
+        "debut": 2022,
+        "status": "current"
+      },
+      "age": {
+        "years": 28,
+        "approximate": false
+      },
+      "market_value_eur_m": 15.5,
+      "image": "media/people/p-kjeldsen.webp"
+    },
+    {
+      "id": "p-stott",
+      "club": "ka",
+      "name": "Harvey Stott",
+      "number": 2,
+      "pos": "DF",
+      "detail": "Right-back",
+      "born": "1999-02-02",
+      "nationality": "England",
+      "foot": "R",
+      "height_cm": 177,
+      "joined": "2018-19",
+      "from": "academy",
+      "academy_since": 2010,
+      "role": "starter",
+      "appearance": "brown crew cut, light skin",
+      "national_team": null,
+      "age": {
+        "years": 27,
+        "approximate": false
+      },
+      "market_value_eur_m": 20.5,
+      "image": "media/people/p-stott.webp"
+    },
+    {
+      "id": "p-corbet",
+      "club": "ka",
+      "name": "Liam Corbet",
+      "number": 3,
+      "pos": "DF",
+      "detail": "Left-back",
+      "born": "1995-12-24",
+      "nationality": "Northern Ireland",
+      "foot": "L",
+      "height_cm": 179,
+      "joined": "2017-18",
+      "from": "cad",
+      "role": "starter",
+      "appearance": "dark short hair, light skin, stubble",
+      "national_team": {
+        "team": "Northern Ireland",
+        "level": "senior",
+        "caps": 38,
+        "goals": 1,
+        "debut": 2016,
+        "status": "current"
+      },
+      "age": {
+        "years": 30,
+        "approximate": false
+      },
+      "market_value_eur_m": 11.5,
+      "image": "media/people/p-corbet.webp"
+    },
+    {
+      "id": "p-ibarra",
+      "club": "ka",
+      "name": "Danel Ibarra",
+      "pronunciation": "DAH-nel ee-BAR-ra",
+      "number": 6,
+      "pos": "DF",
+      "detail": "Centre-back",
+      "born": "2000-04-08",
+      "nationality": "Spain",
+      "foot": "R",
+      "height_cm": 185,
+      "joined": "2024-25",
+      "from": "abroad",
+      "role": "rotation",
+      "appearance": "black curly hair, olive skin",
+      "home_career": [
+        {
+          "where": "Spain's second division",
+          "years": "2019–2024",
+          "apps": 133,
+          "goals": 4
+        }
+      ],
+      "national_team": null,
+      "age": {
+        "years": 26,
+        "approximate": false
+      },
+      "market_value_eur_m": 7.5,
+      "image": "media/people/p-ibarra.webp"
+    },
+    {
+      "id": "p-pryce",
+      "club": "ka",
+      "name": "Jamal Pryce",
+      "number": 21,
+      "pos": "DF",
+      "detail": "Right-back",
+      "born": "2002-06-26",
+      "nationality": "England",
+      "foot": "R",
+      "height_cm": 180,
+      "joined": "2023-24",
+      "from": "brk",
+      "role": "rotation",
+      "appearance": "short black hair, dark skin",
+      "national_team": {
+        "team": "England",
+        "level": "under-21",
+        "caps": 4,
+        "goals": 0,
+        "debut": 2023,
+        "status": "former"
+      },
+      "age": {
+        "years": 24,
+        "approximate": false
+      },
+      "market_value_eur_m": 7.5,
+      "image": "media/people/p-pryce.webp"
+    },
+    {
+      "id": "p-tarrant",
+      "club": "ka",
+      "name": "Owen Tarrant",
+      "number": 15,
+      "pos": "DF",
+      "detail": "Left-back",
+      "born": "2003-01-17",
+      "nationality": "Wales",
+      "foot": "L",
+      "height_cm": 176,
+      "joined": "2022-23",
+      "from": "academy",
+      "academy_since": 2013,
+      "role": "squad",
+      "appearance": "sandy hair, light skin, freckles",
+      "national_team": {
+        "team": "Wales",
+        "level": "senior",
+        "caps": 2,
+        "goals": 0,
+        "debut": 2025,
+        "status": "current"
+      },
+      "age": {
+        "years": 23,
+        "approximate": false
+      },
+      "market_value_eur_m": 4,
+      "image": "media/people/p-tarrant.webp"
+    },
+    {
+      "id": "p-vasko",
+      "club": "ka",
+      "name": "Teo Vasko",
+      "number": 27,
+      "pos": "DF",
+      "detail": "Centre-back",
+      "born": "2007-09-09",
+      "nationality": "Croatia",
+      "foot": "R",
+      "height_cm": 187,
+      "joined": "2026-27",
+      "from": "academy",
+      "academy_since": 2019,
+      "role": "youth",
+      "appearance": "dark short hair, light skin, teenage face",
+      "pronunciation": "TEH-oh VAS-ko",
+      "national_team": {
+        "team": "Croatia",
+        "level": "under-19",
+        "caps": 7,
+        "goals": 1,
+        "debut": 2025,
+        "status": "current"
+      },
+      "age": {
+        "years": 19,
+        "approximate": false
+      },
+      "market_value_eur_m": 1,
+      "image": "media/people/p-vasko.webp"
+    },
+    {
+      "id": "p-varga",
+      "club": "ka",
+      "name": "Máté Varga",
+      "number": 8,
+      "pos": "MF",
+      "detail": "Central midfielder",
+      "born": "1997",
+      "nationality": "Hungary",
+      "foot": "R",
+      "height_cm": 178,
+      "joined": "2022-23",
+      "from": "abroad",
+      "role": "starter",
+      "featured": true,
+      "notes": "Position before 2020 is not recorded.",
+      "appearance": "dark undercut, light skin, short beard",
+      "pronunciation": "MAH-tay VAR-gah",
+      "native_name": "Varga Máté",
+      "name_note": "In Hungary the family name comes first: Varga Máté.",
+      "home_career": [
+        {
+          "where": "Hungary's top division",
+          "years": "2015–2022",
+          "apps": 176,
+          "goals": 22
+        }
+      ],
+      "national_team": {
+        "team": "Hungary",
+        "level": "senior",
+        "caps": 46,
+        "goals": 5,
+        "debut": 2017,
+        "status": "current"
+      },
+      "age": {
+        "years": 28,
+        "approximate": true
+      },
+      "market_value_eur_m": 19.5,
+      "image": "media/people/p-varga.webp"
+    },
+    {
+      "id": "p-penn-luka",
+      "club": "ka",
+      "name": "Luka Penn",
+      "number": 10,
+      "pos": "MF",
+      "detail": "Attacking midfielder",
+      "born": "1999-05-05",
+      "nationality": "England",
+      "foot": "L",
+      "height_cm": 174,
+      "joined": "2020-21",
+      "from": "academy",
+      "academy_since": 2010,
+      "role": "starter",
+      "notes": "No relation to Ade Penn of Vellmouth Rovers.",
+      "appearance": "short brown hair, light skin, clean-shaven",
+      "national_team": null,
+      "age": {
+        "years": 27,
+        "approximate": false
+      },
+      "market_value_eur_m": 24.5,
+      "image": "media/people/p-penn-luka.webp"
+    },
+    {
+      "id": "p-ansah",
+      "club": "ka",
+      "name": "Gideon Ansah",
+      "number": 14,
+      "pos": "MF",
+      "detail": "Defensive midfielder",
+      "born": "1995-11-11",
+      "nationality": "Ghana",
+      "foot": "R",
+      "height_cm": 184,
+      "joined": "2019-20",
+      "from": "mer",
+      "role": "starter",
+      "appearance": "short black hair, dark skin, goatee",
+      "pronunciation": "GID-ee-on AN-sah",
+      "national_team": {
+        "team": "Ghana",
+        "level": "senior",
+        "caps": 22,
+        "goals": 1,
+        "debut": 2018,
+        "status": "current"
+      },
+      "age": {
+        "years": 30,
+        "approximate": false
+      },
+      "market_value_eur_m": 13.5,
+      "image": "media/people/p-ansah.webp"
+    },
+    {
+      "id": "p-serrat",
+      "club": "ka",
+      "name": "Pablo Serrat",
+      "number": 16,
+      "pos": "MF",
+      "detail": "Central midfielder",
+      "born": "1996-08-22",
+      "nationality": "Spain",
+      "foot": "R",
+      "height_cm": 177,
+      "joined": "2024-25",
+      "from": "abroad",
+      "role": "rotation",
+      "appearance": "dark wavy hair, olive skin, stubble",
+      "pronunciation": "PAH-bloh seh-RAT",
+      "home_career": [
+        {
+          "where": "Spain's top division",
+          "years": "2015–2024",
+          "apps": 214,
+          "goals": 17
+        }
+      ],
+      "national_team": null,
+      "age": {
+        "years": 30,
+        "approximate": false
+      },
+      "market_value_eur_m": 6,
+      "image": "media/people/p-serrat.webp"
+    },
+    {
+      "id": "p-ferrand",
+      "club": "ka",
+      "name": "Nico Ferrand",
+      "number": 20,
+      "pos": "MF",
+      "detail": "Central midfielder",
+      "born": "2001-03-13",
+      "nationality": "Belgium",
+      "foot": "L",
+      "height_cm": 181,
+      "joined": "2023-24",
+      "from": "lrk",
+      "role": "rotation",
+      "appearance": "short light-brown hair, light skin",
+      "pronunciation": "NEE-koh feh-RAHN",
+      "national_team": {
+        "team": "Belgium",
+        "level": "senior",
+        "caps": 3,
+        "goals": 0,
+        "debut": 2024,
+        "status": "current"
+      },
+      "age": {
+        "years": 25,
+        "approximate": false
+      },
+      "market_value_eur_m": 8.5,
+      "image": "media/people/p-ferrand.webp"
+    },
+    {
+      "id": "p-hendry",
+      "club": "ka",
+      "name": "Arlo Hendry",
+      "number": 22,
+      "pos": "MF",
+      "detail": "Winger",
+      "born": "2003-12-06",
+      "nationality": "Scotland",
+      "foot": "R",
+      "height_cm": 172,
+      "joined": "2024-25",
+      "from": "academy",
+      "academy_since": 2014,
+      "role": "squad",
+      "appearance": "red hair, light skin, freckles",
+      "national_team": {
+        "team": "Scotland",
+        "level": "under-21",
+        "caps": 10,
+        "goals": 2,
+        "debut": 2023,
+        "status": "current"
+      },
+      "age": {
+        "years": 22,
+        "approximate": false
+      },
+      "market_value_eur_m": 4.5,
+      "image": "media/people/p-hendry.webp"
+    },
+    {
+      "id": "p-moe",
+      "club": "ka",
+      "name": "Isak Moe",
+      "pronunciation": "EE-sahk MOH-eh",
+      "number": 18,
+      "pos": "MF",
+      "detail": "Winger",
+      "born": "2000-10-15",
+      "nationality": "Norway",
+      "foot": "L",
+      "height_cm": 178,
+      "joined": "2025-26",
+      "from": "abroad",
+      "role": "rotation",
+      "appearance": "white-blond hair, light skin",
+      "home_career": [
+        {
+          "where": "Norway's top division",
+          "years": "2018–2025",
+          "apps": 164,
+          "goals": 31
+        }
+      ],
+      "national_team": {
+        "team": "Norway",
+        "level": "senior",
+        "caps": 12,
+        "goals": 2,
+        "debut": 2022,
+        "status": "current"
+      },
+      "age": {
+        "years": 25,
+        "approximate": false
+      },
+      "market_value_eur_m": 10.5,
+      "image": "media/people/p-moe.webp"
+    },
+    {
+      "id": "p-tasker",
+      "club": "ka",
+      "name": "Remy Tasker",
+      "number": 29,
+      "pos": "MF",
+      "detail": "Central midfielder",
+      "born": "2008-04-04",
+      "nationality": "England",
+      "foot": "R",
+      "height_cm": 175,
+      "joined": "2026-27",
+      "from": "academy",
+      "academy_since": 2017,
+      "role": "youth",
+      "appearance": "short black curls, brown skin, teenage face",
+      "national_team": null,
+      "age": {
+        "years": 18,
+        "approximate": false
+      },
+      "market_value_eur_m": 1,
+      "image": "media/people/p-tasker.webp"
+    },
+    {
+      "id": "p-calado",
+      "club": "ka",
+      "name": "Rui Calado",
+      "pronunciation": "HOO-ee ka-LAH-doh",
+      "number": 11,
+      "pos": "FW",
+      "detail": "Striker",
+      "born": "1999-07-19",
+      "nationality": "Portugal",
+      "foot": "R",
+      "height_cm": 182,
+      "academy_since": 2012,
+      "joined": "2018",
+      "joined_season": "2018-19",
+      "from": "academy",
+      "role": "starter",
+      "featured": true,
+      "fan_nickname": "The Kestrel",
+      "appearance": "dark short hair, olive skin, thin beard",
+      "national_team": {
+        "team": "Portugal",
+        "level": "senior",
+        "caps": 6,
+        "goals": 2,
+        "debut": 2023,
+        "status": "current"
+      },
+      "age": {
+        "years": 27,
+        "approximate": false
+      },
+      "market_value_eur_m": 22,
+      "image": "media/people/p-calado.webp"
+    },
+    {
+      "id": "p-adebanjo",
+      "club": "ka",
+      "name": "Dayo Adebanjo",
+      "pronunciation": "DAH-yo ah-deh-BAN-jo",
+      "number": 9,
+      "pos": "FW",
+      "detail": "Striker",
+      "born": "1997-01-23",
+      "nationality": "Nigeria",
+      "foot": "R",
+      "height_cm": 186,
+      "joined": "2025-26",
+      "from": "gry",
+      "role": "rotation",
+      "appearance": "short black hair, dark skin, clean-shaven",
+      "national_team": {
+        "team": "Nigeria",
+        "level": "senior",
+        "caps": 19,
+        "goals": 6,
+        "debut": 2019,
+        "status": "current"
+      },
+      "age": {
+        "years": 29,
+        "approximate": false
+      },
+      "market_value_eur_m": 9,
+      "image": "media/people/p-adebanjo.webp"
+    },
+    {
+      "id": "p-haldane",
+      "club": "ka",
+      "name": "Viktor Hallgren",
+      "number": 7,
+      "pos": "FW",
+      "detail": "Winger",
+      "born": "1998-09-02",
+      "nationality": "Sweden",
+      "foot": "L",
+      "height_cm": 180,
+      "joined": "2021-22",
+      "from": "abroad",
+      "role": "starter",
+      "appearance": "blond man bun, light skin, beard",
+      "pronunciation": "VIK-tor HAHL-grehn",
+      "home_career": [
+        {
+          "where": "Sweden's top division",
+          "years": "2016–2021",
+          "apps": 119,
+          "goals": 24
+        }
+      ],
+      "national_team": {
+        "team": "Sweden",
+        "level": "senior",
+        "caps": 21,
+        "goals": 4,
+        "debut": 2020,
+        "status": "current"
+      },
+      "age": {
+        "years": 28,
+        "approximate": false
+      },
+      "market_value_eur_m": 19,
+      "image": "media/people/p-haldane.webp"
+    },
+    {
+      "id": "p-rooke",
+      "club": "ka",
+      "name": "Callan Rooke",
+      "number": 19,
+      "pos": "FW",
+      "detail": "Striker",
+      "born": "1994-06-29",
+      "nationality": "England",
+      "foot": "R",
+      "height_cm": 184,
+      "joined": "2016-17",
+      "from": "abroad",
+      "role": "squad",
+      "conflict": {
+        "field": "joined",
+        "values": [
+          "2016-17",
+          "2017-18"
+        ],
+        "sources": [
+          "rec-rooke-01",
+          "rec-rooke-02"
+        ],
+        "note": "Two club records disagree on Rooke's signing season."
+      },
+      "appearance": "short brown hair greying at the sides, light skin",
+      "home_career": [
+        {
+          "where": "Scotland's top division",
+          "years": "2012–2016",
+          "apps": 104,
+          "goals": 33
+        }
+      ],
+      "national_team": null,
+      "age": {
+        "years": 32,
+        "approximate": false
+      },
+      "market_value_eur_m": 2.5,
+      "image": "media/people/p-rooke.webp"
+    },
+    {
+      "id": "p-lind",
+      "club": "ka",
+      "name": "Jesper Lind",
+      "number": 17,
+      "pos": "FW",
+      "detail": "Winger",
+      "born": "2002-02-11",
+      "nationality": "Sweden",
+      "foot": "R",
+      "height_cm": 176,
+      "joined": "2023-24",
+      "from": "abroad",
+      "role": "rotation",
+      "appearance": "light-brown hair, light skin, clean-shaven",
+      "pronunciation": "YES-per LIND",
+      "home_career": [
+        {
+          "where": "Sweden's top division",
+          "years": "2020–2023",
+          "apps": 77,
+          "goals": 12
+        }
+      ],
+      "national_team": {
+        "team": "Sweden",
+        "level": "senior",
+        "caps": 3,
+        "goals": 0,
+        "debut": 2024,
+        "status": "current"
+      },
+      "age": {
+        "years": 24,
+        "approximate": false
+      },
+      "market_value_eur_m": 9,
+      "image": "media/people/p-lind.webp"
+    },
+    {
+      "id": "p-morrow",
+      "club": "ka",
+      "name": "Zeke Morrow",
+      "number": 32,
+      "pos": "FW",
+      "detail": "Striker",
+      "born": "2007-07-30",
+      "nationality": "England",
+      "foot": "R",
+      "height_cm": 183,
+      "joined": "2026-27",
+      "from": "academy",
+      "academy_since": 2016,
+      "role": "youth",
+      "appearance": "short twists, dark skin, teenage face",
+      "national_team": {
+        "team": "England",
+        "level": "under-18",
+        "caps": 2,
+        "goals": 1,
+        "debut": 2025,
+        "status": "current"
+      },
+      "age": {
+        "years": 19,
+        "approximate": false
+      },
+      "market_value_eur_m": 1,
+      "image": "media/people/p-morrow.webp"
+    }
+  ]
+}

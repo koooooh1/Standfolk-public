@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/koooooh1/Standfolk/docs/schemas/overlay.schema.json",
+  "title": "Standfolk overlay card",
+  "description": "An approved Studio story taken to air, as the API returns it from POST /api/studio/stories/:id/air and in the on_air field of GET /api/match/demo/events. An integration contract for graphics systems; no real integration is claimed.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "card_id", "version", "short", "long", "evidence", "valid_from_ms", "engine", "synthetic"],
+  "properties": {
+    "schema_version": { "const": "1" },
+    "card_id": { "type": "string", "description": "The synthetic match event the story is about." },
+    "version": { "type": "integer", "minimum": 1, "description": "Approval version in the Studio; each approval raises it." },
+    "short": { "type": "string", "description": "Top line, for example GOAL 12′ · Youngho Go (VR)." },
+    "long": { "type": "string", "maxLength": 1000, "description": "Body copy, checked by the API against the evidence before it airs." },
+    "evidence": { "type": "array", "items": { "type": "string" }, "description": "References of the facts the copy rests on." },
+    "valid_from_ms": { "type": "integer", "minimum": 0, "description": "Match clock of the moment; the card never shows before it." },
+    "engine": { "enum": ["template", "agents"], "description": "Who wrote the approved wording before any producer edit." },
+    "synthetic": { "const": true }
+  }
+}

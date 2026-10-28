@@ -1,0 +1,461 @@
+{
+  "meta": {
+    "label": "fictional",
+    "data_date": "2026-10-01",
+    "seed": 20261023,
+    "note": "Authored fictional world for the Standfolk demo. Every club, person, ground, and honour is invented. Statistics are generated from this file by scripts/world/generate.mjs and are fictional.",
+    "national_team_note": "National-team caps, goals, and careers abroad are fictional records about fictional people. Countries are real; no real league, club, or player is named."
+  },
+  "league": {
+    "id": "brenmoor",
+    "name": "Brenmoor League",
+    "second_tier": "Brenmoor Championship",
+    "founded": 1888,
+    "clubs_per_season": 20,
+    "matchdays": 38,
+    "points": {
+      "win": 3,
+      "draw": 1,
+      "loss": 0
+    },
+    "relegated_per_season": 3,
+    "first_season": "2016-17",
+    "current_season": "2026-27",
+    "current_matchday": 9,
+    "demo_fixture": {
+      "matchday": 9,
+      "home": "vr",
+      "away": "ka",
+      "kickoff": "2026-10-24T15:00:00+01:00"
+    }
+  },
+  "clubs": [
+    {"id":"vr","name":"Vellmouth Rovers","short":"VR","town":"Vellmouth","founded":1898,"ground":"Quayside Park","capacity":31400,"surface":"Grass","colors":["#138a8a","#ffffff"],"color_name":"teal","strength":0.66,"featured":true},
+    {"id":"ka","name":"Kestrin Athletic","short":"KA","town":"Kestrin","founded":1902,"ground":"Millbank Road","capacity":24800,"surface":"Hybrid grass","colors":["#d0452f","#101614"],"color_name":"brick red","strength":0.55,"featured":true},
+    {"id":"mby","name":"Marrowby","short":"MBY","town":"Marrowby","founded":1911,"ground":"Weir Lane","capacity":14200,"colors":["#2f4f8f","#f2c230"],"strength":0.36},
+    {"id":"ost","name":"Ostwick Town","short":"OST","town":"Ostwick","founded":1879,"ground":"Furnace Road","capacity":41200,"colors":["#8a1c2b","#ffffff"],"strength":0.84},
+    {"id":"hal","name":"Hallowfield United","short":"HAL","town":"Hallowfield","founded":1885,"ground":"The Chase","capacity":52600,"colors":["#1d3f8a","#ffffff"],"strength":0.82},
+    {"id":"gry","name":"Greywater City","short":"GRY","town":"Greywater","founded":1894,"ground":"Lantern Street","capacity":47300,"colors":["#5aa0d8","#ffffff"],"strength":0.78},
+    {"id":"dun","name":"Dunmarsh Rangers","short":"DUN","town":"Dunmarsh","founded":1883,"ground":"Peatfield","capacity":38900,"colors":["#1e6b3a","#ffffff"],"strength":0.72},
+    {"id":"pen","name":"Pennick Albion","short":"PEN","town":"Pennick","founded":1890,"ground":"Albion Rise","capacity":33100,"colors":["#f2f2f2","#2a2a2a"],"strength":0.68},
+    {"id":"rdg","name":"Ridgeford City","short":"RDG","town":"Ridgeford","founded":1901,"ground":"Kingsmoor","capacity":35700,"colors":["#6a2c8a","#f2c230"],"strength":0.63},
+    {"id":"cor","name":"Corvane United","short":"COR","town":"Corvane","founded":1896,"ground":"Rookery Lane","capacity":29800,"colors":["#101614","#ffffff"],"strength":0.6},
+    {"id":"eld","name":"Elderby Town","short":"ELD","town":"Elderby","founded":1888,"ground":"Orchard Park","capacity":27500,"colors":["#c86b1c","#101614"],"strength":0.58},
+    {"id":"fen","name":"Fenwold","short":"FEN","town":"Fenwold","founded":1905,"ground":"Dykeside","capacity":22300,"colors":["#e3c11a","#1a4a7a"],"strength":0.54},
+    {"id":"blk","name":"Blackmere Rovers","short":"BLK","town":"Blackmere","founded":1878,"ground":"Coalpit Road","capacity":30600,"colors":["#2b2b2b","#d0452f"],"strength":0.56},
+    {"id":"thi","name":"Thistleby United","short":"THI","town":"Thistleby","founded":1909,"ground":"Burr Meadow","capacity":21900,"colors":["#7a3fa0","#ffffff"],"strength":0.5},
+    {"id":"cad","name":"Caddon Wanderers","short":"CAD","town":"Caddon","founded":1877,"ground":"Drovers Field","capacity":26200,"colors":["#a01f2f","#f2f2f2"],"strength":0.52},
+    {"id":"amb","name":"Ambry Town","short":"AMB","town":"Ambry","founded":1913,"ground":"Chapel Green","capacity":18400,"colors":["#2a7a4a","#f2c230"],"strength":0.47},
+    {"id":"stn","name":"Stanbury Athletic","short":"STN","town":"Stanbury","founded":1899,"ground":"Wheelwright Park","capacity":24100,"colors":["#1a1a6a","#d8d8d8"],"strength":0.49},
+    {"id":"mer","name":"Merrow Heath","short":"MER","town":"Merrow Heath","founded":1920,"ground":"Gorse Hill","capacity":16800,"colors":["#3a8a3a","#101614"],"strength":0.45},
+    {"id":"brk","name":"Brackwater United","short":"BRK","town":"Brackwater","founded":1903,"ground":"Sluice Road","capacity":20500,"colors":["#1c5a8a","#e3c11a"],"strength":0.46},
+    {"id":"hyt","name":"Hythemoor Town","short":"HYT","town":"Hythemoor","founded":1907,"ground":"Beacon Way","capacity":19300,"colors":["#d86a1c","#ffffff"],"strength":0.44},
+    {"id":"lrk","name":"Larkspur City","short":"LRK","town":"Larkspur","founded":1916,"ground":"Meadowbank","capacity":23700,"colors":["#4a6ad8","#ffffff"],"strength":0.48},
+    {"id":"wst","name":"Westerholt","short":"WST","town":"Westerholt","founded":1910,"ground":"Holt End","capacity":17200,"colors":["#8a6a1c","#101614"],"strength":0.42},
+    {"id":"lor","name":"Lorne Park","short":"LOR","town":"Lorne","founded":1924,"ground":"Lorne Park","capacity":15600,"colors":["#1c8a7a","#101614"],"strength":0.4},
+    {"id":"kil","name":"Kilnford Forest","short":"KIL","town":"Kilnford","founded":1892,"ground":"Brickfield","capacity":21100,"colors":["#6a1c1c","#d8d8d8"],"strength":0.43},
+    {"id":"sal","name":"Saltholme Athletic","short":"SAL","town":"Saltholme","founded":1919,"ground":"Brine Street","capacity":13900,"colors":["#5a5a5a","#e3c11a"],"strength":0.38},
+    {"id":"nor","name":"Northam Vale","short":"NOR","town":"Northam","founded":1926,"ground":"Vale Road","capacity":12800,"colors":["#1a4a2a","#ffffff"],"strength":0.37}
+  ],
+  "initial_top_flight": [
+    "vr",
+    "ost",
+    "hal",
+    "gry",
+    "dun",
+    "pen",
+    "rdg",
+    "cor",
+    "eld",
+    "fen",
+    "blk",
+    "thi",
+    "cad",
+    "amb",
+    "stn",
+    "mer",
+    "brk",
+    "hyt",
+    "lrk",
+    "wst"
+  ],
+  "promotion_overrides": {
+    "2019-20": [
+      "ka"
+    ]
+  },
+  "featured": {
+    "vr": {
+      "nickname": "The Ferrymen",
+      "pronunciation": "VEL-muth ROH-vers",
+      "history": [
+        {
+          "year": 1898,
+          "text": "Ferry crews found the club on Vellmouth's harbour wall.",
+          "src": "club-vr-01"
+        },
+        {
+          "year": 1904,
+          "text": "First league meeting with Kestrin Athletic, the start of the estuary derby.",
+          "src": "club-vr-04"
+        },
+        {
+          "year": 1923,
+          "text": "Quayside Park opens, facing the water.",
+          "src": "club-vr-02"
+        },
+        {
+          "year": 1932,
+          "text": "First Brenmoor League title.",
+          "src": "club-vr-05"
+        },
+        {
+          "year": 1952,
+          "text": "The old harbour bell is moved into the north stand.",
+          "src": "club-vr-03"
+        },
+        {
+          "year": 1967,
+          "text": "Second league title, won on the final day.",
+          "src": "club-vr-06"
+        },
+        {
+          "year": 2008,
+          "text": "Third Brenmoor Cup, beating Hallowfield United in the final.",
+          "src": "club-vr-07"
+        }
+      ],
+      "honours": [
+        {
+          "title": "Brenmoor League champions",
+          "seasons": [
+            "1931-32",
+            "1966-67"
+          ],
+          "src": "club-vr-05"
+        },
+        {
+          "title": "Brenmoor Cup winners",
+          "seasons": [
+            "1951-52",
+            "1988-89",
+            "2007-08"
+          ],
+          "src": "club-vr-07"
+        }
+      ],
+      "culture": [
+        {
+          "title": "The tide-bell song",
+          "text": "After each home goal the north stand rings the old harbour bell three times, then sings a slow harbour song.",
+          "src": "club-vr-03",
+          "kind": "chant_background"
+        },
+        {
+          "title": "Ferry flags",
+          "text": "Supporters wave small blue-green signal flags, copied from the ferry crews who founded the club.",
+          "src": "club-vr-08",
+          "kind": "culture"
+        },
+        {
+          "title": "The harbour walk",
+          "text": "Home fans walk along the harbour wall to the ground before kick-off.",
+          "src": "club-vr-09",
+          "kind": "culture"
+        }
+      ],
+      "fan_language": [
+        {
+          "term": "Ring it",
+          "meaning": "Said after a home goal, when the north stand rings the bell.",
+          "register": "fan"
+        },
+        {
+          "term": "The tide's in",
+          "meaning": "Vellmouth are winning.",
+          "register": "fan"
+        },
+        {
+          "term": "Ferrymen",
+          "meaning": "The club's nickname; also what fans call themselves.",
+          "register": "both"
+        },
+        {
+          "term": "The Wall",
+          "meaning": "The harbour-side stand behind the south goal.",
+          "register": "fan"
+        },
+        {
+          "term": "Quayside",
+          "meaning": "Short name for Quayside Park.",
+          "register": "broadcast"
+        },
+        {
+          "term": "Estuary derby",
+          "meaning": "Any league match against Kestrin Athletic.",
+          "register": "both"
+        }
+      ]
+    },
+    "ka": {
+      "nickname": "The Kestrels",
+      "pronunciation": "KES-trin ath-LET-ik",
+      "history": [
+        {
+          "year": 1902,
+          "text": "Mill workers on the south bank of the estuary found the club.",
+          "src": "club-ka-01"
+        },
+        {
+          "year": 1904,
+          "text": "First league meeting with Vellmouth Rovers.",
+          "src": "club-ka-04"
+        },
+        {
+          "year": 1923,
+          "text": "First Brenmoor Cup.",
+          "src": "club-ka-05"
+        },
+        {
+          "year": 1974,
+          "text": "Second Brenmoor Cup, the club's last major honour.",
+          "src": "club-ka-05"
+        },
+        {
+          "year": 1975,
+          "text": "Supporters begin the wing salute as the team comes out.",
+          "src": "club-ka-03"
+        },
+        {
+          "year": 2014,
+          "text": "Relegated to the Brenmoor Championship.",
+          "src": "club-ka-06"
+        }
+      ],
+      "honours": [
+        {
+          "title": "Brenmoor Cup winners",
+          "seasons": [
+            "1922-23",
+            "1973-74"
+          ],
+          "src": "club-ka-05"
+        }
+      ],
+      "culture": [
+        {
+          "title": "The wing salute",
+          "text": "Supporters raise both arms like wings as the team walks out.",
+          "src": "club-ka-03",
+          "kind": "chant_background"
+        },
+        {
+          "title": "The Nest",
+          "text": "The covered terrace at Millbank Road where the loudest home fans stand.",
+          "src": "club-ka-07",
+          "kind": "culture"
+        },
+        {
+          "title": "Shift whistle",
+          "text": "A mill whistle sounds at kick-off, a nod to the shift changes of the founders.",
+          "src": "club-ka-08",
+          "kind": "culture"
+        }
+      ],
+      "fan_language": [
+        {
+          "term": "Wings up",
+          "meaning": "Call for the wing salute; also said when Kestrin attack.",
+          "register": "fan"
+        },
+        {
+          "term": "The Nest",
+          "meaning": "The home terrace at Millbank Road.",
+          "register": "both"
+        },
+        {
+          "term": "Kestrels",
+          "meaning": "The club's nickname.",
+          "register": "both"
+        },
+        {
+          "term": "South bank",
+          "meaning": "Kestrin's side of the estuary, and its supporters.",
+          "register": "fan"
+        },
+        {
+          "term": "Millbank",
+          "meaning": "Short name for Millbank Road.",
+          "register": "broadcast"
+        }
+      ]
+    }
+  },
+  "league_glossary": [
+    {"term":"Clean sheet","meaning":"A match in which a team concedes no goals.","register":"both"},
+    {"term":"Brace","meaning":"Two goals by one player in a match.","register":"both"},
+    {"term":"Hat-trick","meaning":"Three goals by one player in a match.","register":"both"},
+    {"term":"Six-pointer","meaning":"A match between close rivals in the table, where the result swings the gap twice.","register":"both"},
+    {"term":"Relegation zone","meaning":"The bottom three places; those clubs drop to the Brenmoor Championship.","register":"both"},
+    {"term":"Academy graduate","meaning":"A player who came through the club's own youth system.","register":"broadcast"},
+    {"term":"Off the bench","meaning":"Came on as a substitute.","register":"both"},
+    {"term":"Loan spell","meaning":"A period playing for another club before returning.","register":"both"}
+  ],
+  "staff": [
+    {"id":"s-holt","club":"vr","role":"Manager","name":"Maren Holt","pronunciation":"MAH-ren HOLT","born":"1979-05-02","nationality":"Norway","since":"2022-06-01","previous":"Assistant manager, Greywater City","appearance":"woman, short ash-blonde hair, light skin, calm expression"},
+    {"id":"s-aire","club":"vr","role":"Assistant manager","name":"Duncan Aire","born":"1974","nationality":"Scotland","since":"2022-06-01","previous":"Coach, Greywater City","appearance":"man, greying beard, light skin, receding hair"},
+    {"id":"s-lancing","club":"vr","role":"First-team coach","name":"Priya Lancing","born":"1986-11-19","nationality":"England","since":"2023-07-01","previous":"Under-21 coach, Vellmouth Rovers","appearance":"woman, long dark hair tied back, brown skin"},
+    {"id":"s-ferrow","club":"vr","role":"Goalkeeping coach","name":"Gus Ferrow","born":"1977-02-08","nationality":"Wales","since":"2015-07-01","previous":"Goalkeeper, Vellmouth Rovers","appearance":"man, shaved head, light skin, broad face"},
+    {"id":"s-saari","club":"vr","role":"Fitness coach","name":"Lena Saari","born":"1988-08-23","nationality":"Finland","since":"2022-07-01","previous":"Sports scientist, Fenwold","appearance":"woman, red hair in a bun, light skin, freckles","pronunciation":"LEH-nah SAH-ree"},
+    {"id":"s-brook","club":"ka","role":"Manager","name":"Ada Brook","pronunciation":"AY-da BROOK","born":"1981-01-30","nationality":"England","since":"2024-05-20","previous":"Manager, Thistleby United","appearance":"woman, curly black hair, dark skin, focused expression"},
+    {"id":"s-wela","club":"ka","role":"Assistant manager","name":"Tomasz Wela","pronunciation":"TOH-mash VEH-la","born":"1976-09-12","nationality":"Poland","since":"2024-05-20","previous":"Assistant manager, Thistleby United","appearance":"man, short dark hair, light skin, stubble"},
+    {"id":"s-molloy","club":"ka","role":"First-team coach","name":"Kieran Molloy","born":"1983","nationality":"Ireland","since":"2019-07-01","previous":"Coach, Kestrin Athletic academy","appearance":"man, ginger hair, light skin, glasses"},
+    {"id":"s-dunstan","club":"ka","role":"Goalkeeping coach","name":"Hal Dunstan","born":"1972-04-17","nationality":"England","since":"2017-07-01","previous":"Goalkeeping coach, Ambry Town","appearance":"man, white hair, light skin, weathered face"},
+    {"id":"s-okafor","club":"ka","role":"Fitness coach","name":"Bea Okafor","pronunciation":"BEE oh-KAH-for","born":"1990-03-03","nationality":"Nigeria","since":"2021-07-01","previous":"Fitness coach, Merrow Heath","appearance":"woman, braided hair, dark skin, smiling"}
+  ],
+  "former_managers": [
+    {"club":"vr","name":"Glen Arbery","from":"2014-06-01","to":"2022-05-31"},
+    {"club":"ka","name":"Ross Penhale","from":"2016-07-01","to":"2024-05-10"}
+  ],
+  "players": [
+    {"id":"p-strand","club":"vr","name":"Ollie Strand","number":1,"pos":"GK","detail":"Goalkeeper","born":"1995-04-11","nationality":"England","foot":"R","height_cm":191,"joined":"2019-20","from":"fen","role":"starter","finishing":0,"creativity":0.05,"appearance":"short brown hair, light skin, clean-shaven","national_team":null},
+    {"id":"p-halvik","club":"vr","name":"Petr Halvik","pronunciation":"PET-er HAL-vik","number":13,"pos":"GK","detail":"Goalkeeper","born":"1989-12-02","nationality":"Czechia","foot":"R","height_cm":193,"joined":"2016-17","from":"abroad","role":"rotation","finishing":0,"creativity":0.02,"appearance":"close-cropped greying hair, light skin, short beard","home_career":[{"where":"Czechia's top division","years":"2008–2016","apps":188,"goals":0}],"national_team":{"team":"Czechia","level":"senior","caps":12,"goals":0,"debut":2014,"status":"former"}},
+    {"id":"p-archerlowe","club":"vr","name":"Finn Archer-Lowe","number":31,"pos":"GK","detail":"Goalkeeper","born":"2007-06-20","nationality":"England","foot":"L","height_cm":188,"academy_since":2017,"joined":"2025-26","from":"academy","role":"youth","finishing":0,"creativity":0.02,"appearance":"messy fair hair, light skin, teenage face","national_team":{"team":"England","level":"under-19","caps":4,"goals":0,"debut":2025,"status":"current"}},
+    {"id":"p-rosk","club":"vr","name":"Ilan Rosk","number":4,"pos":"DF","detail":"Centre-back","born":"1994-02-27","nationality":"Israel","foot":"R","height_cm":189,"joined":"2018-19","from":"ost","role":"starter","finishing":0.25,"creativity":0.25,"captain_since":"2023-24","fan_nickname":"The Anchor","appearance":"dark curly hair, olive skin, trimmed beard","pronunciation":"ee-LAHN ROSK","native_name":"אילן רוסק","national_team":{"team":"Israel","level":"senior","caps":41,"goals":3,"debut":2015,"status":"current"},"vice_captain_since":"2025-26","notes":"Captain from 2023-24 to 2024-25; vice-captain since 2025-26."},
+    {"id":"p-wren","club":"vr","name":"Tobias Wren","number":5,"pos":"DF","detail":"Centre-back","born":"1998-07-15","nationality":"England","foot":"L","height_cm":187,"joined":"2021-22","from":"eld","role":"starter","finishing":0.2,"creativity":0.2,"appearance":"short blond hair, light skin, clean-shaven","national_team":null},
+    {"id":"p-fenner","club":"vr","name":"Callum Fenner","number":2,"pos":"DF","detail":"Right-back","born":"1999-10-04","nationality":"Scotland","foot":"R","height_cm":178,"joined":"2020-21","from":"academy","academy_since":2011,"role":"starter","finishing":0.15,"creativity":0.55,"appearance":"short ginger hair, light skin, freckles","national_team":{"team":"Scotland","level":"senior","caps":6,"goals":0,"debut":2023,"status":"current"}},
+    {"id":"p-barrault","club":"vr","name":"Noé Barrault","pronunciation":"no-AY bar-ROH","number":3,"pos":"DF","detail":"Left-back","born":"1997-03-21","nationality":"France","foot":"L","height_cm":180,"joined":"2022-23","from":"abroad","role":"starter","finishing":0.15,"creativity":0.5,"appearance":"black hair in short twists, dark skin","home_career":[{"where":"France's second division","years":"2015–2019","apps":96,"goals":3},{"where":"France's top division","years":"2019–2022","apps":71,"goals":2}],"national_team":{"team":"France","level":"under-21","caps":8,"goals":0,"debut":2017,"status":"former"}},
+    {"id":"p-haddou","club":"vr","name":"Samir Haddou","pronunciation":"sa-MEER ha-DOO","number":6,"pos":"DF","detail":"Centre-back","born":"2000-01-09","nationality":"Morocco","foot":"R","height_cm":186,"joined":"2023-24","from":"abroad","role":"rotation","finishing":0.2,"creativity":0.2,"appearance":"short black hair, tan skin, light stubble","native_name":"سمير حدّو","home_career":[{"where":"Morocco's top division","years":"2018–2023","apps":112,"goals":9}],"national_team":{"team":"Morocco","level":"senior","caps":18,"goals":1,"debut":2021,"status":"current"}},
+    {"id":"p-calloway","club":"vr","name":"Rhys Calloway","number":22,"pos":"DF","detail":"Right-back","born":"2001-05-30","nationality":"Wales","foot":"R","height_cm":176,"joined":"2024-25","from":"stn","role":"rotation","finishing":0.1,"creativity":0.4,"appearance":"brown fade haircut, light skin","national_team":{"team":"Wales","level":"senior","caps":3,"goals":0,"debut":2025,"status":"current"}},
+    {"id":"p-mabry","club":"vr","name":"Kit Mabry","number":15,"pos":"DF","detail":"Left-back","born":"2002-08-12","nationality":"England","foot":"L","height_cm":177,"joined":"2023-24","from":"academy","academy_since":2013,"role":"squad","finishing":0.1,"creativity":0.35,"appearance":"dark brown hair, light brown skin","national_team":null},
+    {"id":"p-pell","club":"vr","name":"Dario Pell","number":26,"pos":"DF","detail":"Centre-back","born":"2007-02-14","nationality":"England","foot":"R","height_cm":185,"joined":"2026-27","from":"academy","academy_since":2018,"role":"youth","finishing":0.1,"creativity":0.1,"appearance":"black buzz cut, brown skin, teenage face","national_team":{"team":"England","level":"under-18","caps":3,"goals":0,"debut":2025,"status":"current"}},
+    {"id":"p-penn-ade","club":"vr","name":"Ade Penn","number":8,"pos":"MF","detail":"Central midfielder","born":"1996-09-18","nationality":"England","foot":"R","height_cm":181,"joined":"2022-23","from":"pen","role":"starter","finishing":0.35,"creativity":0.8,"appearance":"short black hair, dark skin, neat beard","national_team":{"team":"England","level":"senior","caps":2,"goals":0,"debut":2023,"status":"current"}},
+    {"id":"p-ebbe","club":"vr","name":"Jonah Ebbe","pronunciation":"JOH-nuh EB-ee","number":18,"pos":"MF","detail":"Attacking midfielder","born":"2003-03-14","nationality":"England","foot":"R","height_cm":175,"academy_since":2016,"joined":"2021-22","from":"academy","loans":[{"club":"mby","season":"2024-25","from":"2024-08-01","to":"2025-05-31"}],"role":"rotation","finishing":0.6,"creativity":0.6,"featured":true,"appearance":"short dark curls, light brown skin, boyish face","national_team":{"team":"England","level":"under-21","caps":9,"goals":2,"debut":2023,"status":"current"}},
+    {"id":"p-hale","club":"vr","name":"Callum Hale","number":10,"pos":"MF","detail":"Attacking midfielder","born":"1993-11-07","nationality":"England","foot":"L","height_cm":177,"joined":"2020-21","from":"rdg","role":"starter","finishing":0.55,"creativity":0.85,"fan_nickname":"Hale Storm","appearance":"swept-back brown hair, light skin, stubble","national_team":null},
+    {"id":"p-nakase","club":"vr","name":"Yuto Nakase","pronunciation":"YOO-toh na-KAH-seh","number":14,"pos":"MF","detail":"Central midfielder","born":"1998-04-25","nationality":"Japan","foot":"R","height_cm":172,"joined":"2023-24","from":"abroad","role":"starter","finishing":0.35,"creativity":0.7,"appearance":"straight black hair, East Asian features, clean-shaven","native_name":"中瀬 悠斗","name_note":"In Japan he is Nakase Yūto, family name first.","home_career":[{"where":"Japanese university football","years":"2016–2019","apps":54,"goals":11},{"where":"Japan's top division","years":"2020–2023","apps":118,"goals":14}],"national_team":{"team":"Japan","level":"senior","caps":27,"goals":4,"debut":2020,"status":"current"}},
+    {"id":"p-rial","club":"vr","name":"Esteban Rial","pronunciation":"es-TEH-ban ree-AL","number":16,"pos":"MF","detail":"Defensive midfielder","born":"1995-06-03","nationality":"Uruguay","foot":"R","height_cm":183,"joined":"2019-20","from":"abroad","role":"rotation","finishing":0.2,"creativity":0.45,"appearance":"long dark hair tied back, olive skin, beard","home_career":[{"where":"Uruguay's top division","years":"2013–2019","apps":160,"goals":7}],"national_team":{"team":"Uruguay","level":"senior","caps":15,"goals":0,"debut":2018,"status":"current"}},
+    {"id":"p-dovin","club":"vr","name":"Marek Dovin","number":20,"pos":"MF","detail":"Central midfielder","born":"2001-12-19","nationality":"Slovakia","foot":"L","height_cm":180,"joined":"2025-26","from":"thi","role":"rotation","finishing":0.3,"creativity":0.55,"appearance":"short light-brown hair, light skin","pronunciation":"MAH-rek DOH-vin","national_team":{"team":"Slovakia","level":"senior","caps":11,"goals":1,"debut":2023,"status":"current"}},
+    {"id":"p-asare","club":"vr","name":"Lewin Asare","pronunciation":"LEW-in ah-SAH-ray","number":23,"pos":"MF","detail":"Winger","born":"2002-10-27","nationality":"Ghana","foot":"L","height_cm":174,"joined":"2024-25","from":"abroad","role":"rotation","finishing":0.5,"creativity":0.65,"appearance":"short black hair with a part line, dark skin","home_career":[{"where":"Ghana's top division","years":"2019–2024","apps":98,"goals":21}],"national_team":{"team":"Ghana","level":"senior","caps":9,"goals":2,"debut":2024,"status":"current"}},
+    {"id":"p-tolland","club":"vr","name":"Rafe Tolland","number":28,"pos":"MF","detail":"Central midfielder","born":"2008-01-22","nationality":"England","foot":"R","height_cm":176,"joined":"2026-27","from":"academy","academy_since":2016,"role":"youth","finishing":0.3,"creativity":0.5,"appearance":"wavy brown hair, light skin, teenage face","national_team":{"team":"England","level":"under-17","caps":5,"goals":1,"debut":2024,"status":"former"}},
+    {"id":"p-marlow","club":"vr","name":"Theo Marlow","number":9,"pos":"FW","detail":"Striker","born":"1997-08-30","nationality":"England","foot":"R","height_cm":185,"joined":"2019","joined_season":"2019-20","from":"mby","role":"starter","finishing":0.95,"creativity":0.45,"featured":true,"fan_nickname":"Captain Tide","appearance":"short dark-blond hair, light skin, square jaw","national_team":{"team":"England","level":"senior","caps":7,"goals":2,"debut":2022,"status":"current"}},
+    {"id":"p-go","club":"vr","name":"Youngho Go","pronunciation":"YUNG-hoh GOH","native_name":"고영호","name_note":"In Korea he is Go Youngho (고영호), family name first.","number":27,"pos":"FW","detail":"Wide forward","born":"1998-04-02","nationality":"Korea Republic","foot":"Both","height_cm":179,"joined":"2020-21","from":"abroad","role":"starter","finishing":0.85,"creativity":0.7,"featured":true,"captain_since":"2025-26","fan_nickname":"The Lighthouse","home_career":[{"where":"Korean high-school football","years":"2013–2016","apps":61,"goals":38},{"where":"Korea's top division","years":"2017–2020","apps":104,"goals":31}],"national_team":{"team":"Korea Republic","level":"senior","caps":48,"goals":15,"debut":2019,"status":"current"},"appearance":"jaw-length wavy black hair, East Asian features, light beard, narrow face"},
+    {"id":"p-velde","club":"vr","name":"Bram Velde","pronunciation":"BRAHM VEL-duh","number":11,"pos":"FW","detail":"Winger","born":"1998-02-16","nationality":"Netherlands","foot":"L","height_cm":179,"joined":"2021-22","from":"abroad","role":"starter","finishing":0.6,"creativity":0.7,"appearance":"tall blond quiff, light skin","home_career":[{"where":"The Netherlands' top division","years":"2016–2021","apps":131,"goals":29}],"national_team":{"team":"Netherlands","level":"senior","caps":4,"goals":0,"debut":2022,"status":"current"}},
+    {"id":"p-navarre","club":"vr","name":"Sol Navarro","number":19,"pos":"FW","detail":"Striker","born":"1996-03-05","nationality":"Spain","foot":"R","height_cm":183,"joined":"2023-24","from":"cor","role":"rotation","finishing":0.75,"creativity":0.35,"appearance":"dark slicked hair, olive skin, stubble","pronunciation":"SOL na-VAR-oh","national_team":{"team":"Spain","level":"under-21","caps":6,"goals":2,"debut":2016,"status":"former"}},
+    {"id":"p-quill","club":"vr","name":"Ezra Quill","number":17,"pos":"FW","detail":"Winger","born":"2004-09-11","nationality":"England","foot":"R","height_cm":173,"joined":"2025-26","from":"academy","academy_since":2014,"role":"squad","finishing":0.5,"creativity":0.55,"appearance":"short afro, dark skin, youthful face","national_team":null},
+    {"id":"p-shaw","club":"vr","name":"Milo Shaw","number":33,"pos":"FW","detail":"Striker","born":"2006-11-01","nationality":"England","foot":"L","height_cm":182,"joined":"2026-27","from":"academy","academy_since":2015,"loans":[{"club":"fen","season":"2025-26","from":"2025-08-01","to":"2026-01-15"},{"club":"eld","season":"2025-26","from":"2026-01-10","to":"2026-05-31"}],"role":"youth","finishing":0.6,"creativity":0.3,"appearance":"straight brown hair with fringe, light skin","national_team":{"team":"England","level":"under-19","caps":6,"goals":3,"debut":2025,"status":"current"}},
+    {"id":"p-lykke","club":"ka","name":"Anders Lykke","pronunciation":"AN-ders LUE-keh","number":1,"pos":"GK","detail":"Goalkeeper","born":"1994-01-28","nationality":"Denmark","foot":"R","height_cm":194,"joined":"2019-20","from":"abroad","role":"starter","finishing":0,"creativity":0.05,"appearance":"fair hair in a short ponytail, light skin, beard","home_career":[{"where":"Denmark's top division","years":"2013–2019","apps":151,"goals":0}],"national_team":{"team":"Denmark","level":"senior","caps":9,"goals":0,"debut":2019,"status":"current"}},
+    {"id":"p-reyna","club":"ka","name":"Tomás Reyna","pronunciation":"toh-MAHS RAY-na","number":12,"pos":"GK","detail":"Goalkeeper","born":"1998-07-07","nationality":"Argentina","foot":"R","height_cm":189,"joined":"2023-24","from":"abroad","role":"rotation","finishing":0,"creativity":0.02,"appearance":"dark wavy hair, olive skin, moustache","home_career":[{"where":"Argentina's top division","years":"2017–2023","apps":87,"goals":0}],"national_team":{"team":"Argentina","level":"under-23","caps":5,"goals":0,"debut":2020,"status":"former"}},
+    {"id":"p-birtle","club":"ka","name":"Joe Birtle","number":30,"pos":"GK","detail":"Goalkeeper","born":"2007-03-19","nationality":"England","foot":"R","height_cm":187,"joined":"2026-27","from":"academy","academy_since":2017,"role":"youth","finishing":0,"creativity":0.02,"appearance":"short mousy hair, light skin, teenage face","national_team":null},
+    {"id":"p-okoye","club":"ka","name":"Ruben Okoye","number":5,"pos":"DF","detail":"Centre-back","born":"1996-05-14","nationality":"Nigeria","foot":"R","height_cm":190,"joined":"2019-20","from":"abroad","role":"starter","finishing":0.25,"creativity":0.2,"captain_since":"2022-23","fan_nickname":"The Wall of Millbank","appearance":"shaved head, dark skin, short beard","pronunciation":"ROO-ben oh-KOH-yeh","home_career":[{"where":"Nigeria's top division","years":"2014–2016","apps":48,"goals":3},{"where":"Belgium's second division","years":"2016–2019","apps":84,"goals":6}],"national_team":{"team":"Nigeria","level":"senior","caps":33,"goals":2,"debut":2017,"status":"current"}},
+    {"id":"p-kjeldsen","club":"ka","name":"Mads Kjeldsen","pronunciation":"MASS KYEL-sen","number":4,"pos":"DF","detail":"Centre-back","born":"1997-10-30","nationality":"Denmark","foot":"L","height_cm":188,"joined":"2021-22","from":"abroad","role":"starter","finishing":0.2,"creativity":0.2,"appearance":"short fair hair, light skin, clean-shaven","home_career":[{"where":"Denmark's top division","years":"2016–2021","apps":122,"goals":5}],"national_team":{"team":"Denmark","level":"senior","caps":5,"goals":0,"debut":2022,"status":"current"}},
+    {"id":"p-stott","club":"ka","name":"Harvey Stott","number":2,"pos":"DF","detail":"Right-back","born":"1999-02-02","nationality":"England","foot":"R","height_cm":177,"joined":"2018-19","from":"academy","academy_since":2010,"role":"starter","finishing":0.1,"creativity":0.5,"appearance":"brown crew cut, light skin","national_team":null},
+    {"id":"p-corbet","club":"ka","name":"Liam Corbet","number":3,"pos":"DF","detail":"Left-back","born":"1995-12-24","nationality":"Northern Ireland","foot":"L","height_cm":179,"joined":"2017-18","from":"cad","role":"starter","finishing":0.1,"creativity":0.45,"appearance":"dark short hair, light skin, stubble","national_team":{"team":"Northern Ireland","level":"senior","caps":38,"goals":1,"debut":2016,"status":"current"}},
+    {"id":"p-ibarra","club":"ka","name":"Danel Ibarra","pronunciation":"DAH-nel ee-BAR-ra","number":6,"pos":"DF","detail":"Centre-back","born":"2000-04-08","nationality":"Spain","foot":"R","height_cm":185,"joined":"2024-25","from":"abroad","role":"rotation","finishing":0.15,"creativity":0.2,"appearance":"black curly hair, olive skin","home_career":[{"where":"Spain's second division","years":"2019–2024","apps":133,"goals":4}],"national_team":null},
+    {"id":"p-pryce","club":"ka","name":"Jamal Pryce","number":21,"pos":"DF","detail":"Right-back","born":"2002-06-26","nationality":"England","foot":"R","height_cm":180,"joined":"2023-24","from":"brk","role":"rotation","finishing":0.1,"creativity":0.4,"appearance":"short black hair, dark skin","national_team":{"team":"England","level":"under-21","caps":4,"goals":0,"debut":2023,"status":"former"}},
+    {"id":"p-tarrant","club":"ka","name":"Owen Tarrant","number":15,"pos":"DF","detail":"Left-back","born":"2003-01-17","nationality":"Wales","foot":"L","height_cm":176,"joined":"2022-23","from":"academy","academy_since":2013,"role":"squad","finishing":0.1,"creativity":0.35,"appearance":"sandy hair, light skin, freckles","national_team":{"team":"Wales","level":"senior","caps":2,"goals":0,"debut":2025,"status":"current"}},
+    {"id":"p-vasko","club":"ka","name":"Teo Vasko","number":27,"pos":"DF","detail":"Centre-back","born":"2007-09-09","nationality":"Croatia","foot":"R","height_cm":187,"joined":"2026-27","from":"academy","academy_since":2019,"role":"youth","finishing":0.1,"creativity":0.1,"appearance":"dark short hair, light skin, teenage face","pronunciation":"TEH-oh VAS-ko","national_team":{"team":"Croatia","level":"under-19","caps":7,"goals":1,"debut":2025,"status":"current"}},
+    {"id":"p-varga","club":"ka","name":"Máté Varga","number":8,"pos":"MF","detail":"Central midfielder","born":"1997","nationality":"Hungary","foot":"R","height_cm":178,"joined":"2022-23","from":"abroad","role":"starter","finishing":0.35,"creativity":0.75,"featured":true,"notes":"Position before 2020 is not recorded.","appearance":"dark undercut, light skin, short beard","pronunciation":"MAH-tay VAR-gah","native_name":"Varga Máté","name_note":"In Hungary the family name comes first: Varga Máté.","home_career":[{"where":"Hungary's top division","years":"2015–2022","apps":176,"goals":22}],"national_team":{"team":"Hungary","level":"senior","caps":46,"goals":5,"debut":2017,"status":"current"}},
+    {"id":"p-penn-luka","club":"ka","name":"Luka Penn","number":10,"pos":"MF","detail":"Attacking midfielder","born":"1999-05-05","nationality":"England","foot":"L","height_cm":174,"joined":"2020-21","from":"academy","academy_since":2010,"role":"starter","finishing":0.55,"creativity":0.8,"notes":"No relation to Ade Penn of Vellmouth Rovers.","appearance":"short brown hair, light skin, clean-shaven","national_team":null},
+    {"id":"p-ansah","club":"ka","name":"Gideon Ansah","number":14,"pos":"MF","detail":"Defensive midfielder","born":"1995-11-11","nationality":"Ghana","foot":"R","height_cm":184,"joined":"2019-20","from":"mer","role":"starter","finishing":0.2,"creativity":0.45,"appearance":"short black hair, dark skin, goatee","pronunciation":"GID-ee-on AN-sah","national_team":{"team":"Ghana","level":"senior","caps":22,"goals":1,"debut":2018,"status":"current"}},
+    {"id":"p-serrat","club":"ka","name":"Pablo Serrat","number":16,"pos":"MF","detail":"Central midfielder","born":"1996-08-22","nationality":"Spain","foot":"R","height_cm":177,"joined":"2024-25","from":"abroad","role":"rotation","finishing":0.3,"creativity":0.6,"appearance":"dark wavy hair, olive skin, stubble","pronunciation":"PAH-bloh seh-RAT","home_career":[{"where":"Spain's top division","years":"2015–2024","apps":214,"goals":17}],"national_team":null},
+    {"id":"p-ferrand","club":"ka","name":"Nico Ferrand","number":20,"pos":"MF","detail":"Central midfielder","born":"2001-03-13","nationality":"Belgium","foot":"L","height_cm":181,"joined":"2023-24","from":"lrk","role":"rotation","finishing":0.3,"creativity":0.55,"appearance":"short light-brown hair, light skin","pronunciation":"NEE-koh feh-RAHN","national_team":{"team":"Belgium","level":"senior","caps":3,"goals":0,"debut":2024,"status":"current"}},
+    {"id":"p-hendry","club":"ka","name":"Arlo Hendry","number":22,"pos":"MF","detail":"Winger","born":"2003-12-06","nationality":"Scotland","foot":"R","height_cm":172,"joined":"2024-25","from":"academy","academy_since":2014,"role":"squad","finishing":0.45,"creativity":0.55,"appearance":"red hair, light skin, freckles","national_team":{"team":"Scotland","level":"under-21","caps":10,"goals":2,"debut":2023,"status":"current"}},
+    {"id":"p-moe","club":"ka","name":"Isak Moe","pronunciation":"EE-sahk MOH-eh","number":18,"pos":"MF","detail":"Winger","born":"2000-10-15","nationality":"Norway","foot":"L","height_cm":178,"joined":"2025-26","from":"abroad","role":"rotation","finishing":0.5,"creativity":0.6,"appearance":"white-blond hair, light skin","home_career":[{"where":"Norway's top division","years":"2018–2025","apps":164,"goals":31}],"national_team":{"team":"Norway","level":"senior","caps":12,"goals":2,"debut":2022,"status":"current"}},
+    {"id":"p-tasker","club":"ka","name":"Remy Tasker","number":29,"pos":"MF","detail":"Central midfielder","born":"2008-04-04","nationality":"England","foot":"R","height_cm":175,"joined":"2026-27","from":"academy","academy_since":2017,"role":"youth","finishing":0.3,"creativity":0.5,"appearance":"short black curls, brown skin, teenage face","national_team":null},
+    {"id":"p-calado","club":"ka","name":"Rui Calado","pronunciation":"HOO-ee ka-LAH-doh","number":11,"pos":"FW","detail":"Striker","born":"1999-07-19","nationality":"Portugal","foot":"R","height_cm":182,"academy_since":2012,"joined":"2018","joined_season":"2018-19","from":"academy","role":"starter","finishing":0.9,"creativity":0.45,"featured":true,"fan_nickname":"The Kestrel","appearance":"dark short hair, olive skin, thin beard","national_team":{"team":"Portugal","level":"senior","caps":6,"goals":2,"debut":2023,"status":"current"}},
+    {"id":"p-adebanjo","club":"ka","name":"Dayo Adebanjo","pronunciation":"DAH-yo ah-deh-BAN-jo","number":9,"pos":"FW","detail":"Striker","born":"1997-01-23","nationality":"Nigeria","foot":"R","height_cm":186,"joined":"2025-26","from":"gry","role":"rotation","finishing":0.75,"creativity":0.35,"appearance":"short black hair, dark skin, clean-shaven","national_team":{"team":"Nigeria","level":"senior","caps":19,"goals":6,"debut":2019,"status":"current"}},
+    {"id":"p-haldane","club":"ka","name":"Viktor Hallgren","number":7,"pos":"FW","detail":"Winger","born":"1998-09-02","nationality":"Sweden","foot":"L","height_cm":180,"joined":"2021-22","from":"abroad","role":"starter","finishing":0.55,"creativity":0.7,"appearance":"blond man bun, light skin, beard","pronunciation":"VIK-tor HAHL-grehn","home_career":[{"where":"Sweden's top division","years":"2016–2021","apps":119,"goals":24}],"national_team":{"team":"Sweden","level":"senior","caps":21,"goals":4,"debut":2020,"status":"current"}},
+    {"id":"p-rooke","club":"ka","name":"Callan Rooke","number":19,"pos":"FW","detail":"Striker","born":"1994-06-29","nationality":"England","foot":"R","height_cm":184,"joined":"2016-17","from":"abroad","role":"squad","finishing":0.65,"creativity":0.3,"conflict":{"field":"joined","values":["2016-17","2017-18"],"sources":["rec-rooke-01","rec-rooke-02"],"note":"Two club records disagree on Rooke's signing season."},"appearance":"short brown hair greying at the sides, light skin","home_career":[{"where":"Scotland's top division","years":"2012–2016","apps":104,"goals":33}],"national_team":null},
+    {"id":"p-lind","club":"ka","name":"Jesper Lind","number":17,"pos":"FW","detail":"Winger","born":"2002-02-11","nationality":"Sweden","foot":"R","height_cm":176,"joined":"2023-24","from":"abroad","role":"rotation","finishing":0.5,"creativity":0.6,"appearance":"light-brown hair, light skin, clean-shaven","pronunciation":"YES-per LIND","home_career":[{"where":"Sweden's top division","years":"2020–2023","apps":77,"goals":12}],"national_team":{"team":"Sweden","level":"senior","caps":3,"goals":0,"debut":2024,"status":"current"}},
+    {"id":"p-morrow","club":"ka","name":"Zeke Morrow","number":32,"pos":"FW","detail":"Striker","born":"2007-07-30","nationality":"England","foot":"R","height_cm":183,"joined":"2026-27","from":"academy","academy_since":2016,"role":"youth","finishing":0.55,"creativity":0.3,"appearance":"short twists, dark skin, teenage face","national_team":{"team":"England","level":"under-18","caps":2,"goals":1,"debut":2025,"status":"current"}}
+  ],
+  "missing_stats": [
+    {"player":"p-halvik","season":"2017-18","field":"minutes","reason":"The 2017-18 minutes record for Halvik was not kept."}
+  ],
+  "countries": {
+    "England": {
+      "background": "The modern rules of football were first written down in England in 1863. Most professional players come through club academies."
+    },
+    "Scotland": {
+      "background": "Scotland and England played the first official international match in 1872."
+    },
+    "Wales": {
+      "background": "The Football Association of Wales, founded in 1876, is one of the oldest national football associations."
+    },
+    "Northern Ireland": {
+      "background": "Northern Ireland's football association traces back to the Irish Football Association, founded in 1880."
+    },
+    "Ireland": {
+      "background": "In Ireland football shares the stage with Gaelic games, and many players move abroad young to join academies."
+    },
+    "Czechia": {
+      "background": "Czechoslovakia, which included today’s Czechia, won the European Championship in 1976."
+    },
+    "Slovakia": {
+      "background": "Slovakia has had its own national team since 1993, when Czechoslovakia split."
+    },
+    "Israel": {
+      "background": "Israel has played in Europe’s confederation, UEFA, since the 1990s, so its clubs and national team meet European opponents."
+    },
+    "France": {
+      "background": "France has won the World Cup twice, in 1998 and 2018, and its national youth development system is widely studied."
+    },
+    "Morocco": {
+      "background": "In 2022 Morocco became the first African team to reach a World Cup semi-final."
+    },
+    "Japan": {
+      "background": "Japan’s professional league began in 1993. Many players come through school and university football as well as club academies.",
+      "name_order": "family-first"
+    },
+    "Uruguay": {
+      "background": "Uruguay, a country of under four million people, won the first World Cup in 1930 and won again in 1950."
+    },
+    "Ghana": {
+      "background": "Ghana reached the World Cup quarter-finals in 2010 and has a strong record at youth tournaments."
+    },
+    "Netherlands": {
+      "background": "The Netherlands is known for “total football”, the fluid style of the 1970s, and for academies that stress technique."
+    },
+    "Spain": {
+      "background": "Spain won the World Cup in 2010 and the European Championship in 2008, 2012, and 2024."
+    },
+    "Denmark": {
+      "background": "Denmark won the European Championship in 1992 after entering late as a replacement team."
+    },
+    "Argentina": {
+      "background": "Argentina has won the World Cup three times, most recently in 2022."
+    },
+    "Nigeria": {
+      "background": "Nigeria won the Olympic football gold medal in 1996."
+    },
+    "Hungary": {
+      "background": "Hungary’s “Golden Team” of the early 1950s reached the 1954 World Cup final.",
+      "name_order": "family-first"
+    },
+    "Belgium": {
+      "background": "Belgium finished third at the 2018 World Cup."
+    },
+    "Norway": {
+      "background": "Norway’s top division runs from spring to autumn, so transfers to other leagues often happen in the northern winter."
+    },
+    "Sweden": {
+      "background": "Sweden’s top division also runs from spring to autumn. Sweden finished third at the 1994 World Cup."
+    },
+    "Portugal": {
+      "background": "Portugal won the European Championship in 2016."
+    },
+    "Croatia": {
+      "background": "Croatia reached the World Cup final in 2018 and finished third in 2022."
+    },
+    "Poland": {
+      "background": "Poland finished third at the World Cup in 1974 and in 1982."
+    },
+    "Finland": {
+      "background": "Finland reached its first major tournament at the European Championship held in 2021."
+    },
+    "Korea Republic": {
+      "background": "South Korea reached the World Cup semi-finals in 2002, when it co-hosted the tournament with Japan. Many players come through school and university football.",
+      "name_order": "family-first"
+    }
+  }
+}

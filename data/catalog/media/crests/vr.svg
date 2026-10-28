@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140" role="img" aria-label="Vellmouth Rovers crest">
+  <title>Vellmouth Rovers crest (fictional)</title>
+  <defs>
+    <linearGradient id="vr-shield" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1fa3a1"/><stop offset="1" stop-color="#0c6466"/></linearGradient>
+  </defs>
+  <path d="M60 4 L112 18 V70 C112 104 88 124 60 136 C32 124 8 104 8 70 V18 Z" fill="url(#vr-shield)" stroke="#f6efe2" stroke-width="5"/>
+  <path d="M60 14 L102 25 V44 H18 V25 Z" fill="#f6efe2"/>
+  <text x="60" y="37" text-anchor="middle" font-family="Arial Narrow, Arial, sans-serif" font-weight="700" font-size="13" fill="#0c6466" textLength="70" lengthAdjust="spacingAndGlyphs">VELLMOUTH</text>
+  <path d="M60 52 C48 52 44 62 44 74 V82 H76 V74 C76 62 72 52 60 52 Z" fill="#ffb547"/>
+  <rect x="40" y="82" width="40" height="5" rx="2.5" fill="#ffb547"/>
+  <circle cx="60" cy="92" r="4" fill="#ffb547"/>
+  <path d="M57 48 h6 v5 h-6 z" fill="#ffb547"/>
+  <path d="M20 104 q10 -8 20 0 t20 0 t20 0 t20 0" fill="none" stroke="#f6efe2" stroke-width="4" stroke-linecap="round"/>
+  <path d="M28 116 q8 -6 16 0 t16 0 t16 0 t16 0" fill="none" stroke="#f6efe2" stroke-width="3.5" stroke-linecap="round" opacity="0.8"/>
+  <text x="60" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="8" fill="#f6efe2">1898</text>
+</svg>

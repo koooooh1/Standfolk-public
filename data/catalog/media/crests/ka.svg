@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140" role="img" aria-label="Kestrin Athletic crest">
+  <title>Kestrin Athletic crest (fictional)</title>
+  <defs>
+    <linearGradient id="ka-shield" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e2603f"/><stop offset="1" stop-color="#a5321d"/></linearGradient>
+  </defs>
+  <path d="M10 10 H110 V74 C110 106 86 126 60 136 C34 126 10 106 10 74 Z" fill="url(#ka-shield)" stroke="#f6efe2" stroke-width="5"/>
+  <g transform="translate(60 92)" fill="#2a1a14">
+    <circle r="20"/>
+    <g fill="#2a1a14">
+      <rect x="-4" y="-27" width="8" height="10" rx="1"/><rect x="-4" y="17" width="8" height="10" rx="1"/>
+      <rect x="-27" y="-4" width="10" height="8" rx="1"/><rect x="17" y="-4" width="10" height="8" rx="1"/>
+      <rect x="-4" y="-27" width="8" height="10" rx="1" transform="rotate(45)"/><rect x="-4" y="-27" width="8" height="10" rx="1" transform="rotate(-45)"/>
+      <rect x="-4" y="17" width="8" height="10" rx="1" transform="rotate(45)"/><rect x="-4" y="17" width="8" height="10" rx="1" transform="rotate(-45)"/>
+    </g>
+    <circle r="9" fill="#e2603f"/>
+  </g>
+  <path d="M60 30 C50 34 34 34 18 28 C30 40 42 46 56 48 C44 52 34 58 26 66 C42 62 52 58 60 54 C68 58 78 62 94 66 C86 58 76 52 64 48 C78 46 90 40 102 28 C86 34 70 34 60 30 Z" fill="#f6efe2"/>
+  <path d="M56 24 L60 18 L64 24 L62 34 H58 Z" fill="#f6efe2"/>
+</svg>

@@ -1,0 +1,15 @@
+# Keep secrets, local environments, and build output out of image builds.
+.env
+.env.*
+**/node_modules
+**/.venv
+**/__pycache__
+**/dist
+.git
+.claude
+docs
+*.md
+!services/agents/README.md
+*.txt
+!services/agents/requirements*.txt
+*.csv

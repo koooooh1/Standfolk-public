@@ -1,0 +1,4974 @@
+{
+  "meta": {
+    "label": "fictional",
+    "data_date": "2026-10-01",
+    "seed": 20261023,
+    "note": "Authored fictional world for the Standfolk demo. Every club, person, ground, and honour is invented. Statistics are generated from this file by scripts/world/generate.mjs and are fictional.",
+    "national_team_note": "National-team caps, goals, and careers abroad are fictional records about fictional people. Countries are real; no real league, club, or player is named."
+  },
+  "player_seasons": [
+    {
+      "player": "p-halvik",
+      "club": "vr",
+      "season": "2016-17",
+      "competition": "league",
+      "appearances": 3,
+      "minutes": 270,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "clean_sheets": 1
+    },
+    {
+      "player": "p-halvik",
+      "club": "vr",
+      "season": "2017-18",
+      "competition": "league",
+      "appearances": 4,
+      "minutes": null,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "clean_sheets": 1,
+      "missing": {
+        "minutes": "The 2017-18 minutes record for Halvik was not kept."
+      }
+    },
+    {
+      "player": "p-halvik",
+      "club": "vr",
+      "season": "2018-19",
+      "competition": "league",
+      "appearances": 3,
+      "minutes": 270,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "clean_sheets": 1
+    },
+    {
+      "player": "p-rosk",
+      "club": "vr",
+      "season": "2018-19",
+      "competition": "league",
+      "appearances": 35,
+      "minutes": 2973,
+      "goals": 1,
+      "assists": 2,
+      "shots": 10,
+      "fouls": 31,
+      "yellow_cards": 6,
+      "red_cards": 0
+    },
+    {
+      "player": "p-strand",
+      "club": "vr",
+      "season": "2019-20",
+      "competition": "league",
+      "appearances": 36,
+      "minutes": 3240,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "clean_sheets": 10
+    },
+    {
+      "player": "p-halvik",
+      "club": "vr",
+      "season": "2019-20",
+      "competition": "league",
+      "appearances": 4,
+      "minutes": 360,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "clean_sheets": 1
+    },
+    {
+      "player": "p-rosk",
+      "club": "vr",
+      "season": "2019-20",
+      "competition": "league",
+      "appearances": 32,
+      "minutes": 2880,
+      "goals": 1,
+      "assists": 2,
+      "shots": 7,
+      "fouls": 31,
+      "yellow_cards": 4,
+      "red_cards": 0
+    },
+    {
+      "player": "p-rial",
+      "club": "vr",
+      "season": "2019-20",
+      "competition": "league",
+      "appearances": 22,
+      "minutes": 1220,
+      "goals": 1,
+      "assists": 3,
+      "shots": 15,
+      "fouls": 25,
+      "yellow_cards": 3,
+      "red_cards": 0
+    },
+    {
+      "player": "p-marlow",
+      "club": "vr",
+      "season": "2019-20",
+      "competition": "league",
+      "appearances": 38,
+      "minutes": 2304,
+      "goals": 22,
+      "assists": 6,
+      "shots": 113,
+      "fouls": 35,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "player": "p-lykke",
+      "club": "ka",
+      "season": "2019-20",
+      "competition": "league",
+      "appearances": 28,
+      "minutes": 2520,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "clean_sheets": 6
+    },
+    {
+      "player": "p-okoye",
+      "club": "ka",
+      "season": "2019-20",
+      "competition": "league",
+      "appearances": 29,
+      "minutes": 2057,
+      "goals": 1,
+      "assists": 1,
+      "shots": 9,
+      "fouls": 25,
+      "yellow_cards": 5,
+      "red_cards": 0
+    },
+    {
+      "player": "p-stott",
+      "club": "ka",
+      "season": "2019-20",
+      "competition": "league",
+      "appearances": 33,
+      "minutes": 2970,
+      "goals": 0,
+      "assists": 2,
+      "shots": 10,
+      "fouls": 39,
+      "yellow_cards": 6,
+      "red_cards": 0
+    },
+    {
+      "player": "p-corbet",
+      "club": "ka",
+      "season": "2019-20",
+      "competition": "league",
+      "appearances": 25,
+      "minutes": 1936,
+      "goals": 0,
+      "assists": 1,
+      "shots": 6,
+      "fouls": 34,
+      "yellow_cards": 4,
+      "red_cards": 0
+    },
+    {
+      "player": "p-ansah",
+      "club": "ka",
+      "season": "2019-20",
+      "competition": "league",
+      "appearances": 36,
+      "minutes": 3240,
+      "goals": 2,
+      "assists": 4,
+      "shots": 21,
+      "fouls": 44,
+      "yellow_cards": 4,
+      "red_cards": 0
+    },
+    {
+      "player": "p-calado",
+      "club": "ka",
+      "season": "2019-20",
+      "competition": "league",
+      "appearances": 29,
+      "minutes": 2553,
+      "goals": 11,
+      "assists": 3,
+      "shots": 79,
+      "fouls": 27,
+      "yellow_cards": 3,
+      "red_cards": 0
+    },
+    {
+      "player": "p-rooke",
+      "club": "ka",
+      "season": "2019-20",
+      "competition": "league",
+      "appearances": 9,
+      "minutes": 351,
+      "goals": 3,
+      "assists": 1,
+      "shots": 20,
+      "fouls": 6,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-strand",
+      "club": "vr",
+      "season": "2020-21",
+      "competition": "league",
+      "appearances": 38,
+      "minutes": 3420,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "clean_sheets": 18
+    },
+    {
+      "player": "p-halvik",
+      "club": "vr",
+      "season": "2020-21",
+      "competition": "league",
+      "appearances": 4,
+      "minutes": 360,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "clean_sheets": 2
+    },
+    {
+      "player": "p-rosk",
+      "club": "vr",
+      "season": "2020-21",
+      "competition": "league",
+      "appearances": 26,
+      "minutes": 2196,
+      "goals": 1,
+      "assists": 1,
+      "shots": 6,
+      "fouls": 32,
+      "yellow_cards": 4,
+      "red_cards": 0
+    },
+    {
+      "player": "p-fenner",
+      "club": "vr",
+      "season": "2020-21",
+      "competition": "league",
+      "appearances": 30,
+      "minutes": 2544,
+      "goals": 0,
+      "assists": 2,
+      "shots": 7,
+      "fouls": 31,
+      "yellow_cards": 5,
+      "red_cards": 0
+    },
+    {
+      "player": "p-hale",
+      "club": "vr",
+      "season": "2020-21",
+      "competition": "league",
+      "appearances": 31,
+      "minutes": 1924,
+      "goals": 5,
+      "assists": 10,
+      "shots": 29,
+      "fouls": 28,
+      "yellow_cards": 4,
+      "red_cards": 1
+    },
+    {
+      "player": "p-rial",
+      "club": "vr",
+      "season": "2020-21",
+      "competition": "league",
+      "appearances": 20,
+      "minutes": 908,
+      "goals": 1,
+      "assists": 2,
+      "shots": 13,
+      "fouls": 24,
+      "yellow_cards": 3,
+      "red_cards": 1
+    },
+    {
+      "player": "p-marlow",
+      "club": "vr",
+      "season": "2020-21",
+      "competition": "league",
+      "appearances": 34,
+      "minutes": 2993,
+      "goals": 13,
+      "assists": 5,
+      "shots": 105,
+      "fouls": 22,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "player": "p-go",
+      "club": "vr",
+      "season": "2020-21",
+      "competition": "league",
+      "appearances": 30,
+      "minutes": 2624,
+      "goals": 16,
+      "assists": 5,
+      "shots": 98,
+      "fouls": 26,
+      "yellow_cards": 3,
+      "red_cards": 1
+    },
+    {
+      "player": "p-lykke",
+      "club": "ka",
+      "season": "2020-21",
+      "competition": "league",
+      "appearances": 30,
+      "minutes": 2700,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "clean_sheets": 7
+    },
+    {
+      "player": "p-okoye",
+      "club": "ka",
+      "season": "2020-21",
+      "competition": "league",
+      "appearances": 30,
+      "minutes": 2700,
+      "goals": 1,
+      "assists": 1,
+      "shots": 11,
+      "fouls": 35,
+      "yellow_cards": 4,
+      "red_cards": 0
+    },
+    {
+      "player": "p-stott",
+      "club": "ka",
+      "season": "2020-21",
+      "competition": "league",
+      "appearances": 26,
+      "minutes": 2199,
+      "goals": 0,
+      "assists": 2,
+      "shots": 6,
+      "fouls": 23,
+      "yellow_cards": 5,
+      "red_cards": 0
+    },
+    {
+      "player": "p-corbet",
+      "club": "ka",
+      "season": "2020-21",
+      "competition": "league",
+      "appearances": 24,
+      "minutes": 1751,
+      "goals": 0,
+      "assists": 2,
+      "shots": 6,
+      "fouls": 33,
+      "yellow_cards": 4,
+      "red_cards": 0
+    },
+    {
+      "player": "p-penn-luka",
+      "club": "ka",
+      "season": "2020-21",
+      "competition": "league",
+      "appearances": 38,
+      "minutes": 3376,
+      "goals": 8,
+      "assists": 10,
+      "shots": 35,
+      "fouls": 33,
+      "yellow_cards": 6,
+      "red_cards": 0
+    },
+    {
+      "player": "p-ansah",
+      "club": "ka",
+      "season": "2020-21",
+      "competition": "league",
+      "appearances": 34,
+      "minutes": 2548,
+      "goals": 3,
+      "assists": 5,
+      "shots": 29,
+      "fouls": 39,
+      "yellow_cards": 4,
+      "red_cards": 0
+    },
+    {
+      "player": "p-calado",
+      "club": "ka",
+      "season": "2020-21",
+      "competition": "league",
+      "appearances": 23,
+      "minutes": 2070,
+      "goals": 16,
+      "assists": 4,
+      "shots": 74,
+      "fouls": 17,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "player": "p-rooke",
+      "club": "ka",
+      "season": "2020-21",
+      "competition": "league",
+      "appearances": 8,
+      "minutes": 346,
+      "goals": 4,
+      "assists": 0,
+      "shots": 18,
+      "fouls": 5,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-strand",
+      "club": "vr",
+      "season": "2021-22",
+      "competition": "league",
+      "appearances": 32,
+      "minutes": 2880,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 1,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "clean_sheets": 13
+    },
+    {
+      "player": "p-halvik",
+      "club": "vr",
+      "season": "2021-22",
+      "competition": "league",
+      "appearances": 3,
+      "minutes": 270,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "clean_sheets": 1
+    },
+    {
+      "player": "p-rosk",
+      "club": "vr",
+      "season": "2021-22",
+      "competition": "league",
+      "appearances": 33,
+      "minutes": 2970,
+      "goals": 0,
+      "assists": 1,
+      "shots": 9,
+      "fouls": 43,
+      "yellow_cards": 7,
+      "red_cards": 0
+    },
+    {
+      "player": "p-wren",
+      "club": "vr",
+      "season": "2021-22",
+      "competition": "league",
+      "appearances": 37,
+      "minutes": 2790,
+      "goals": 1,
+      "assists": 1,
+      "shots": 11,
+      "fouls": 43,
+      "yellow_cards": 6,
+      "red_cards": 0
+    },
+    {
+      "player": "p-fenner",
+      "club": "vr",
+      "season": "2021-22",
+      "competition": "league",
+      "appearances": 36,
+      "minutes": 2666,
+      "goals": 0,
+      "assists": 3,
+      "shots": 12,
+      "fouls": 30,
+      "yellow_cards": 8,
+      "red_cards": 0
+    },
+    {
+      "player": "p-ebbe",
+      "club": "vr",
+      "season": "2021-22",
+      "competition": "league",
+      "appearances": 22,
+      "minutes": 1057,
+      "goals": 3,
+      "assists": 4,
+      "shots": 29,
+      "fouls": 26,
+      "yellow_cards": 3,
+      "red_cards": 0
+    },
+    {
+      "player": "p-hale",
+      "club": "vr",
+      "season": "2021-22",
+      "competition": "league",
+      "appearances": 25,
+      "minutes": 1825,
+      "goals": 3,
+      "assists": 4,
+      "shots": 30,
+      "fouls": 21,
+      "yellow_cards": 4,
+      "red_cards": 0
+    },
+    {
+      "player": "p-rial",
+      "club": "vr",
+      "season": "2021-22",
+      "competition": "league",
+      "appearances": 18,
+      "minutes": 1015,
+      "goals": 1,
+      "assists": 3,
+      "shots": 16,
+      "fouls": 22,
+      "yellow_cards": 3,
+      "red_cards": 0
+    },
+    {
+      "player": "p-marlow",
+      "club": "vr",
+      "season": "2021-22",
+      "competition": "league",
+      "appearances": 37,
+      "minutes": 2666,
+      "goals": 14,
+      "assists": 4,
+      "shots": 92,
+      "fouls": 32,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "player": "p-go",
+      "club": "vr",
+      "season": "2021-22",
+      "competition": "league",
+      "appearances": 33,
+      "minutes": 2374,
+      "goals": 12,
+      "assists": 5,
+      "shots": 72,
+      "fouls": 31,
+      "yellow_cards": 3,
+      "red_cards": 0
+    },
+    {
+      "player": "p-velde",
+      "club": "vr",
+      "season": "2021-22",
+      "competition": "league",
+      "appearances": 25,
+      "minutes": 1529,
+      "goals": 6,
+      "assists": 3,
+      "shots": 67,
+      "fouls": 19,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "player": "p-lykke",
+      "club": "ka",
+      "season": "2021-22",
+      "competition": "league",
+      "appearances": 36,
+      "minutes": 3240,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "clean_sheets": 9
+    },
+    {
+      "player": "p-okoye",
+      "club": "ka",
+      "season": "2021-22",
+      "competition": "league",
+      "appearances": 33,
+      "minutes": 2097,
+      "goals": 1,
+      "assists": 1,
+      "shots": 8,
+      "fouls": 41,
+      "yellow_cards": 5,
+      "red_cards": 0
+    },
+    {
+      "player": "p-kjeldsen",
+      "club": "ka",
+      "season": "2021-22",
+      "competition": "league",
+      "appearances": 26,
+      "minutes": 1670,
+      "goals": 0,
+      "assists": 1,
+      "shots": 9,
+      "fouls": 28,
+      "yellow_cards": 4,
+      "red_cards": 0
+    },
+    {
+      "player": "p-stott",
+      "club": "ka",
+      "season": "2021-22",
+      "competition": "league",
+      "appearances": 35,
+      "minutes": 2693,
+      "goals": 0,
+      "assists": 3,
+      "shots": 8,
+      "fouls": 33,
+      "yellow_cards": 5,
+      "red_cards": 0
+    },
+    {
+      "player": "p-corbet",
+      "club": "ka",
+      "season": "2021-22",
+      "competition": "league",
+      "appearances": 25,
+      "minutes": 1663,
+      "goals": 0,
+      "assists": 2,
+      "shots": 7,
+      "fouls": 33,
+      "yellow_cards": 5,
+      "red_cards": 0
+    },
+    {
+      "player": "p-penn-luka",
+      "club": "ka",
+      "season": "2021-22",
+      "competition": "league",
+      "appearances": 33,
+      "minutes": 2970,
+      "goals": 5,
+      "assists": 8,
+      "shots": 31,
+      "fouls": 30,
+      "yellow_cards": 5,
+      "red_cards": 0
+    },
+    {
+      "player": "p-ansah",
+      "club": "ka",
+      "season": "2021-22",
+      "competition": "league",
+      "appearances": 33,
+      "minutes": 2946,
+      "goals": 1,
+      "assists": 3,
+      "shots": 26,
+      "fouls": 29,
+      "yellow_cards": 4,
+      "red_cards": 0
+    },
+    {
+      "player": "p-calado",
+      "club": "ka",
+      "season": "2021-22",
+      "competition": "league",
+      "appearances": 37,
+      "minutes": 2686,
+      "goals": 17,
+      "assists": 3,
+      "shots": 81,
+      "fouls": 31,
+      "yellow_cards": 3,
+      "red_cards": 0
+    },
+    {
+      "player": "p-haldane",
+      "club": "ka",
+      "season": "2021-22",
+      "competition": "league",
+      "appearances": 30,
+      "minutes": 2111,
+      "goals": 7,
+      "assists": 4,
+      "shots": 68,
+      "fouls": 27,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "player": "p-rooke",
+      "club": "ka",
+      "season": "2021-22",
+      "competition": "league",
+      "appearances": 10,
+      "minutes": 366,
+      "goals": 4,
+      "assists": 0,
+      "shots": 21,
+      "fouls": 7,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-strand",
+      "club": "vr",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 38,
+      "minutes": 3420,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "clean_sheets": 8
+    },
+    {
+      "player": "p-halvik",
+      "club": "vr",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 4,
+      "minutes": 360,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "clean_sheets": 1
+    },
+    {
+      "player": "p-rosk",
+      "club": "vr",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 35,
+      "minutes": 2626,
+      "goals": 1,
+      "assists": 1,
+      "shots": 10,
+      "fouls": 33,
+      "yellow_cards": 7,
+      "red_cards": 0
+    },
+    {
+      "player": "p-wren",
+      "club": "vr",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 26,
+      "minutes": 1929,
+      "goals": 0,
+      "assists": 0,
+      "shots": 9,
+      "fouls": 34,
+      "yellow_cards": 4,
+      "red_cards": 0
+    },
+    {
+      "player": "p-fenner",
+      "club": "vr",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 27,
+      "minutes": 2112,
+      "goals": 0,
+      "assists": 2,
+      "shots": 8,
+      "fouls": 36,
+      "yellow_cards": 6,
+      "red_cards": 0
+    },
+    {
+      "player": "p-barrault",
+      "club": "vr",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 32,
+      "minutes": 2429,
+      "goals": 0,
+      "assists": 2,
+      "shots": 8,
+      "fouls": 30,
+      "yellow_cards": 7,
+      "red_cards": 0
+    },
+    {
+      "player": "p-penn-ade",
+      "club": "vr",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 33,
+      "minutes": 2813,
+      "goals": 3,
+      "assists": 7,
+      "shots": 30,
+      "fouls": 34,
+      "yellow_cards": 5,
+      "red_cards": 0
+    },
+    {
+      "player": "p-ebbe",
+      "club": "vr",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 16,
+      "minutes": 1083,
+      "goals": 2,
+      "assists": 2,
+      "shots": 20,
+      "fouls": 15,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "player": "p-hale",
+      "club": "vr",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 32,
+      "minutes": 2880,
+      "goals": 5,
+      "assists": 7,
+      "shots": 28,
+      "fouls": 40,
+      "yellow_cards": 6,
+      "red_cards": 0
+    },
+    {
+      "player": "p-rial",
+      "club": "vr",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 16,
+      "minutes": 870,
+      "goals": 1,
+      "assists": 2,
+      "shots": 12,
+      "fouls": 20,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "player": "p-marlow",
+      "club": "vr",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 34,
+      "minutes": 3060,
+      "goals": 15,
+      "assists": 3,
+      "shots": 84,
+      "fouls": 24,
+      "yellow_cards": 3,
+      "red_cards": 1
+    },
+    {
+      "player": "p-go",
+      "club": "vr",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 23,
+      "minutes": 1573,
+      "goals": 9,
+      "assists": 3,
+      "shots": 79,
+      "fouls": 21,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "player": "p-velde",
+      "club": "vr",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 25,
+      "minutes": 2250,
+      "goals": 8,
+      "assists": 3,
+      "shots": 46,
+      "fouls": 16,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "player": "p-lykke",
+      "club": "ka",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 34,
+      "minutes": 3060,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "clean_sheets": 4
+    },
+    {
+      "player": "p-okoye",
+      "club": "ka",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 33,
+      "minutes": 2245,
+      "goals": 1,
+      "assists": 1,
+      "shots": 9,
+      "fouls": 43,
+      "yellow_cards": 5,
+      "red_cards": 0
+    },
+    {
+      "player": "p-kjeldsen",
+      "club": "ka",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 30,
+      "minutes": 2700,
+      "goals": 0,
+      "assists": 1,
+      "shots": 10,
+      "fouls": 32,
+      "yellow_cards": 5,
+      "red_cards": 0
+    },
+    {
+      "player": "p-stott",
+      "club": "ka",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 25,
+      "minutes": 2250,
+      "goals": 0,
+      "assists": 1,
+      "shots": 6,
+      "fouls": 31,
+      "yellow_cards": 4,
+      "red_cards": 0
+    },
+    {
+      "player": "p-corbet",
+      "club": "ka",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 25,
+      "minutes": 2011,
+      "goals": 0,
+      "assists": 1,
+      "shots": 6,
+      "fouls": 32,
+      "yellow_cards": 4,
+      "red_cards": 0
+    },
+    {
+      "player": "p-tarrant",
+      "club": "ka",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 10,
+      "minutes": 410,
+      "goals": 0,
+      "assists": 0,
+      "shots": 2,
+      "fouls": 9,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "player": "p-varga",
+      "club": "ka",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 31,
+      "minutes": 2744,
+      "goals": 2,
+      "assists": 6,
+      "shots": 29,
+      "fouls": 25,
+      "yellow_cards": 4,
+      "red_cards": 0
+    },
+    {
+      "player": "p-penn-luka",
+      "club": "ka",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 28,
+      "minutes": 2520,
+      "goals": 3,
+      "assists": 5,
+      "shots": 29,
+      "fouls": 34,
+      "yellow_cards": 4,
+      "red_cards": 0
+    },
+    {
+      "player": "p-ansah",
+      "club": "ka",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 24,
+      "minutes": 2160,
+      "goals": 1,
+      "assists": 2,
+      "shots": 17,
+      "fouls": 19,
+      "yellow_cards": 3,
+      "red_cards": 0
+    },
+    {
+      "player": "p-calado",
+      "club": "ka",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 27,
+      "minutes": 1917,
+      "goals": 13,
+      "assists": 2,
+      "shots": 69,
+      "fouls": 20,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "player": "p-haldane",
+      "club": "ka",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 23,
+      "minutes": 1897,
+      "goals": 5,
+      "assists": 3,
+      "shots": 38,
+      "fouls": 22,
+      "yellow_cards": 1,
+      "red_cards": 1
+    },
+    {
+      "player": "p-rooke",
+      "club": "ka",
+      "season": "2022-23",
+      "competition": "league",
+      "appearances": 11,
+      "minutes": 376,
+      "goals": 3,
+      "assists": 0,
+      "shots": 28,
+      "fouls": 10,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-strand",
+      "club": "vr",
+      "season": "2023-24",
+      "competition": "league",
+      "appearances": 34,
+      "minutes": 3060,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "clean_sheets": 10
+    },
+    {
+      "player": "p-halvik",
+      "club": "vr",
+      "season": "2023-24",
+      "competition": "league",
+      "appearances": 5,
+      "minutes": 450,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "clean_sheets": 1
+    },
+    {
+      "player": "p-rosk",
+      "club": "vr",
+      "season": "2023-24",
+      "competition": "league",
+      "appearances": 34,
+      "minutes": 2838,
+      "goals": 1,
+      "assists": 1,
+      "shots": 12,
+      "fouls": 40,
+      "yellow_cards": 5,
+      "red_cards": 0
+    },
+    {
+      "player": "p-wren",
+      "club": "vr",
+      "season": "2023-24",
+      "competition": "league",
+      "appearances": 33,
+      "minutes": 2566,
+      "goals": 1,
+      "assists": 1,
+      "shots": 7,
+      "fouls": 38,
+      "yellow_cards": 6,
+      "red_cards": 0
+    },
+    {
+      "player": "p-fenner",
+      "club": "vr",
+      "season": "2023-24",
+      "competition": "league",
+      "appearances": 38,
+      "minutes": 2687,
+      "goals": 0,
+      "assists": 2,
+      "shots": 9,
+      "fouls": 41,
+      "yellow_cards": 7,
+      "red_cards": 0
+    },
+    {
+      "player": "p-barrault",
+      "club": "vr",
+      "season": "2023-24",
+      "competition": "league",
+      "appearances": 32,
+      "minutes": 2464,
+      "goals": 0,
+      "assists": 2,
+      "shots": 9,
+      "fouls": 30,
+      "yellow_cards": 6,
+      "red_cards": 0
+    },
+    {
+      "player": "p-haddou",
+      "club": "vr",
+      "season": "2023-24",
+      "competition": "league",
+      "appearances": 19,
+      "minutes": 989,
+      "goals": 0,
+      "assists": 1,
+      "shots": 5,
+      "fouls": 26,
+      "yellow_cards": 3,
+      "red_cards": 0
+    },
+    {
+      "player": "p-mabry",
+      "club": "vr",
+      "season": "2023-24",
+      "competition": "league",
+      "appearances": 8,
+      "minutes": 256,
+      "goals": 0,
+      "assists": 0,
+      "shots": 2,
+      "fouls": 7,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-penn-ade",
+      "club": "vr",
+      "season": "2023-24",
+      "competition": "league",
+      "appearances": 37,
+      "minutes": 3330,
+      "goals": 3,
+      "assists": 8,
+      "shots": 25,
+      "fouls": 41,
+      "yellow_cards": 5,
+      "red_cards": 1
+    },
+    {
+      "player": "p-ebbe",
+      "club": "vr",
+      "season": "2023-24",
+      "competition": "league",
+      "appearances": 15,
+      "minutes": 806,
+      "goals": 3,
+      "assists": 2,
+      "shots": 15,
+      "fouls": 12,
+      "yellow_cards": 3,
+      "red_cards": 0
+    },
+    {
+      "player": "p-hale",
+      "club": "vr",
+      "season": "2023-24",
+      "competition": "league",
+      "appearances": 30,
+      "minutes": 2514,
+      "goals": 3,
+      "assists": 7,
+      "shots": 35,
+      "fouls": 25,
+      "yellow_cards": 6,
+      "red_cards": 0
+    },
+    {
+      "player": "p-nakase",
+      "club": "vr",
+      "season": "2023-24",
+      "competition": "league",
+      "appearances": 27,
+      "minutes": 1988,
+      "goals": 3,
+      "assists": 5,
+      "shots": 28,
+      "fouls": 32,
+      "yellow_cards": 5,
+      "red_cards": 0
+    },
+    {
+      "player": "p-rial",
+      "club": "vr",
+      "season": "2023-24",
+      "competition": "league",
+      "appearances": 19,
+      "minutes": 1276,
+      "goals": 1,
+      "assists": 2,
+      "shots": 13,
+      "fouls": 20,
+      "yellow_cards": 3,
+      "red_cards": 1
+    },
+    {
+      "player": "p-marlow",
+      "club": "vr",
+      "season": "2023-24",
+      "competition": "league",
+      "appearances": 28,
+      "minutes": 2367,
+      "goals": 13,
+      "assists": 2,
+      "shots": 85,
+      "fouls": 20,
+      "yellow_cards": 3,
+      "red_cards": 0
+    },
+    {
+      "player": "p-go",
+      "club": "vr",
+      "season": "2023-24",
+      "competition": "league",
+      "appearances": 28,
+      "minutes": 1970,
+      "goals": 14,
+      "assists": 5,
+      "shots": 91,
+      "fouls": 20,
+      "yellow_cards": 2,
+      "red_cards": 1
+    },
+    {
+      "player": "p-velde",
+      "club": "vr",
+      "season": "2023-24",
+      "competition": "league",
+      "appearances": 27,
+      "minutes": 2430,
+      "goals": 10,
+      "assists": 3,
+      "shots": 75,
+      "fouls": 23,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "player": "p-navarre",
+      "club": "vr",
+      "season": "2023-24",
+      "competition": "league",
+      "appearances": 21,
+      "minutes": 1219,
+      "goals": 8,
+      "assists": 2,
+      "shots": 66,
+      "fouls": 19,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-strand",
+      "club": "vr",
+      "season": "2024-25",
+      "competition": "league",
+      "appearances": 33,
+      "minutes": 2970,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 2,
+      "yellow_cards": 1,
+      "red_cards": 0,
+      "clean_sheets": 9
+    },
+    {
+      "player": "p-halvik",
+      "club": "vr",
+      "season": "2024-25",
+      "competition": "league",
+      "appearances": 4,
+      "minutes": 360,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "clean_sheets": 1
+    },
+    {
+      "player": "p-rosk",
+      "club": "vr",
+      "season": "2024-25",
+      "competition": "league",
+      "appearances": 34,
+      "minutes": 2869,
+      "goals": 1,
+      "assists": 1,
+      "shots": 9,
+      "fouls": 33,
+      "yellow_cards": 6,
+      "red_cards": 0
+    },
+    {
+      "player": "p-wren",
+      "club": "vr",
+      "season": "2024-25",
+      "competition": "league",
+      "appearances": 37,
+      "minutes": 3330,
+      "goals": 1,
+      "assists": 1,
+      "shots": 11,
+      "fouls": 31,
+      "yellow_cards": 6,
+      "red_cards": 0
+    },
+    {
+      "player": "p-fenner",
+      "club": "vr",
+      "season": "2024-25",
+      "competition": "league",
+      "appearances": 37,
+      "minutes": 2781,
+      "goals": 1,
+      "assists": 2,
+      "shots": 7,
+      "fouls": 33,
+      "yellow_cards": 6,
+      "red_cards": 1
+    },
+    {
+      "player": "p-barrault",
+      "club": "vr",
+      "season": "2024-25",
+      "competition": "league",
+      "appearances": 29,
+      "minutes": 2174,
+      "goals": 0,
+      "assists": 2,
+      "shots": 8,
+      "fouls": 26,
+      "yellow_cards": 6,
+      "red_cards": 0
+    },
+    {
+      "player": "p-haddou",
+      "club": "vr",
+      "season": "2024-25",
+      "competition": "league",
+      "appearances": 18,
+      "minutes": 1204,
+      "goals": 0,
+      "assists": 0,
+      "shots": 5,
+      "fouls": 23,
+      "yellow_cards": 3,
+      "red_cards": 0
+    },
+    {
+      "player": "p-calloway",
+      "club": "vr",
+      "season": "2024-25",
+      "competition": "league",
+      "appearances": 22,
+      "minutes": 1008,
+      "goals": 0,
+      "assists": 1,
+      "shots": 7,
+      "fouls": 25,
+      "yellow_cards": 4,
+      "red_cards": 0
+    },
+    {
+      "player": "p-mabry",
+      "club": "vr",
+      "season": "2024-25",
+      "competition": "league",
+      "appearances": 7,
+      "minutes": 310,
+      "goals": 0,
+      "assists": 0,
+      "shots": 2,
+      "fouls": 7,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-penn-ade",
+      "club": "vr",
+      "season": "2024-25",
+      "competition": "league",
+      "appearances": 32,
+      "minutes": 2328,
+      "goals": 3,
+      "assists": 7,
+      "shots": 28,
+      "fouls": 34,
+      "yellow_cards": 5,
+      "red_cards": 0
+    },
+    {
+      "player": "p-hale",
+      "club": "vr",
+      "season": "2024-25",
+      "competition": "league",
+      "appearances": 27,
+      "minutes": 2430,
+      "goals": 4,
+      "assists": 5,
+      "shots": 28,
+      "fouls": 20,
+      "yellow_cards": 3,
+      "red_cards": 0
+    },
+    {
+      "player": "p-nakase",
+      "club": "vr",
+      "season": "2024-25",
+      "competition": "league",
+      "appearances": 24,
+      "minutes": 1735,
+      "goals": 3,
+      "assists": 4,
+      "shots": 25,
+      "fouls": 28,
+      "yellow_cards": 3,
+      "red_cards": 0
+    },
+    {
+      "player": "p-rial",
+      "club": "vr",
+      "season": "2024-25",
+      "competition": "league",
+      "appearances": 19,
+      "minutes": 1203,
+      "goals": 1,
+      "assists": 2,
+      "shots": 14,
+      "fouls": 16,
+      "yellow_cards": 3,
+      "red_cards": 0
+    },
+    {
+      "player": "p-asare",
+      "club": "vr",
+      "season": "2024-25",
+      "competition": "league",
+      "appearances": 22,
+      "minutes": 1470,
+      "goals": 3,
+      "assists": 4,
+      "shots": 22,
+      "fouls": 26,
+      "yellow_cards": 3,
+      "red_cards": 0
+    },
+    {
+      "player": "p-marlow",
+      "club": "vr",
+      "season": "2024-25",
+      "competition": "league",
+      "appearances": 29,
+      "minutes": 2610,
+      "goals": 14,
+      "assists": 3,
+      "shots": 79,
+      "fouls": 22,
+      "yellow_cards": 2,
+      "red_cards": 1
+    },
+    {
+      "player": "p-go",
+      "club": "vr",
+      "season": "2024-25",
+      "competition": "league",
+      "appearances": 27,
+      "minutes": 2016,
+      "goals": 13,
+      "assists": 4,
+      "shots": 68,
+      "fouls": 21,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "player": "p-velde",
+      "club": "vr",
+      "season": "2024-25",
+      "competition": "league",
+      "appearances": 27,
+      "minutes": 2430,
+      "goals": 8,
+      "assists": 4,
+      "shots": 63,
+      "fouls": 26,
+      "yellow_cards": 3,
+      "red_cards": 0
+    },
+    {
+      "player": "p-navarre",
+      "club": "vr",
+      "season": "2024-25",
+      "competition": "league",
+      "appearances": 22,
+      "minutes": 1331,
+      "goals": 7,
+      "assists": 2,
+      "shots": 48,
+      "fouls": 21,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "player": "p-strand",
+      "club": "vr",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 31,
+      "minutes": 2790,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 1,
+      "yellow_cards": 1,
+      "red_cards": 1,
+      "clean_sheets": 9
+    },
+    {
+      "player": "p-halvik",
+      "club": "vr",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 4,
+      "minutes": 360,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "clean_sheets": 1
+    },
+    {
+      "player": "p-archerlowe",
+      "club": "vr",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 1,
+      "minutes": 90,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "clean_sheets": 0
+    },
+    {
+      "player": "p-rosk",
+      "club": "vr",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 27,
+      "minutes": 2430,
+      "goals": 0,
+      "assists": 1,
+      "shots": 6,
+      "fouls": 37,
+      "yellow_cards": 6,
+      "red_cards": 0
+    },
+    {
+      "player": "p-wren",
+      "club": "vr",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 33,
+      "minutes": 2970,
+      "goals": 0,
+      "assists": 1,
+      "shots": 10,
+      "fouls": 29,
+      "yellow_cards": 7,
+      "red_cards": 0
+    },
+    {
+      "player": "p-fenner",
+      "club": "vr",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 31,
+      "minutes": 2615,
+      "goals": 0,
+      "assists": 1,
+      "shots": 9,
+      "fouls": 30,
+      "yellow_cards": 6,
+      "red_cards": 0
+    },
+    {
+      "player": "p-barrault",
+      "club": "vr",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 34,
+      "minutes": 2275,
+      "goals": 0,
+      "assists": 2,
+      "shots": 9,
+      "fouls": 31,
+      "yellow_cards": 5,
+      "red_cards": 0
+    },
+    {
+      "player": "p-haddou",
+      "club": "vr",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 23,
+      "minutes": 1126,
+      "goals": 0,
+      "assists": 0,
+      "shots": 7,
+      "fouls": 23,
+      "yellow_cards": 4,
+      "red_cards": 0
+    },
+    {
+      "player": "p-calloway",
+      "club": "vr",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 23,
+      "minutes": 1041,
+      "goals": 0,
+      "assists": 1,
+      "shots": 6,
+      "fouls": 30,
+      "yellow_cards": 4,
+      "red_cards": 0
+    },
+    {
+      "player": "p-mabry",
+      "club": "vr",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 8,
+      "minutes": 390,
+      "goals": 0,
+      "assists": 0,
+      "shots": 2,
+      "fouls": 7,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "player": "p-penn-ade",
+      "club": "vr",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 25,
+      "minutes": 2190,
+      "goals": 2,
+      "assists": 4,
+      "shots": 17,
+      "fouls": 26,
+      "yellow_cards": 5,
+      "red_cards": 0
+    },
+    {
+      "player": "p-ebbe",
+      "club": "vr",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 17,
+      "minutes": 818,
+      "goals": 2,
+      "assists": 1,
+      "shots": 18,
+      "fouls": 19,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "player": "p-hale",
+      "club": "vr",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 23,
+      "minutes": 1935,
+      "goals": 2,
+      "assists": 3,
+      "shots": 22,
+      "fouls": 29,
+      "yellow_cards": 4,
+      "red_cards": 0
+    },
+    {
+      "player": "p-nakase",
+      "club": "vr",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 31,
+      "minutes": 2302,
+      "goals": 1,
+      "assists": 4,
+      "shots": 30,
+      "fouls": 38,
+      "yellow_cards": 5,
+      "red_cards": 0
+    },
+    {
+      "player": "p-rial",
+      "club": "vr",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 18,
+      "minutes": 1131,
+      "goals": 1,
+      "assists": 1,
+      "shots": 14,
+      "fouls": 14,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "player": "p-dovin",
+      "club": "vr",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 19,
+      "minutes": 805,
+      "goals": 1,
+      "assists": 2,
+      "shots": 19,
+      "fouls": 21,
+      "yellow_cards": 3,
+      "red_cards": 0
+    },
+    {
+      "player": "p-asare",
+      "club": "vr",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 21,
+      "minutes": 1035,
+      "goals": 2,
+      "assists": 3,
+      "shots": 18,
+      "fouls": 19,
+      "yellow_cards": 3,
+      "red_cards": 1
+    },
+    {
+      "player": "p-marlow",
+      "club": "vr",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 31,
+      "minutes": 2790,
+      "goals": 12,
+      "assists": 1,
+      "shots": 89,
+      "fouls": 19,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "player": "p-go",
+      "club": "vr",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 27,
+      "minutes": 2112,
+      "goals": 7,
+      "assists": 3,
+      "shots": 90,
+      "fouls": 24,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "player": "p-velde",
+      "club": "vr",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 29,
+      "minutes": 2218,
+      "goals": 7,
+      "assists": 3,
+      "shots": 57,
+      "fouls": 28,
+      "yellow_cards": 3,
+      "red_cards": 0
+    },
+    {
+      "player": "p-navarre",
+      "club": "vr",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 22,
+      "minutes": 1377,
+      "goals": 7,
+      "assists": 1,
+      "shots": 43,
+      "fouls": 20,
+      "yellow_cards": 2,
+      "red_cards": 1
+    },
+    {
+      "player": "p-quill",
+      "club": "vr",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 10,
+      "minutes": 405,
+      "goals": 2,
+      "assists": 1,
+      "shots": 20,
+      "fouls": 9,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-lykke",
+      "club": "ka",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 26,
+      "minutes": 2340,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 1,
+      "yellow_cards": 1,
+      "red_cards": 1,
+      "clean_sheets": 7
+    },
+    {
+      "player": "p-reyna",
+      "club": "ka",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 5,
+      "minutes": 450,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "clean_sheets": 1
+    },
+    {
+      "player": "p-okoye",
+      "club": "ka",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 25,
+      "minutes": 2250,
+      "goals": 0,
+      "assists": 1,
+      "shots": 6,
+      "fouls": 23,
+      "yellow_cards": 5,
+      "red_cards": 0
+    },
+    {
+      "player": "p-kjeldsen",
+      "club": "ka",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 25,
+      "minutes": 2250,
+      "goals": 0,
+      "assists": 1,
+      "shots": 5,
+      "fouls": 31,
+      "yellow_cards": 3,
+      "red_cards": 1
+    },
+    {
+      "player": "p-stott",
+      "club": "ka",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 36,
+      "minutes": 2726,
+      "goals": 0,
+      "assists": 2,
+      "shots": 9,
+      "fouls": 49,
+      "yellow_cards": 8,
+      "red_cards": 1
+    },
+    {
+      "player": "p-corbet",
+      "club": "ka",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 32,
+      "minutes": 2880,
+      "goals": 0,
+      "assists": 1,
+      "shots": 8,
+      "fouls": 36,
+      "yellow_cards": 5,
+      "red_cards": 0
+    },
+    {
+      "player": "p-ibarra",
+      "club": "ka",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 22,
+      "minutes": 1293,
+      "goals": 0,
+      "assists": 0,
+      "shots": 4,
+      "fouls": 23,
+      "yellow_cards": 4,
+      "red_cards": 0
+    },
+    {
+      "player": "p-pryce",
+      "club": "ka",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 21,
+      "minutes": 1103,
+      "goals": 0,
+      "assists": 1,
+      "shots": 4,
+      "fouls": 20,
+      "yellow_cards": 4,
+      "red_cards": 0
+    },
+    {
+      "player": "p-tarrant",
+      "club": "ka",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 8,
+      "minutes": 323,
+      "goals": 0,
+      "assists": 0,
+      "shots": 2,
+      "fouls": 8,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-varga",
+      "club": "ka",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 35,
+      "minutes": 2143,
+      "goals": 3,
+      "assists": 6,
+      "shots": 32,
+      "fouls": 44,
+      "yellow_cards": 5,
+      "red_cards": 0
+    },
+    {
+      "player": "p-penn-luka",
+      "club": "ka",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 34,
+      "minutes": 2881,
+      "goals": 4,
+      "assists": 4,
+      "shots": 32,
+      "fouls": 28,
+      "yellow_cards": 6,
+      "red_cards": 0
+    },
+    {
+      "player": "p-ansah",
+      "club": "ka",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 32,
+      "minutes": 2880,
+      "goals": 2,
+      "assists": 3,
+      "shots": 20,
+      "fouls": 29,
+      "yellow_cards": 4,
+      "red_cards": 1
+    },
+    {
+      "player": "p-serrat",
+      "club": "ka",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 15,
+      "minutes": 958,
+      "goals": 1,
+      "assists": 2,
+      "shots": 12,
+      "fouls": 18,
+      "yellow_cards": 3,
+      "red_cards": 0
+    },
+    {
+      "player": "p-ferrand",
+      "club": "ka",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 16,
+      "minutes": 724,
+      "goals": 1,
+      "assists": 2,
+      "shots": 11,
+      "fouls": 17,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "player": "p-hendry",
+      "club": "ka",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 8,
+      "minutes": 366,
+      "goals": 1,
+      "assists": 1,
+      "shots": 6,
+      "fouls": 8,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-moe",
+      "club": "ka",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 16,
+      "minutes": 1029,
+      "goals": 1,
+      "assists": 2,
+      "shots": 14,
+      "fouls": 17,
+      "yellow_cards": 3,
+      "red_cards": 0
+    },
+    {
+      "player": "p-calado",
+      "club": "ka",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 35,
+      "minutes": 2135,
+      "goals": 16,
+      "assists": 2,
+      "shots": 113,
+      "fouls": 34,
+      "yellow_cards": 3,
+      "red_cards": 0
+    },
+    {
+      "player": "p-adebanjo",
+      "club": "ka",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 21,
+      "minutes": 1418,
+      "goals": 7,
+      "assists": 1,
+      "shots": 46,
+      "fouls": 18,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "player": "p-haldane",
+      "club": "ka",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 26,
+      "minutes": 2160,
+      "goals": 5,
+      "assists": 4,
+      "shots": 64,
+      "fouls": 25,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "player": "p-rooke",
+      "club": "ka",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 7,
+      "minutes": 267,
+      "goals": 2,
+      "assists": 0,
+      "shots": 21,
+      "fouls": 4,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-lind",
+      "club": "ka",
+      "season": "2025-26",
+      "competition": "league",
+      "appearances": 20,
+      "minutes": 1192,
+      "goals": 5,
+      "assists": 2,
+      "shots": 34,
+      "fouls": 18,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-strand",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 6,
+      "minutes": 540,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "clean_sheets": 2
+    },
+    {
+      "player": "p-halvik",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 1,
+      "minutes": 90,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "clean_sheets": 1
+    },
+    {
+      "player": "p-archerlowe",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 0,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "clean_sheets": 0
+    },
+    {
+      "player": "p-rosk",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 5,
+      "minutes": 422,
+      "goals": 0,
+      "assists": 0,
+      "shots": 1,
+      "fouls": 7,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-wren",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 6,
+      "minutes": 364,
+      "goals": 0,
+      "assists": 0,
+      "shots": 2,
+      "fouls": 6,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-fenner",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 5,
+      "minutes": 356,
+      "goals": 0,
+      "assists": 1,
+      "shots": 2,
+      "fouls": 6,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-barrault",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 8,
+      "minutes": 701,
+      "goals": 0,
+      "assists": 1,
+      "shots": 2,
+      "fouls": 9,
+      "yellow_cards": 2,
+      "red_cards": 0
+    },
+    {
+      "player": "p-haddou",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 4,
+      "minutes": 201,
+      "goals": 0,
+      "assists": 0,
+      "shots": 1,
+      "fouls": 3,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-calloway",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 3,
+      "minutes": 159,
+      "goals": 0,
+      "assists": 0,
+      "shots": 1,
+      "fouls": 3,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "player": "p-mabry",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 2,
+      "minutes": 73,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 2,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "player": "p-pell",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 1,
+      "minutes": 25,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "player": "p-penn-ade",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 6,
+      "minutes": 420,
+      "goals": 1,
+      "assists": 2,
+      "shots": 6,
+      "fouls": 5,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-ebbe",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 4,
+      "minutes": 210,
+      "goals": 1,
+      "assists": 1,
+      "shots": 5,
+      "fouls": 4,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-hale",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 6,
+      "minutes": 521,
+      "goals": 1,
+      "assists": 3,
+      "shots": 6,
+      "fouls": 6,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-nakase",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 7,
+      "minutes": 499,
+      "goals": 1,
+      "assists": 2,
+      "shots": 5,
+      "fouls": 6,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-rial",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 5,
+      "minutes": 304,
+      "goals": 0,
+      "assists": 1,
+      "shots": 4,
+      "fouls": 5,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-dovin",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 4,
+      "minutes": 221,
+      "goals": 1,
+      "assists": 1,
+      "shots": 3,
+      "fouls": 4,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-asare",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 3,
+      "minutes": 172,
+      "goals": 1,
+      "assists": 1,
+      "shots": 3,
+      "fouls": 3,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "player": "p-tolland",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 1,
+      "minutes": 21,
+      "goals": 0,
+      "assists": 0,
+      "shots": 1,
+      "fouls": 1,
+      "yellow_cards": 0,
+      "red_cards": 1
+    },
+    {
+      "player": "p-marlow",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 7,
+      "minutes": 482,
+      "goals": 6,
+      "assists": 1,
+      "shots": 25,
+      "fouls": 7,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-go",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 6,
+      "minutes": 521,
+      "goals": 5,
+      "assists": 1,
+      "shots": 20,
+      "fouls": 5,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-velde",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 7,
+      "minutes": 630,
+      "goals": 3,
+      "assists": 1,
+      "shots": 19,
+      "fouls": 5,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "player": "p-navarre",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 5,
+      "minutes": 334,
+      "goals": 3,
+      "assists": 1,
+      "shots": 14,
+      "fouls": 4,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "player": "p-quill",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 2,
+      "minutes": 63,
+      "goals": 1,
+      "assists": 0,
+      "shots": 4,
+      "fouls": 2,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "player": "p-shaw",
+      "club": "vr",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 1,
+      "minutes": 27,
+      "goals": 0,
+      "assists": 0,
+      "shots": 2,
+      "fouls": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "player": "p-lykke",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 5,
+      "minutes": 450,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "clean_sheets": 2
+    },
+    {
+      "player": "p-reyna",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 1,
+      "minutes": 90,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "clean_sheets": 0
+    },
+    {
+      "player": "p-birtle",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 0,
+      "minutes": 0,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 0,
+      "yellow_cards": 0,
+      "red_cards": 0,
+      "clean_sheets": 0
+    },
+    {
+      "player": "p-okoye",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 7,
+      "minutes": 521,
+      "goals": 0,
+      "assists": 0,
+      "shots": 3,
+      "fouls": 7,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-kjeldsen",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 6,
+      "minutes": 521,
+      "goals": 0,
+      "assists": 0,
+      "shots": 2,
+      "fouls": 6,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-stott",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 6,
+      "minutes": 476,
+      "goals": 0,
+      "assists": 0,
+      "shots": 1,
+      "fouls": 7,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-corbet",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 7,
+      "minutes": 630,
+      "goals": 0,
+      "assists": 0,
+      "shots": 1,
+      "fouls": 8,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-ibarra",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 3,
+      "minutes": 135,
+      "goals": 0,
+      "assists": 0,
+      "shots": 1,
+      "fouls": 3,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-pryce",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 3,
+      "minutes": 198,
+      "goals": 0,
+      "assists": 0,
+      "shots": 1,
+      "fouls": 3,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "player": "p-tarrant",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 2,
+      "minutes": 85,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 3,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "player": "p-vasko",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 1,
+      "minutes": 24,
+      "goals": 0,
+      "assists": 0,
+      "shots": 0,
+      "fouls": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "player": "p-varga",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 7,
+      "minutes": 630,
+      "goals": 1,
+      "assists": 1,
+      "shots": 5,
+      "fouls": 8,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-penn-luka",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 8,
+      "minutes": 495,
+      "goals": 1,
+      "assists": 2,
+      "shots": 10,
+      "fouls": 7,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-ansah",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 8,
+      "minutes": 698,
+      "goals": 1,
+      "assists": 1,
+      "shots": 5,
+      "fouls": 6,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-serrat",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 4,
+      "minutes": 219,
+      "goals": 0,
+      "assists": 1,
+      "shots": 3,
+      "fouls": 5,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-ferrand",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 4,
+      "minutes": 181,
+      "goals": 0,
+      "assists": 0,
+      "shots": 4,
+      "fouls": 4,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-hendry",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 2,
+      "minutes": 92,
+      "goals": 0,
+      "assists": 0,
+      "shots": 2,
+      "fouls": 2,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "player": "p-moe",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 4,
+      "minutes": 270,
+      "goals": 1,
+      "assists": 1,
+      "shots": 4,
+      "fouls": 3,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-tasker",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 1,
+      "minutes": 27,
+      "goals": 0,
+      "assists": 0,
+      "shots": 1,
+      "fouls": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "player": "p-calado",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 5,
+      "minutes": 370,
+      "goals": 2,
+      "assists": 1,
+      "shots": 17,
+      "fouls": 5,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "player": "p-adebanjo",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 3,
+      "minutes": 184,
+      "goals": 1,
+      "assists": 0,
+      "shots": 10,
+      "fouls": 2,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "player": "p-haldane",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 8,
+      "minutes": 663,
+      "goals": 2,
+      "assists": 1,
+      "shots": 19,
+      "fouls": 8,
+      "yellow_cards": 1,
+      "red_cards": 0
+    },
+    {
+      "player": "p-rooke",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 2,
+      "minutes": 69,
+      "goals": 1,
+      "assists": 0,
+      "shots": 5,
+      "fouls": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "player": "p-lind",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 3,
+      "minutes": 165,
+      "goals": 1,
+      "assists": 0,
+      "shots": 8,
+      "fouls": 3,
+      "yellow_cards": 0,
+      "red_cards": 0
+    },
+    {
+      "player": "p-morrow",
+      "club": "ka",
+      "season": "2026-27",
+      "competition": "league",
+      "appearances": 1,
+      "minutes": 20,
+      "goals": 0,
+      "assists": 0,
+      "shots": 2,
+      "fouls": 1,
+      "yellow_cards": 0,
+      "red_cards": 0
+    }
+  ],
+  "club_seasons": [
+    {
+      "club": "vr",
+      "season": "2016-17",
+      "played": 38,
+      "goals_for": 67,
+      "goals_against": 56,
+      "clean_sheets": 7,
+      "own_goals_for": 2,
+      "others": {
+        "label": "Players not in this pack",
+        "goals": 65,
+        "assists": 47,
+        "clean_sheets": 6
+      }
+    },
+    {
+      "club": "vr",
+      "season": "2017-18",
+      "played": 38,
+      "goals_for": 51,
+      "goals_against": 55,
+      "clean_sheets": 11,
+      "own_goals_for": 2,
+      "others": {
+        "label": "Players not in this pack",
+        "goals": 49,
+        "assists": 35,
+        "clean_sheets": 10
+      }
+    },
+    {
+      "club": "vr",
+      "season": "2018-19",
+      "played": 38,
+      "goals_for": 50,
+      "goals_against": 53,
+      "clean_sheets": 7,
+      "own_goals_for": 2,
+      "others": {
+        "label": "Players not in this pack",
+        "goals": 47,
+        "assists": 33,
+        "clean_sheets": 6
+      }
+    },
+    {
+      "club": "vr",
+      "season": "2019-20",
+      "played": 38,
+      "goals_for": 61,
+      "goals_against": 44,
+      "clean_sheets": 11,
+      "own_goals_for": 2,
+      "others": {
+        "label": "Players not in this pack",
+        "goals": 35,
+        "assists": 31,
+        "clean_sheets": 0
+      }
+    },
+    {
+      "club": "ka",
+      "season": "2019-20",
+      "played": 38,
+      "goals_for": 41,
+      "goals_against": 61,
+      "clean_sheets": 8,
+      "own_goals_for": 1,
+      "others": {
+        "label": "Players not in this pack",
+        "goals": 23,
+        "assists": 17,
+        "clean_sheets": 2
+      }
+    },
+    {
+      "club": "vr",
+      "season": "2020-21",
+      "played": 38,
+      "goals_for": 63,
+      "goals_against": 36,
+      "clean_sheets": 20,
+      "own_goals_for": 2,
+      "others": {
+        "label": "Players not in this pack",
+        "goals": 25,
+        "assists": 19,
+        "clean_sheets": 0
+      }
+    },
+    {
+      "club": "ka",
+      "season": "2020-21",
+      "played": 38,
+      "goals_for": 66,
+      "goals_against": 51,
+      "clean_sheets": 9,
+      "own_goals_for": 2,
+      "others": {
+        "label": "Players not in this pack",
+        "goals": 32,
+        "assists": 22,
+        "clean_sheets": 2
+      }
+    },
+    {
+      "club": "vr",
+      "season": "2021-22",
+      "played": 38,
+      "goals_for": 53,
+      "goals_against": 36,
+      "clean_sheets": 15,
+      "own_goals_for": 2,
+      "others": {
+        "label": "Players not in this pack",
+        "goals": 11,
+        "assists": 9,
+        "clean_sheets": 1
+      }
+    },
+    {
+      "club": "ka",
+      "season": "2021-22",
+      "played": 38,
+      "goals_for": 48,
+      "goals_against": 51,
+      "clean_sheets": 10,
+      "own_goals_for": 1,
+      "others": {
+        "label": "Players not in this pack",
+        "goals": 12,
+        "assists": 9,
+        "clean_sheets": 1
+      }
+    },
+    {
+      "club": "vr",
+      "season": "2022-23",
+      "played": 38,
+      "goals_for": 54,
+      "goals_against": 60,
+      "clean_sheets": 9,
+      "own_goals_for": 2,
+      "others": {
+        "label": "Players not in this pack",
+        "goals": 8,
+        "assists": 5,
+        "clean_sheets": 0
+      }
+    },
+    {
+      "club": "ka",
+      "season": "2022-23",
+      "played": 38,
+      "goals_for": 41,
+      "goals_against": 61,
+      "clean_sheets": 5,
+      "own_goals_for": 1,
+      "others": {
+        "label": "Players not in this pack",
+        "goals": 12,
+        "assists": 7,
+        "clean_sheets": 1
+      }
+    },
+    {
+      "club": "vr",
+      "season": "2023-24",
+      "played": 38,
+      "goals_for": 62,
+      "goals_against": 48,
+      "clean_sheets": 11,
+      "own_goals_for": 2,
+      "others": {
+        "label": "Players not in this pack",
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0
+      }
+    },
+    {
+      "club": "vr",
+      "season": "2024-25",
+      "played": 38,
+      "goals_for": 61,
+      "goals_against": 42,
+      "clean_sheets": 10,
+      "own_goals_for": 2,
+      "others": {
+        "label": "Players not in this pack",
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0
+      }
+    },
+    {
+      "club": "vr",
+      "season": "2025-26",
+      "played": 38,
+      "goals_for": 47,
+      "goals_against": 38,
+      "clean_sheets": 11,
+      "own_goals_for": 1,
+      "others": {
+        "label": "Players not in this pack",
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 1
+      }
+    },
+    {
+      "club": "ka",
+      "season": "2025-26",
+      "played": 38,
+      "goals_for": 49,
+      "goals_against": 59,
+      "clean_sheets": 10,
+      "own_goals_for": 1,
+      "others": {
+        "label": "Players not in this pack",
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 2
+      }
+    },
+    {
+      "club": "vr",
+      "season": "2026-27",
+      "played": 8,
+      "goals_for": 25,
+      "goals_against": 11,
+      "clean_sheets": 3,
+      "own_goals_for": 1,
+      "others": {
+        "label": "Players not in this pack",
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 0
+      }
+    },
+    {
+      "club": "ka",
+      "season": "2026-27",
+      "played": 8,
+      "goals_for": 11,
+      "goals_against": 5,
+      "clean_sheets": 3,
+      "own_goals_for": 0,
+      "others": {
+        "label": "Players not in this pack",
+        "goals": 0,
+        "assists": 0,
+        "clean_sheets": 1
+      }
+    }
+  ],
+  "unavailable": [
+    {
+      "player": "p-rooke",
+      "season": "2016-17",
+      "reason": "2016-17 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-corbet",
+      "season": "2017-18",
+      "reason": "2017-18 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-rooke",
+      "season": "2017-18",
+      "reason": "2017-18 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-stott",
+      "season": "2018-19",
+      "reason": "2018-19 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-corbet",
+      "season": "2018-19",
+      "reason": "2018-19 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-calado",
+      "season": "2018-19",
+      "reason": "2018-19 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-rooke",
+      "season": "2018-19",
+      "reason": "2018-19 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-lykke",
+      "season": "2023-24",
+      "reason": "2023-24 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-reyna",
+      "season": "2023-24",
+      "reason": "2023-24 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-okoye",
+      "season": "2023-24",
+      "reason": "2023-24 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-kjeldsen",
+      "season": "2023-24",
+      "reason": "2023-24 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-stott",
+      "season": "2023-24",
+      "reason": "2023-24 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-corbet",
+      "season": "2023-24",
+      "reason": "2023-24 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-pryce",
+      "season": "2023-24",
+      "reason": "2023-24 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-tarrant",
+      "season": "2023-24",
+      "reason": "2023-24 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-varga",
+      "season": "2023-24",
+      "reason": "2023-24 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-penn-luka",
+      "season": "2023-24",
+      "reason": "2023-24 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-ansah",
+      "season": "2023-24",
+      "reason": "2023-24 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-ferrand",
+      "season": "2023-24",
+      "reason": "2023-24 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-calado",
+      "season": "2023-24",
+      "reason": "2023-24 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-haldane",
+      "season": "2023-24",
+      "reason": "2023-24 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-rooke",
+      "season": "2023-24",
+      "reason": "2023-24 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-lind",
+      "season": "2023-24",
+      "reason": "2023-24 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-lykke",
+      "season": "2024-25",
+      "reason": "2024-25 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-reyna",
+      "season": "2024-25",
+      "reason": "2024-25 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-okoye",
+      "season": "2024-25",
+      "reason": "2024-25 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-kjeldsen",
+      "season": "2024-25",
+      "reason": "2024-25 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-stott",
+      "season": "2024-25",
+      "reason": "2024-25 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-corbet",
+      "season": "2024-25",
+      "reason": "2024-25 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-ibarra",
+      "season": "2024-25",
+      "reason": "2024-25 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-pryce",
+      "season": "2024-25",
+      "reason": "2024-25 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-tarrant",
+      "season": "2024-25",
+      "reason": "2024-25 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-varga",
+      "season": "2024-25",
+      "reason": "2024-25 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-penn-luka",
+      "season": "2024-25",
+      "reason": "2024-25 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-ansah",
+      "season": "2024-25",
+      "reason": "2024-25 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-serrat",
+      "season": "2024-25",
+      "reason": "2024-25 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-ferrand",
+      "season": "2024-25",
+      "reason": "2024-25 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-hendry",
+      "season": "2024-25",
+      "reason": "2024-25 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-calado",
+      "season": "2024-25",
+      "reason": "2024-25 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-haldane",
+      "season": "2024-25",
+      "reason": "2024-25 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-rooke",
+      "season": "2024-25",
+      "reason": "2024-25 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-lind",
+      "season": "2024-25",
+      "reason": "2024-25 was a Brenmoor Championship season; second-tier statistics are not covered by this pack."
+    },
+    {
+      "player": "p-ebbe",
+      "season": "2024-25",
+      "reason": "On loan in 2024-25; loan-club statistics are not covered by this pack."
+    }
+  ],
+  "summaries": {
+    "clubs": {
+      "vr": {
+        "finishes": [
+          {
+            "season": "2016-17",
+            "division": "Brenmoor League",
+            "position": 5,
+            "points": 59,
+            "complete": true
+          },
+          {
+            "season": "2017-18",
+            "division": "Brenmoor League",
+            "position": 6,
+            "points": 59,
+            "complete": true
+          },
+          {
+            "season": "2018-19",
+            "division": "Brenmoor League",
+            "position": 10,
+            "points": 51,
+            "complete": true
+          },
+          {
+            "season": "2019-20",
+            "division": "Brenmoor League",
+            "position": 7,
+            "points": 61,
+            "complete": true
+          },
+          {
+            "season": "2020-21",
+            "division": "Brenmoor League",
+            "position": 3,
+            "points": 71,
+            "complete": true
+          },
+          {
+            "season": "2021-22",
+            "division": "Brenmoor League",
+            "position": 3,
+            "points": 71,
+            "complete": true
+          },
+          {
+            "season": "2022-23",
+            "division": "Brenmoor League",
+            "position": 7,
+            "points": 55,
+            "complete": true
+          },
+          {
+            "season": "2023-24",
+            "division": "Brenmoor League",
+            "position": 5,
+            "points": 64,
+            "complete": true
+          },
+          {
+            "season": "2024-25",
+            "division": "Brenmoor League",
+            "position": 9,
+            "points": 58,
+            "complete": true
+          },
+          {
+            "season": "2025-26",
+            "division": "Brenmoor League",
+            "position": 8,
+            "points": 60,
+            "complete": true
+          },
+          {
+            "season": "2026-27",
+            "division": "Brenmoor League",
+            "position": 2,
+            "points": 16,
+            "complete": false
+          }
+        ],
+        "last_five": [
+          {
+            "season": "2026-27",
+            "matchday": 4,
+            "home": "vr",
+            "away": "hal",
+            "score": "2-3",
+            "outcome": "L"
+          },
+          {
+            "season": "2026-27",
+            "matchday": 5,
+            "home": "vr",
+            "away": "lrk",
+            "score": "2-0",
+            "outcome": "W"
+          },
+          {
+            "season": "2026-27",
+            "matchday": 6,
+            "home": "vr",
+            "away": "thi",
+            "score": "5-2",
+            "outcome": "W"
+          },
+          {
+            "season": "2026-27",
+            "matchday": 7,
+            "home": "vr",
+            "away": "stn",
+            "score": "0-2",
+            "outcome": "L"
+          },
+          {
+            "season": "2026-27",
+            "matchday": 8,
+            "home": "vr",
+            "away": "hyt",
+            "score": "2-2",
+            "outcome": "D"
+          }
+        ],
+        "top_scorer_by_season": {
+          "2016-17": {
+            "player": "p-halvik",
+            "goals": 0
+          },
+          "2017-18": {
+            "player": "p-halvik",
+            "goals": 0
+          },
+          "2018-19": {
+            "player": "p-rosk",
+            "goals": 1
+          },
+          "2019-20": {
+            "player": "p-marlow",
+            "goals": 22
+          },
+          "2020-21": {
+            "player": "p-go",
+            "goals": 16
+          },
+          "2021-22": {
+            "player": "p-marlow",
+            "goals": 14
+          },
+          "2022-23": {
+            "player": "p-marlow",
+            "goals": 15
+          },
+          "2023-24": {
+            "player": "p-go",
+            "goals": 14
+          },
+          "2024-25": {
+            "player": "p-marlow",
+            "goals": 14
+          },
+          "2025-26": {
+            "player": "p-marlow",
+            "goals": 12
+          },
+          "2026-27": {
+            "player": "p-marlow",
+            "goals": 6
+          }
+        }
+      },
+      "ka": {
+        "finishes": [
+          {
+            "season": "2016-17",
+            "division": "Brenmoor Championship",
+            "position": null,
+            "points": null,
+            "complete": true
+          },
+          {
+            "season": "2017-18",
+            "division": "Brenmoor Championship",
+            "position": null,
+            "points": null,
+            "complete": true
+          },
+          {
+            "season": "2018-19",
+            "division": "Brenmoor Championship",
+            "position": null,
+            "points": null,
+            "complete": true
+          },
+          {
+            "season": "2019-20",
+            "division": "Brenmoor League",
+            "position": 13,
+            "points": 43,
+            "complete": true
+          },
+          {
+            "season": "2020-21",
+            "division": "Brenmoor League",
+            "position": 8,
+            "points": 61,
+            "complete": true
+          },
+          {
+            "season": "2021-22",
+            "division": "Brenmoor League",
+            "position": 5,
+            "points": 62,
+            "complete": true
+          },
+          {
+            "season": "2022-23",
+            "division": "Brenmoor League",
+            "position": 19,
+            "points": 31,
+            "complete": true
+          },
+          {
+            "season": "2023-24",
+            "division": "Brenmoor Championship",
+            "position": null,
+            "points": null,
+            "complete": true
+          },
+          {
+            "season": "2024-25",
+            "division": "Brenmoor Championship",
+            "position": null,
+            "points": null,
+            "complete": true
+          },
+          {
+            "season": "2025-26",
+            "division": "Brenmoor League",
+            "position": 13,
+            "points": 45,
+            "complete": true
+          },
+          {
+            "season": "2026-27",
+            "division": "Brenmoor League",
+            "position": 7,
+            "points": 14,
+            "complete": false
+          }
+        ],
+        "last_five": [
+          {
+            "season": "2026-27",
+            "matchday": 4,
+            "home": "ka",
+            "away": "cad",
+            "score": "1-0",
+            "outcome": "W"
+          },
+          {
+            "season": "2026-27",
+            "matchday": 5,
+            "home": "ka",
+            "away": "blk",
+            "score": "3-0",
+            "outcome": "W"
+          },
+          {
+            "season": "2026-27",
+            "matchday": 6,
+            "home": "ka",
+            "away": "ost",
+            "score": "0-1",
+            "outcome": "L"
+          },
+          {
+            "season": "2026-27",
+            "matchday": 7,
+            "home": "ka",
+            "away": "hal",
+            "score": "0-1",
+            "outcome": "L"
+          },
+          {
+            "season": "2026-27",
+            "matchday": 8,
+            "home": "ka",
+            "away": "lrk",
+            "score": "3-1",
+            "outcome": "W"
+          }
+        ],
+        "top_scorer_by_season": {
+          "2019-20": {
+            "player": "p-calado",
+            "goals": 11
+          },
+          "2020-21": {
+            "player": "p-calado",
+            "goals": 16
+          },
+          "2021-22": {
+            "player": "p-calado",
+            "goals": 17
+          },
+          "2022-23": {
+            "player": "p-calado",
+            "goals": 13
+          },
+          "2025-26": {
+            "player": "p-calado",
+            "goals": 16
+          },
+          "2026-27": {
+            "player": "p-calado",
+            "goals": 2
+          }
+        }
+      }
+    },
+    "head_to_head": {
+      "clubs": [
+        "vr",
+        "ka"
+      ],
+      "record_from": "vr",
+      "wins": 5,
+      "draws": 3,
+      "losses": 2,
+      "matches": [
+        {
+          "season": "2019-20",
+          "matchday": 9,
+          "home": "vr",
+          "away": "ka",
+          "score": "3-1",
+          "outcome": "W"
+        },
+        {
+          "season": "2019-20",
+          "matchday": 28,
+          "home": "ka",
+          "away": "vr",
+          "score": "2-1",
+          "outcome": "L"
+        },
+        {
+          "season": "2020-21",
+          "matchday": 4,
+          "home": "ka",
+          "away": "vr",
+          "score": "2-1",
+          "outcome": "L"
+        },
+        {
+          "season": "2020-21",
+          "matchday": 23,
+          "home": "vr",
+          "away": "ka",
+          "score": "3-2",
+          "outcome": "W"
+        },
+        {
+          "season": "2021-22",
+          "matchday": 12,
+          "home": "vr",
+          "away": "ka",
+          "score": "2-2",
+          "outcome": "D"
+        },
+        {
+          "season": "2021-22",
+          "matchday": 31,
+          "home": "ka",
+          "away": "vr",
+          "score": "0-0",
+          "outcome": "D"
+        },
+        {
+          "season": "2022-23",
+          "matchday": 16,
+          "home": "vr",
+          "away": "ka",
+          "score": "2-1",
+          "outcome": "W"
+        },
+        {
+          "season": "2022-23",
+          "matchday": 35,
+          "home": "ka",
+          "away": "vr",
+          "score": "1-2",
+          "outcome": "W"
+        },
+        {
+          "season": "2025-26",
+          "matchday": 14,
+          "home": "vr",
+          "away": "ka",
+          "score": "2-1",
+          "outcome": "W"
+        },
+        {
+          "season": "2025-26",
+          "matchday": 33,
+          "home": "ka",
+          "away": "vr",
+          "score": "1-1",
+          "outcome": "D"
+        }
+      ]
+    },
+    "players": {
+      "p-strand": {
+        "club_totals": {
+          "seasons": 8,
+          "appearances": 248,
+          "goals": 0,
+          "assists": 0
+        },
+        "current_season": {
+          "player": "p-strand",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 6,
+          "minutes": 540,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "fouls": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "clean_sheets": 2
+        },
+        "rookie": false
+      },
+      "p-halvik": {
+        "club_totals": {
+          "seasons": 11,
+          "appearances": 39,
+          "goals": 0,
+          "assists": 0
+        },
+        "current_season": {
+          "player": "p-halvik",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 1,
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "fouls": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "clean_sheets": 1
+        },
+        "rookie": false
+      },
+      "p-archerlowe": {
+        "club_totals": {
+          "seasons": 2,
+          "appearances": 1,
+          "goals": 0,
+          "assists": 0
+        },
+        "current_season": {
+          "player": "p-archerlowe",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 0,
+          "minutes": 0,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "fouls": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "clean_sheets": 0
+        },
+        "rookie": true
+      },
+      "p-rosk": {
+        "club_totals": {
+          "seasons": 9,
+          "appearances": 261,
+          "goals": 6,
+          "assists": 10
+        },
+        "current_season": {
+          "player": "p-rosk",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 5,
+          "minutes": 422,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "fouls": 7,
+          "yellow_cards": 1,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-wren": {
+        "club_totals": {
+          "seasons": 6,
+          "appearances": 172,
+          "goals": 3,
+          "assists": 4
+        },
+        "current_season": {
+          "player": "p-wren",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 6,
+          "minutes": 364,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "fouls": 6,
+          "yellow_cards": 1,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-fenner": {
+        "club_totals": {
+          "seasons": 7,
+          "appearances": 204,
+          "goals": 1,
+          "assists": 13
+        },
+        "current_season": {
+          "player": "p-fenner",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 5,
+          "minutes": 356,
+          "goals": 0,
+          "assists": 1,
+          "shots": 2,
+          "fouls": 6,
+          "yellow_cards": 1,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-barrault": {
+        "club_totals": {
+          "seasons": 5,
+          "appearances": 135,
+          "goals": 0,
+          "assists": 9
+        },
+        "current_season": {
+          "player": "p-barrault",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 8,
+          "minutes": 701,
+          "goals": 0,
+          "assists": 1,
+          "shots": 2,
+          "fouls": 9,
+          "yellow_cards": 2,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-haddou": {
+        "club_totals": {
+          "seasons": 4,
+          "appearances": 64,
+          "goals": 0,
+          "assists": 1
+        },
+        "current_season": {
+          "player": "p-haddou",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 4,
+          "minutes": 201,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "fouls": 3,
+          "yellow_cards": 1,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-calloway": {
+        "club_totals": {
+          "seasons": 3,
+          "appearances": 48,
+          "goals": 0,
+          "assists": 2
+        },
+        "current_season": {
+          "player": "p-calloway",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 3,
+          "minutes": 159,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "fouls": 3,
+          "yellow_cards": 0,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-mabry": {
+        "club_totals": {
+          "seasons": 4,
+          "appearances": 25,
+          "goals": 0,
+          "assists": 0
+        },
+        "current_season": {
+          "player": "p-mabry",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 2,
+          "minutes": 73,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "fouls": 2,
+          "yellow_cards": 0,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-pell": {
+        "club_totals": {
+          "seasons": 1,
+          "appearances": 1,
+          "goals": 0,
+          "assists": 0
+        },
+        "current_season": {
+          "player": "p-pell",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 1,
+          "minutes": 25,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "fouls": 1,
+          "yellow_cards": 0,
+          "red_cards": 0
+        },
+        "rookie": true
+      },
+      "p-penn-ade": {
+        "club_totals": {
+          "seasons": 5,
+          "appearances": 133,
+          "goals": 12,
+          "assists": 28
+        },
+        "current_season": {
+          "player": "p-penn-ade",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 6,
+          "minutes": 420,
+          "goals": 1,
+          "assists": 2,
+          "shots": 6,
+          "fouls": 5,
+          "yellow_cards": 1,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-ebbe": {
+        "club_totals": {
+          "seasons": 5,
+          "appearances": 74,
+          "goals": 11,
+          "assists": 10
+        },
+        "current_season": {
+          "player": "p-ebbe",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 4,
+          "minutes": 210,
+          "goals": 1,
+          "assists": 1,
+          "shots": 5,
+          "fouls": 4,
+          "yellow_cards": 1,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-hale": {
+        "club_totals": {
+          "seasons": 7,
+          "appearances": 174,
+          "goals": 23,
+          "assists": 39
+        },
+        "current_season": {
+          "player": "p-hale",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 6,
+          "minutes": 521,
+          "goals": 1,
+          "assists": 3,
+          "shots": 6,
+          "fouls": 6,
+          "yellow_cards": 1,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-nakase": {
+        "club_totals": {
+          "seasons": 4,
+          "appearances": 89,
+          "goals": 8,
+          "assists": 15
+        },
+        "current_season": {
+          "player": "p-nakase",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 7,
+          "minutes": 499,
+          "goals": 1,
+          "assists": 2,
+          "shots": 5,
+          "fouls": 6,
+          "yellow_cards": 1,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-rial": {
+        "club_totals": {
+          "seasons": 8,
+          "appearances": 137,
+          "goals": 7,
+          "assists": 16
+        },
+        "current_season": {
+          "player": "p-rial",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 5,
+          "minutes": 304,
+          "goals": 0,
+          "assists": 1,
+          "shots": 4,
+          "fouls": 5,
+          "yellow_cards": 1,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-dovin": {
+        "club_totals": {
+          "seasons": 2,
+          "appearances": 23,
+          "goals": 2,
+          "assists": 3
+        },
+        "current_season": {
+          "player": "p-dovin",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 4,
+          "minutes": 221,
+          "goals": 1,
+          "assists": 1,
+          "shots": 3,
+          "fouls": 4,
+          "yellow_cards": 1,
+          "red_cards": 0
+        },
+        "rookie": true
+      },
+      "p-asare": {
+        "club_totals": {
+          "seasons": 3,
+          "appearances": 46,
+          "goals": 6,
+          "assists": 8
+        },
+        "current_season": {
+          "player": "p-asare",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 3,
+          "minutes": 172,
+          "goals": 1,
+          "assists": 1,
+          "shots": 3,
+          "fouls": 3,
+          "yellow_cards": 0,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-tolland": {
+        "club_totals": {
+          "seasons": 1,
+          "appearances": 1,
+          "goals": 0,
+          "assists": 0
+        },
+        "current_season": {
+          "player": "p-tolland",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 1,
+          "minutes": 21,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "fouls": 1,
+          "yellow_cards": 0,
+          "red_cards": 1
+        },
+        "rookie": true
+      },
+      "p-marlow": {
+        "club_totals": {
+          "seasons": 8,
+          "appearances": 238,
+          "goals": 109,
+          "assists": 25
+        },
+        "current_season": {
+          "player": "p-marlow",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 7,
+          "minutes": 482,
+          "goals": 6,
+          "assists": 1,
+          "shots": 25,
+          "fouls": 7,
+          "yellow_cards": 1,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-go": {
+        "club_totals": {
+          "seasons": 7,
+          "appearances": 174,
+          "goals": 76,
+          "assists": 26
+        },
+        "current_season": {
+          "player": "p-go",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 6,
+          "minutes": 521,
+          "goals": 5,
+          "assists": 1,
+          "shots": 20,
+          "fouls": 5,
+          "yellow_cards": 1,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-velde": {
+        "club_totals": {
+          "seasons": 6,
+          "appearances": 140,
+          "goals": 42,
+          "assists": 17
+        },
+        "current_season": {
+          "player": "p-velde",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 7,
+          "minutes": 630,
+          "goals": 3,
+          "assists": 1,
+          "shots": 19,
+          "fouls": 5,
+          "yellow_cards": 0,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-navarre": {
+        "club_totals": {
+          "seasons": 4,
+          "appearances": 70,
+          "goals": 25,
+          "assists": 6
+        },
+        "current_season": {
+          "player": "p-navarre",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 5,
+          "minutes": 334,
+          "goals": 3,
+          "assists": 1,
+          "shots": 14,
+          "fouls": 4,
+          "yellow_cards": 0,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-quill": {
+        "club_totals": {
+          "seasons": 2,
+          "appearances": 12,
+          "goals": 3,
+          "assists": 1
+        },
+        "current_season": {
+          "player": "p-quill",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 2,
+          "minutes": 63,
+          "goals": 1,
+          "assists": 0,
+          "shots": 4,
+          "fouls": 2,
+          "yellow_cards": 0,
+          "red_cards": 0
+        },
+        "rookie": true
+      },
+      "p-shaw": {
+        "club_totals": {
+          "seasons": 1,
+          "appearances": 1,
+          "goals": 0,
+          "assists": 0
+        },
+        "current_season": {
+          "player": "p-shaw",
+          "club": "vr",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 1,
+          "minutes": 27,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "fouls": 1,
+          "yellow_cards": 0,
+          "red_cards": 0
+        },
+        "rookie": true
+      },
+      "p-lykke": {
+        "club_totals": {
+          "seasons": 6,
+          "appearances": 159,
+          "goals": 0,
+          "assists": 0
+        },
+        "current_season": {
+          "player": "p-lykke",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 5,
+          "minutes": 450,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "fouls": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "clean_sheets": 2
+        },
+        "rookie": false
+      },
+      "p-reyna": {
+        "club_totals": {
+          "seasons": 2,
+          "appearances": 6,
+          "goals": 0,
+          "assists": 0
+        },
+        "current_season": {
+          "player": "p-reyna",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 1,
+          "minutes": 90,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "fouls": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "clean_sheets": 0
+        },
+        "rookie": false
+      },
+      "p-birtle": {
+        "club_totals": {
+          "seasons": 1,
+          "appearances": 0,
+          "goals": 0,
+          "assists": 0
+        },
+        "current_season": {
+          "player": "p-birtle",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 0,
+          "minutes": 0,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "fouls": 0,
+          "yellow_cards": 0,
+          "red_cards": 0,
+          "clean_sheets": 0
+        },
+        "rookie": true
+      },
+      "p-okoye": {
+        "club_totals": {
+          "seasons": 6,
+          "appearances": 157,
+          "goals": 4,
+          "assists": 5
+        },
+        "current_season": {
+          "player": "p-okoye",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 7,
+          "minutes": 521,
+          "goals": 0,
+          "assists": 0,
+          "shots": 3,
+          "fouls": 7,
+          "yellow_cards": 1,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-kjeldsen": {
+        "club_totals": {
+          "seasons": 4,
+          "appearances": 87,
+          "goals": 0,
+          "assists": 3
+        },
+        "current_season": {
+          "player": "p-kjeldsen",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 6,
+          "minutes": 521,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "fouls": 6,
+          "yellow_cards": 1,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-stott": {
+        "club_totals": {
+          "seasons": 6,
+          "appearances": 161,
+          "goals": 0,
+          "assists": 10
+        },
+        "current_season": {
+          "player": "p-stott",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 6,
+          "minutes": 476,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "fouls": 7,
+          "yellow_cards": 1,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-corbet": {
+        "club_totals": {
+          "seasons": 6,
+          "appearances": 138,
+          "goals": 0,
+          "assists": 7
+        },
+        "current_season": {
+          "player": "p-corbet",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 7,
+          "minutes": 630,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "fouls": 8,
+          "yellow_cards": 1,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-ibarra": {
+        "club_totals": {
+          "seasons": 2,
+          "appearances": 25,
+          "goals": 0,
+          "assists": 0
+        },
+        "current_season": {
+          "player": "p-ibarra",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 3,
+          "minutes": 135,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "fouls": 3,
+          "yellow_cards": 1,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-pryce": {
+        "club_totals": {
+          "seasons": 2,
+          "appearances": 24,
+          "goals": 0,
+          "assists": 1
+        },
+        "current_season": {
+          "player": "p-pryce",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 3,
+          "minutes": 198,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "fouls": 3,
+          "yellow_cards": 0,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-tarrant": {
+        "club_totals": {
+          "seasons": 3,
+          "appearances": 20,
+          "goals": 0,
+          "assists": 0
+        },
+        "current_season": {
+          "player": "p-tarrant",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 2,
+          "minutes": 85,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "fouls": 3,
+          "yellow_cards": 0,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-vasko": {
+        "club_totals": {
+          "seasons": 1,
+          "appearances": 1,
+          "goals": 0,
+          "assists": 0
+        },
+        "current_season": {
+          "player": "p-vasko",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 1,
+          "minutes": 24,
+          "goals": 0,
+          "assists": 0,
+          "shots": 0,
+          "fouls": 1,
+          "yellow_cards": 0,
+          "red_cards": 0
+        },
+        "rookie": true
+      },
+      "p-varga": {
+        "club_totals": {
+          "seasons": 3,
+          "appearances": 73,
+          "goals": 6,
+          "assists": 13
+        },
+        "current_season": {
+          "player": "p-varga",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 7,
+          "minutes": 630,
+          "goals": 1,
+          "assists": 1,
+          "shots": 5,
+          "fouls": 8,
+          "yellow_cards": 1,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-penn-luka": {
+        "club_totals": {
+          "seasons": 5,
+          "appearances": 141,
+          "goals": 21,
+          "assists": 29
+        },
+        "current_season": {
+          "player": "p-penn-luka",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 8,
+          "minutes": 495,
+          "goals": 1,
+          "assists": 2,
+          "shots": 10,
+          "fouls": 7,
+          "yellow_cards": 1,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-ansah": {
+        "club_totals": {
+          "seasons": 6,
+          "appearances": 167,
+          "goals": 10,
+          "assists": 18
+        },
+        "current_season": {
+          "player": "p-ansah",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 8,
+          "minutes": 698,
+          "goals": 1,
+          "assists": 1,
+          "shots": 5,
+          "fouls": 6,
+          "yellow_cards": 1,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-serrat": {
+        "club_totals": {
+          "seasons": 2,
+          "appearances": 19,
+          "goals": 1,
+          "assists": 3
+        },
+        "current_season": {
+          "player": "p-serrat",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 4,
+          "minutes": 219,
+          "goals": 0,
+          "assists": 1,
+          "shots": 3,
+          "fouls": 5,
+          "yellow_cards": 1,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-ferrand": {
+        "club_totals": {
+          "seasons": 2,
+          "appearances": 20,
+          "goals": 1,
+          "assists": 2
+        },
+        "current_season": {
+          "player": "p-ferrand",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 4,
+          "minutes": 181,
+          "goals": 0,
+          "assists": 0,
+          "shots": 4,
+          "fouls": 4,
+          "yellow_cards": 1,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-hendry": {
+        "club_totals": {
+          "seasons": 2,
+          "appearances": 10,
+          "goals": 1,
+          "assists": 1
+        },
+        "current_season": {
+          "player": "p-hendry",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 2,
+          "minutes": 92,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "fouls": 2,
+          "yellow_cards": 0,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-moe": {
+        "club_totals": {
+          "seasons": 2,
+          "appearances": 20,
+          "goals": 2,
+          "assists": 3
+        },
+        "current_season": {
+          "player": "p-moe",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 4,
+          "minutes": 270,
+          "goals": 1,
+          "assists": 1,
+          "shots": 4,
+          "fouls": 3,
+          "yellow_cards": 1,
+          "red_cards": 0
+        },
+        "rookie": true
+      },
+      "p-tasker": {
+        "club_totals": {
+          "seasons": 1,
+          "appearances": 1,
+          "goals": 0,
+          "assists": 0
+        },
+        "current_season": {
+          "player": "p-tasker",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 1,
+          "minutes": 27,
+          "goals": 0,
+          "assists": 0,
+          "shots": 1,
+          "fouls": 1,
+          "yellow_cards": 0,
+          "red_cards": 0
+        },
+        "rookie": true
+      },
+      "p-calado": {
+        "club_totals": {
+          "seasons": 6,
+          "appearances": 156,
+          "goals": 75,
+          "assists": 15
+        },
+        "current_season": {
+          "player": "p-calado",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 5,
+          "minutes": 370,
+          "goals": 2,
+          "assists": 1,
+          "shots": 17,
+          "fouls": 5,
+          "yellow_cards": 0,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-adebanjo": {
+        "club_totals": {
+          "seasons": 2,
+          "appearances": 24,
+          "goals": 8,
+          "assists": 1
+        },
+        "current_season": {
+          "player": "p-adebanjo",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 3,
+          "minutes": 184,
+          "goals": 1,
+          "assists": 0,
+          "shots": 10,
+          "fouls": 2,
+          "yellow_cards": 0,
+          "red_cards": 0
+        },
+        "rookie": true
+      },
+      "p-haldane": {
+        "club_totals": {
+          "seasons": 4,
+          "appearances": 87,
+          "goals": 19,
+          "assists": 12
+        },
+        "current_season": {
+          "player": "p-haldane",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 8,
+          "minutes": 663,
+          "goals": 2,
+          "assists": 1,
+          "shots": 19,
+          "fouls": 8,
+          "yellow_cards": 1,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-rooke": {
+        "club_totals": {
+          "seasons": 6,
+          "appearances": 47,
+          "goals": 17,
+          "assists": 1
+        },
+        "current_season": {
+          "player": "p-rooke",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 2,
+          "minutes": 69,
+          "goals": 1,
+          "assists": 0,
+          "shots": 5,
+          "fouls": 1,
+          "yellow_cards": 0,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-lind": {
+        "club_totals": {
+          "seasons": 2,
+          "appearances": 23,
+          "goals": 6,
+          "assists": 2
+        },
+        "current_season": {
+          "player": "p-lind",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 3,
+          "minutes": 165,
+          "goals": 1,
+          "assists": 0,
+          "shots": 8,
+          "fouls": 3,
+          "yellow_cards": 0,
+          "red_cards": 0
+        },
+        "rookie": false
+      },
+      "p-morrow": {
+        "club_totals": {
+          "seasons": 1,
+          "appearances": 1,
+          "goals": 0,
+          "assists": 0
+        },
+        "current_season": {
+          "player": "p-morrow",
+          "club": "ka",
+          "season": "2026-27",
+          "competition": "league",
+          "appearances": 1,
+          "minutes": 20,
+          "goals": 0,
+          "assists": 0,
+          "shots": 2,
+          "fouls": 1,
+          "yellow_cards": 0,
+          "red_cards": 0
+        },
+        "rookie": true
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.envrc
+*.pem
+*.key
+*.p12
+*.pfx
+*.p7b
+*.p7c
+*.p7s
+*.crt
+*.cer
+*.der
+*.jks
+*.keystore
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.coverage
+htmlcov/
+coverage/
+.nyc_output/
+
+# JavaScript and build output
+node_modules/
+dist/
+build/
+.vite/
+.next/
+.turbo/
+storybook-static/
+
+# Private data, generated caches and test artifacts
+data/private/
+.cache/
+tmp/
+test-results/
+playwright-report/
+playwright/.cache/
+artifacts/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+
+# OS and editor-local state
+.DS_Store
+Thumbs.db
+Desktop.ini
+.AppleDouble
+.LSOverride
+._*
+*~
+*.swp
+*.swo
+*.tmp
+*.temp
+.idea/
+.vscode/
+.agents/
+
+# Local screen recordings and demo exports (keep product media under apps/web/public)
+*.cap/
+Standfolk_demo_*.mp4
+Standfolk_demo_voiceover*.wav
+Standfolk_demo_voiceover*.aiff
+
+# Raw image-model grids before splitting (scripts/media/grid.py)
+data/media-raw/

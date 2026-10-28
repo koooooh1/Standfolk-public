@@ -1,0 +1,358 @@
+{
+  "meta": {
+    "label": "fictional",
+    "data_date": "2026-10-01",
+    "seed": 20261023,
+    "note": "Authored fictional world for the Standfolk demo. Every club, person, ground, and honour is invented. Statistics are generated from this file by scripts/world/generate.mjs and are fictional.",
+    "national_team_note": "National-team caps, goals, and careers abroad are fictional records about fictional people. Countries are real; no real league, club, or player is named."
+  },
+  "featured": {
+    "vr": {
+      "nickname": "The Ferrymen",
+      "pronunciation": "VEL-muth ROH-vers",
+      "history": [
+        {
+          "year": 1898,
+          "text": "Ferry crews found the club on Vellmouth's harbour wall.",
+          "src": "club-vr-01"
+        },
+        {
+          "year": 1904,
+          "text": "First league meeting with Kestrin Athletic, the start of the estuary derby.",
+          "src": "club-vr-04"
+        },
+        {
+          "year": 1923,
+          "text": "Quayside Park opens, facing the water.",
+          "src": "club-vr-02"
+        },
+        {
+          "year": 1932,
+          "text": "First Brenmoor League title.",
+          "src": "club-vr-05"
+        },
+        {
+          "year": 1952,
+          "text": "The old harbour bell is moved into the north stand.",
+          "src": "club-vr-03"
+        },
+        {
+          "year": 1967,
+          "text": "Second league title, won on the final day.",
+          "src": "club-vr-06"
+        },
+        {
+          "year": 2008,
+          "text": "Third Brenmoor Cup, beating Hallowfield United in the final.",
+          "src": "club-vr-07"
+        }
+      ],
+      "honours": [
+        {
+          "title": "Brenmoor League champions",
+          "seasons": [
+            "1931-32",
+            "1966-67"
+          ],
+          "src": "club-vr-05"
+        },
+        {
+          "title": "Brenmoor Cup winners",
+          "seasons": [
+            "1951-52",
+            "1988-89",
+            "2007-08"
+          ],
+          "src": "club-vr-07"
+        }
+      ],
+      "culture": [
+        {
+          "title": "The tide-bell song",
+          "text": "After each home goal the north stand rings the old harbour bell three times, then sings a slow harbour song.",
+          "src": "club-vr-03",
+          "kind": "chant_background"
+        },
+        {
+          "title": "Ferry flags",
+          "text": "Supporters wave small blue-green signal flags, copied from the ferry crews who founded the club.",
+          "src": "club-vr-08",
+          "kind": "culture"
+        },
+        {
+          "title": "The harbour walk",
+          "text": "Home fans walk along the harbour wall to the ground before kick-off.",
+          "src": "club-vr-09",
+          "kind": "culture"
+        }
+      ],
+      "fan_language": [
+        {
+          "term": "Ring it",
+          "meaning": "Said after a home goal, when the north stand rings the bell.",
+          "register": "fan"
+        },
+        {
+          "term": "The tide's in",
+          "meaning": "Vellmouth are winning.",
+          "register": "fan"
+        },
+        {
+          "term": "Ferrymen",
+          "meaning": "The club's nickname; also what fans call themselves.",
+          "register": "both"
+        },
+        {
+          "term": "The Wall",
+          "meaning": "The harbour-side stand behind the south goal.",
+          "register": "fan"
+        },
+        {
+          "term": "Quayside",
+          "meaning": "Short name for Quayside Park.",
+          "register": "broadcast"
+        },
+        {
+          "term": "Estuary derby",
+          "meaning": "Any league match against Kestrin Athletic.",
+          "register": "both"
+        }
+      ]
+    },
+    "ka": {
+      "nickname": "The Kestrels",
+      "pronunciation": "KES-trin ath-LET-ik",
+      "history": [
+        {
+          "year": 1902,
+          "text": "Mill workers on the south bank of the estuary found the club.",
+          "src": "club-ka-01"
+        },
+        {
+          "year": 1904,
+          "text": "First league meeting with Vellmouth Rovers.",
+          "src": "club-ka-04"
+        },
+        {
+          "year": 1923,
+          "text": "First Brenmoor Cup.",
+          "src": "club-ka-05"
+        },
+        {
+          "year": 1974,
+          "text": "Second Brenmoor Cup, the club's last major honour.",
+          "src": "club-ka-05"
+        },
+        {
+          "year": 1975,
+          "text": "Supporters begin the wing salute as the team comes out.",
+          "src": "club-ka-03"
+        },
+        {
+          "year": 2014,
+          "text": "Relegated to the Brenmoor Championship.",
+          "src": "club-ka-06"
+        }
+      ],
+      "honours": [
+        {
+          "title": "Brenmoor Cup winners",
+          "seasons": [
+            "1922-23",
+            "1973-74"
+          ],
+          "src": "club-ka-05"
+        }
+      ],
+      "culture": [
+        {
+          "title": "The wing salute",
+          "text": "Supporters raise both arms like wings as the team walks out.",
+          "src": "club-ka-03",
+          "kind": "chant_background"
+        },
+        {
+          "title": "The Nest",
+          "text": "The covered terrace at Millbank Road where the loudest home fans stand.",
+          "src": "club-ka-07",
+          "kind": "culture"
+        },
+        {
+          "title": "Shift whistle",
+          "text": "A mill whistle sounds at kick-off, a nod to the shift changes of the founders.",
+          "src": "club-ka-08",
+          "kind": "culture"
+        }
+      ],
+      "fan_language": [
+        {
+          "term": "Wings up",
+          "meaning": "Call for the wing salute; also said when Kestrin attack.",
+          "register": "fan"
+        },
+        {
+          "term": "The Nest",
+          "meaning": "The home terrace at Millbank Road.",
+          "register": "both"
+        },
+        {
+          "term": "Kestrels",
+          "meaning": "The club's nickname.",
+          "register": "both"
+        },
+        {
+          "term": "South bank",
+          "meaning": "Kestrin's side of the estuary, and its supporters.",
+          "register": "fan"
+        },
+        {
+          "term": "Millbank",
+          "meaning": "Short name for Millbank Road.",
+          "register": "broadcast"
+        }
+      ]
+    }
+  },
+  "league_glossary": [
+    {
+      "term": "Clean sheet",
+      "meaning": "A match in which a team concedes no goals.",
+      "register": "both"
+    },
+    {
+      "term": "Brace",
+      "meaning": "Two goals by one player in a match.",
+      "register": "both"
+    },
+    {
+      "term": "Hat-trick",
+      "meaning": "Three goals by one player in a match.",
+      "register": "both"
+    },
+    {
+      "term": "Six-pointer",
+      "meaning": "A match between close rivals in the table, where the result swings the gap twice.",
+      "register": "both"
+    },
+    {
+      "term": "Relegation zone",
+      "meaning": "The bottom three places; those clubs drop to the Brenmoor Championship.",
+      "register": "both"
+    },
+    {
+      "term": "Academy graduate",
+      "meaning": "A player who came through the club's own youth system.",
+      "register": "broadcast"
+    },
+    {
+      "term": "Off the bench",
+      "meaning": "Came on as a substitute.",
+      "register": "both"
+    },
+    {
+      "term": "Loan spell",
+      "meaning": "A period playing for another club before returning.",
+      "register": "both"
+    }
+  ],
+  "former_managers": [
+    {
+      "club": "vr",
+      "name": "Glen Arbery",
+      "from": "2014-06-01",
+      "to": "2022-05-31"
+    },
+    {
+      "club": "ka",
+      "name": "Ross Penhale",
+      "from": "2016-07-01",
+      "to": "2024-05-10"
+    }
+  ],
+  "countries": {
+    "England": {
+      "background": "The modern rules of football were first written down in England in 1863. Most professional players come through club academies."
+    },
+    "Scotland": {
+      "background": "Scotland and England played the first official international match in 1872."
+    },
+    "Wales": {
+      "background": "The Football Association of Wales, founded in 1876, is one of the oldest national football associations."
+    },
+    "Northern Ireland": {
+      "background": "Northern Ireland's football association traces back to the Irish Football Association, founded in 1880."
+    },
+    "Ireland": {
+      "background": "In Ireland football shares the stage with Gaelic games, and many players move abroad young to join academies."
+    },
+    "Czechia": {
+      "background": "Czechoslovakia, which included today’s Czechia, won the European Championship in 1976."
+    },
+    "Slovakia": {
+      "background": "Slovakia has had its own national team since 1993, when Czechoslovakia split."
+    },
+    "Israel": {
+      "background": "Israel has played in Europe’s confederation, UEFA, since the 1990s, so its clubs and national team meet European opponents."
+    },
+    "France": {
+      "background": "France has won the World Cup twice, in 1998 and 2018, and its national youth development system is widely studied."
+    },
+    "Morocco": {
+      "background": "In 2022 Morocco became the first African team to reach a World Cup semi-final."
+    },
+    "Japan": {
+      "background": "Japan’s professional league began in 1993. Many players come through school and university football as well as club academies.",
+      "name_order": "family-first"
+    },
+    "Uruguay": {
+      "background": "Uruguay, a country of under four million people, won the first World Cup in 1930 and won again in 1950."
+    },
+    "Ghana": {
+      "background": "Ghana reached the World Cup quarter-finals in 2010 and has a strong record at youth tournaments."
+    },
+    "Netherlands": {
+      "background": "The Netherlands is known for “total football”, the fluid style of the 1970s, and for academies that stress technique."
+    },
+    "Spain": {
+      "background": "Spain won the World Cup in 2010 and the European Championship in 2008, 2012, and 2024."
+    },
+    "Denmark": {
+      "background": "Denmark won the European Championship in 1992 after entering late as a replacement team."
+    },
+    "Argentina": {
+      "background": "Argentina has won the World Cup three times, most recently in 2022."
+    },
+    "Nigeria": {
+      "background": "Nigeria won the Olympic football gold medal in 1996."
+    },
+    "Hungary": {
+      "background": "Hungary’s “Golden Team” of the early 1950s reached the 1954 World Cup final.",
+      "name_order": "family-first"
+    },
+    "Belgium": {
+      "background": "Belgium finished third at the 2018 World Cup."
+    },
+    "Norway": {
+      "background": "Norway’s top division runs from spring to autumn, so transfers to other leagues often happen in the northern winter."
+    },
+    "Sweden": {
+      "background": "Sweden’s top division also runs from spring to autumn. Sweden finished third at the 1994 World Cup."
+    },
+    "Portugal": {
+      "background": "Portugal won the European Championship in 2016."
+    },
+    "Croatia": {
+      "background": "Croatia reached the World Cup final in 2018 and finished third in 2022."
+    },
+    "Poland": {
+      "background": "Poland finished third at the World Cup in 1974 and in 1982."
+    },
+    "Finland": {
+      "background": "Finland reached its first major tournament at the European Championship held in 2021."
+    },
+    "Korea Republic": {
+      "background": "South Korea reached the World Cup semi-finals in 2002, when it co-hosted the tournament with Japan. Many players come through school and university football.",
+      "name_order": "family-first"
+    }
+  }
+}

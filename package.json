@@ -1,0 +1,17 @@
+{
+  "name": "standfolk",
+  "private": true,
+  "type": "module",
+  "workspaces": ["apps/api", "apps/web"],
+  "scripts": {
+    "world": "node scripts/world/generate.mjs",
+    "test": "node --test scripts/world/generate.test.mjs && npm test -ws",
+    "build": "npm run build -ws",
+    "verify": "npm test && npm run build",
+    "dev": "node scripts/dev.mjs",
+    "dev:api": "npm run dev -w apps/api",
+    "dev:web": "npm run dev -w apps/web",
+    "setup:mac": "bash scripts/setup-mac.sh"
+  },
+  "engines": { "node": ">=22.13" }
+}
