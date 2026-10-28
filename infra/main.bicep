@@ -1,5 +1,7 @@
-// Standfolk deployment on Azure Container Apps. The apps scale to zero when idle.
-// Images are pulled from GitHub Container Registry; private packages require a read:packages token.
+// Standfolk on Azure Container Apps, kept inside the monthly free grant of a pay-as-you-go subscription (D19).
+// Only billable-per-use resources: one consumption-only Container Apps environment and two apps that scale to zero.
+// Images come from GitHub Container Registry, so there is no registry, identity, or storage cost.
+// Private packages need a GitHub token with read:packages (registryPassword); public packages need none.
 
 @description('Azure region for every resource.')
 param location string = resourceGroup().location
@@ -103,7 +105,7 @@ resource web 'Microsoft.App/containerApps@2024-03-01' = {
           ]
         }
       ]
-      // Keep one replica while budgets, rate limits, and story state remain process-local.
+      // One replica at most: the model-call budget, the rate limit, and the story cache live in the process (D17).
       scale: scale
     }
   }

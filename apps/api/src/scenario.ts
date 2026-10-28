@@ -23,7 +23,7 @@ export function computeBuildup(steps: PassStep[], direction: 1 | -1 = 1): Buildu
 export const MINUTE_MS = 60_000;
 export const MATCH_MS = 90 * MINUTE_MS;
 const HALF_MS = 45 * MINUTE_MS;
-// Reference ranges for a 90-minute top-flight match, both teams together, used by the synthetic realism tests (metric
+// Reference ranges for a 90-minute men's top-flight match, both teams together, used by the realism tests (PRD metric
 // "synthetic realism"). They are deliberately wide plausibility bands chosen for this demo from general football
 // knowledge, not figures from a cited dataset; see docs/design/evaluation.md.
 export const REFERENCE_RANGES = {

@@ -98,7 +98,7 @@ describe('replay API', () => {
   });
 });
 
-// Synthetic realism: every generated match stays inside the documented reference ranges.
+// PRD metric "synthetic realism": every generated match stays inside the documented reference ranges.
 describe('synthetic realism', () => {
   const SEEDS = Array.from({ length: 200 }, (_, i) => i + 1);
   const count = (list: typeof events, type: string) => list.filter((e) => e.type === type).length;

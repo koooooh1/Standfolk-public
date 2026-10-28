@@ -7,7 +7,7 @@
     "quality_profile": "showcase",
     "repository": {
       "url": "https://github.com/koooooh1/Standfolk-public.git",
-      "revision": "7c687ef3800a5814c5e9d70f99f6432f50e3d04b"
+      "revision": "main"
     }
   },
   "components": [
@@ -18,7 +18,7 @@
       "sublabel": "Watch / Studio",
       "pos": [
         40,
-        80
+        180
       ],
       "size": [
         150,
@@ -38,7 +38,7 @@
       "sublabel": "Azure Container Apps",
       "pos": [
         310,
-        80
+        180
       ],
       "size": [
         150,
@@ -58,7 +58,7 @@
       "sublabel": "Researcher / Writer / Reviewer",
       "pos": [
         580,
-        80
+        180
       ],
       "size": [
         150,
@@ -78,7 +78,7 @@
       "sublabel": "Google AI Studio",
       "pos": [
         850,
-        80
+        180
       ],
       "size": [
         150,
@@ -98,7 +98,7 @@
       "sublabel": "Bundled JSON",
       "pos": [
         310,
-        280
+        380
       ],
       "size": [
         150,
@@ -118,7 +118,7 @@
       "sublabel": "In-memory retrieval",
       "pos": [
         580,
-        280
+        380
       ],
       "size": [
         150,

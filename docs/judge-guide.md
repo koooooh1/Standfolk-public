@@ -84,4 +84,5 @@ Without a `MODEL_API_KEY` in `.env`, the entire application runs deterministical
 
 ## 4. Rate Limits, Budget, and Known Boundaries
 
+- **Daily model budget:** 40 model calls per UTC/Pacific day (`AGENT_DAILY_MODEL_CALLS`), at most 2 concurrent agent runs (`AGENT_CONCURRENT_RUNS`), and 20 POST requests per minute per client IP (`RATE_LIMIT_PER_MINUTE`).
 - **Guaranteed fallback:** When the daily budget is exhausted or the model provider times out, every endpoint still returns 200 with the verified deterministic template (`engine: "template"`), labelled honestly in Studio.

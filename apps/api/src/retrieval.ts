@@ -5,7 +5,7 @@ import type { Catalog, Json } from './catalog.js';
 // passages and indexed in an in-memory SQLite FTS5 table, ranked by BM25.
 // A small football thesaurus maps fan wording ("boss", "stadium") to the pack's words, and a word the index does not
 // know is corrected to the closest word in the pack ("Vellde" to "Velde"), so neither costs a model call.
-// Keep retrieval local and model-call-free; revisit semantic search only if evaluation finds material gaps.
+// shortcut: no vector search (decision D17); add embeddings if questions with no shared words keep missing.
 // Match events stay out of the index: live match facts come only from the template engine and the replay clock.
 export interface Passage { ref: string; label: string; text: string }
 

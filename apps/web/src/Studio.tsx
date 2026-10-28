@@ -3,7 +3,7 @@ import { AgentSteps, AskBox, sourceLabel, type Approved } from './Ask';
 import { postJson, type AskResult, type Depth, type Lang, type MatchEvent, type Overlay } from './api';
 import { tr } from './i18n';
 
-// Producer view: each goal or substitution up to the replay clock becomes a story candidate written
+// Producer view (D2, PRD Studio): each goal or substitution up to the replay clock becomes a story candidate written
 // by the agents. The producer edits (every edit is re-checked by the API), holds, or approves; approving and taking a
 // story on air are separate steps. Taking a story to air goes through the API, which checks it again and shows it on
 // Watch; the rest of the Studio state lives only in this browser tab. An approved Ask answer is a preview only.

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/koooooh1/Standfolk/docs/schemas/overlay.schema.json",
+  "$id": "https://github.com/koooooh1/Standfolk-public/docs/schemas/overlay.schema.json",
   "title": "Standfolk overlay card",
   "description": "An approved Studio story taken to air, as the API returns it from POST /api/studio/stories/:id/air and in the on_air field of GET /api/match/demo/events. An integration contract for graphics systems; no real integration is claimed.",
   "type": "object",

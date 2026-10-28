@@ -174,7 +174,7 @@ export function buildApp(catalog: Catalog, mediaDir?: string, agents: AgentOptio
     });
   });
 
-  // Ask: a template answer costs no model call and is returned as is to fans. A question the templates cannot answer
+  // Ask (D17): a template answer costs no model call and is returned as is to fans. A question the templates cannot answer
   // goes to the agents with world-pack passages from the keyword index. The Studio also has template answers reworded,
   // with the model critic. Every agent answer passes gateAgentResult; the template answer is the fallback.
   app.post<{ Body: { question?: unknown; at_ms?: unknown; subject?: { kind?: unknown; id?: unknown } | null; studio?: unknown; lang?: unknown } }>('/api/ask', async (req, reply) => {

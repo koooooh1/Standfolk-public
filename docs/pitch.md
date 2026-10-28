@@ -4,7 +4,10 @@
 Match insights, player journeys, and club culture.
 
 - **Challenge:** The Synthetic Match Insights Engine for Premier League Studio ([Inside the Game: Developer Hackathon](https://innovationstudio.microsoft.com/hackathons/insidethegamedeveloperhackathon))
+- **Target Award Category:** Best Multi-Agent System Prize (confirm the label in the submission form)
 - **Live Demo (Azure Container Apps):** https://standfolk-web.wonderfulocean-6cd9ec2b.northeurope.azurecontainerapps.io
+- **Deployment status:** The live Azure app returned HTTP 200 during the 2026-10-28 check. A Studio story completed Researcher → Writer → Reviewer in two model calls. The API blocked an unsupported edit, approved and aired supported wording, withdrew the graphic at the 55′ offside correction, and showed the 90′ recap.
+- **Repository:** https://github.com/koooooh1/Standfolk-public
 
 ---
 
@@ -57,9 +60,10 @@ flowchart LR
 3. **GitHub Container Registry & GitHub Actions (`.github/workflows/ci.yml`):**
    - Multi-stage Dockerfiles (`infra/web.Dockerfile`, `infra/agents.Dockerfile`) run as non-root users. CI runs the Node world-pack, API and web tests and production builds on pushes and pull requests; Python agent tests are run separately.
 
-### Model provider
+### Language Model Provider Disclosure
 
-The agent workflow uses Gemini (`gemini-3.5-flash-lite`) through Google AI Studio’s OpenAI-compatible endpoint and Microsoft Agent Framework. A verified deterministic template is used when model output is unavailable or fails validation.
+- **Why Microsoft Foundry / Azure OpenAI is not used:** Free-trial and student Azure subscriptions report zero quota for Microsoft Foundry and Azure OpenAI models.
+- **Provider used:** Google AI Studio's free tier (`gemini-3.5-flash-lite`) accessed through Microsoft Agent Framework's OpenAI-compatible chat client (`OpenAIChatClient`, decision D16). The API enforces a daily budget (40 model calls/day, reset at midnight PT) and concurrency limit (2 concurrent runs) so the public demo stays free and responsive throughout judging.
 
 ---
 
@@ -67,7 +71,7 @@ The agent workflow uses Gemini (`gemini-3.5-flash-lite`) through Google AI Studi
 
 - **Two-Layer Claim Gate:** Deterministic TypeScript code calculates all match facts. Every agent output and every producer edit is checked by both `services/agents/src/standfolk_agents/review.py` and `apps/api/src/agentClient.ts` (`unsupportedClaim`), rejecting any figure (digits or spelled-out words) or capitalised name absent from the evidence.
 - **Strict Provenance Separation:** Synthetic match performance (`synthetic match`) and authored career records (`seeded world pack`) never share a sentence and never overwrite each other.
-- **Fictional World by Design (Rule 4.4 Compliance):** All 26 clubs in the fictional world (20 compete in each season), all 60 players and staff, and all 10 seeded seasons (`data/world/authored.json`, seed `20261023`) are original fictional creations with custom-generated portraits and crests. No third-party trademarks, real club crests, or real player likenesses are used. A licensed real-data integration would require new adapters, rights and validation.
+- **Fictional World by Design (Rule 4.4 Compliance):** All 26 clubs in the fictional world (20 compete in the league each season), all 60 players and staff, and all 10 seeded seasons (`data/world/authored.json`, seed `20261023`) are original fictional creations with custom-generated portraits and crests. No third-party trademarks, real club crests, or real player likenesses are used. A licensed real-data integration would require new adapters, rights and validation.
 
 ## 5. Proposed Azure production path
 
